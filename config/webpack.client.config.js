@@ -1,4 +1,6 @@
 const path = require('path');
+const { HotModuleReplacementPlugin } = require('webpack');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 // const HtmlWebpackPlugin  = require('html-webpack-plugin');
 
 const NODE_ENV = process.env.NODE_ENV;
@@ -17,12 +19,14 @@ const clientConfig = {
     },
   },
   entry: [
+    'react-hot-loader/patch',
     path.resolve(__dirname, '../src/client/index.jsx'),
-
+    'webpack-hot-middleware/client?path=http://localhost:3001/static/__webpack_hmr',
   ],
   output: {
     path: path.resolve(__dirname, '../dist/client'),
     filename: 'client.js',
+    publicPath: '/static/',
   },
   module: {
     rules: [
@@ -34,7 +38,7 @@ const clientConfig = {
             presets: ['@babel/preset-env', '@babel/preset-react'],
           },
         },
-      }
+      },
     ],
   },
   // Сейчас не нужно, так как есть SSR
@@ -49,6 +53,14 @@ const clientConfig = {
   //   hot: IS_DEV,
   // },
   devtool: setupDevtool(),
+  // Для SSR, чтобы чистить чанки и подключать HMR
+  plugins: IS_DEV
+    ? [new CleanWebpackPlugin(), new HotModuleReplacementPlugin()]
+    : [],
+  // Берется отсюда для webpackDevMiddleware
+  watchOptions: {
+    ignored: /dist/,
+  },
 };
 
 module.exports = clientConfig;

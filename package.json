@@ -6,7 +6,8 @@
   "scripts": {
     "build:dev": "env NODE_ENV=development webpack --config webpack.config.js",
     "build:prod": "env NODE_ENV=production webpack --config webpack.config.js",
-    "dev": "env NODE_ENV=development webpack-dev-server"
+    "dev": "env NODE_ENV=development webpack-dev-server",
+    "dev:ssr": "env NODE_ENV=development node bin/dev.js"
   },
   "keywords": [],
   "author": "Morozov Vyacheslav<moonfall.name@gmail.com>",
@@ -18,8 +19,12 @@
     "@babel/preset-typescript": "^7.16.7",
     "@hot-loader/react-dom": "^17.0.2",
     "@types/node": "^17.0.10",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
     "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.5.1",
     "react-hot-loader": "^4.13.0",
     "sass": "^1.49.0",
     "ts-loader": "^9.2.6",

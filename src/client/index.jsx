@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from '../shared/Main.jsx';
+import App from '../shared/App.jsx';
 
 // Для SSR
 window.addEventListener('load', () => {
-  ReactDOM.hydrate(<Main />, document.getElementById('app'));
-})
+  ReactDOM.hydrate(<App />, document.getElementById('app'));
+});

@@ -3,11 +3,12 @@
     "module": "commonjs",
     "target": "es5",
     "sourceMap": true,
-    "baseUrl": ".",
     "allowJs": true,
     "strict": true,
     "esModuleInterop": true,
+    "noEmit": true,
     "jsx": "react",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
