@@ -1,18 +1,22 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es5",
-    "sourceMap": true,
-    "allowJs": true,
-    "strict": true,
-    "esModuleInterop": true,
-    "noEmit": true,
-    "jsx": "react",
+    "module": "commonjs", // import становится commonjs
+    "target": "es5", // ECMA, в которую транспилится код
+    "sourceMap": true, // Делаем source maps
+    "allowJs": true, // Разрешаем JS
+    "strict": true, // Строгая сверка типов
+    "esModuleInterop": true, // Чтобы дефолтные экспорты правильно работали в экосистеме babel
+//    "noEmit": true, // Не компилит от ts-config, а только берет сравнение типов
+    "jsx": "react", // Обработка jsx по правилам реакта
+    "resolveJsonModule": true, // Разрешаем импортить json-файлы и обращаться к ним как к js-объектам
+    "allowSyntheticDefaultImports": true, // Позволяет использовать дефолтные импорты там, где они не предусмотрены. Можно писать import React from 'react', вместо import * as React from 'react'
+    "lib": ["dom", "esnext"], // Дополнительные библиотеки
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
   },
+  "include": ["src/**/*", "declarations/*"], // Включения.
   "exclude": [
     "node_modules"
   ]

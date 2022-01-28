@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '../shared/App.jsx';
+import App from '@/shared/App';
 
 // Для SSR
 window.addEventListener('load', () => {

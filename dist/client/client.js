@@ -1,11 +1,11 @@
-/******/ (() => { // webpackBootstrap
+/******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/@hot-loader/react-dom/cjs/react-dom.development.js":
 /*!*************************************************************************!*\
   !*** ./node_modules/@hot-loader/react-dom/cjs/react-dom.development.js ***!
   \*************************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
 /* 🔥 this is hot-loader/react-dom 🔥 */ /** @license React v17.0.2
@@ -15,7 +15,7 @@
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */function _typeof(obj){"@babel/helpers - typeof";return _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(obj){return typeof obj;}:function(obj){return obj&&"function"==typeof Symbol&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;},_typeof(obj);}if(true){(function(){'use strict';var React=__webpack_require__(/*! react */ "./node_modules/react/index.js");var _assign=__webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");var Scheduler=__webpack_require__(/*! scheduler */ "./node_modules/scheduler/index.js");var tracing=__webpack_require__(/*! scheduler/tracing */ "./node_modules/scheduler/tracing.js");var ReactSharedInternals=React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;// by calls to these methods by a Babel plugin.
+ */function _typeof(obj){"@babel/helpers - typeof";return _typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(obj){return typeof obj;}:function(obj){return obj&&"function"==typeof Symbol&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;},_typeof(obj);}var __signature__=typeof reactHotLoaderGlobal!=='undefined'?reactHotLoaderGlobal.default.signature:function(a){return a;};if(true){(function(){'use strict';var React=__webpack_require__(/*! react */ "./node_modules/react/index.js");var _assign=__webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");var Scheduler=__webpack_require__(/*! scheduler */ "./node_modules/scheduler/index.js");var tracing=__webpack_require__(/*! scheduler/tracing */ "./node_modules/scheduler/tracing.js");var ReactSharedInternals=React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;// by calls to these methods by a Babel plugin.
 //
 // In PROD (or in packages without access to React internals),
 // they are left as they are instead.
@@ -220,7 +220,7 @@ attributeValue='';}else{// `setAttribute` with objects becomes only `[object]` i
 // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
 // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
 // nor polyfill, then a plain number is used for performance.
-var REACT_ELEMENT_TYPE=0xeac7;var REACT_PORTAL_TYPE=0xeaca;var REACT_FRAGMENT_TYPE=0xeacb;var REACT_STRICT_MODE_TYPE=0xeacc;var REACT_PROFILER_TYPE=0xead2;var REACT_PROVIDER_TYPE=0xeacd;var REACT_CONTEXT_TYPE=0xeace;var REACT_FORWARD_REF_TYPE=0xead0;var REACT_SUSPENSE_TYPE=0xead1;var REACT_SUSPENSE_LIST_TYPE=0xead8;var REACT_MEMO_TYPE=0xead3;var REACT_LAZY_TYPE=0xead4;var REACT_BLOCK_TYPE=0xead9;var REACT_SERVER_BLOCK_TYPE=0xeada;var REACT_FUNDAMENTAL_TYPE=0xead5;var REACT_SCOPE_TYPE=0xead7;var REACT_OPAQUE_ID_TYPE=0xeae0;var REACT_DEBUG_TRACING_MODE_TYPE=0xeae1;var REACT_OFFSCREEN_TYPE=0xeae2;var REACT_LEGACY_HIDDEN_TYPE=0xeae3;if(typeof Symbol==='function'&&Symbol["for"]){var symbolFor=Symbol["for"];REACT_ELEMENT_TYPE=symbolFor('react.element');REACT_PORTAL_TYPE=symbolFor('react.portal');REACT_FRAGMENT_TYPE=symbolFor('react.fragment');REACT_STRICT_MODE_TYPE=symbolFor('react.strict_mode');REACT_PROFILER_TYPE=symbolFor('react.profiler');REACT_PROVIDER_TYPE=symbolFor('react.provider');REACT_CONTEXT_TYPE=symbolFor('react.context');REACT_FORWARD_REF_TYPE=symbolFor('react.forward_ref');REACT_SUSPENSE_TYPE=symbolFor('react.suspense');REACT_SUSPENSE_LIST_TYPE=symbolFor('react.suspense_list');REACT_MEMO_TYPE=symbolFor('react.memo');REACT_LAZY_TYPE=symbolFor('react.lazy');REACT_BLOCK_TYPE=symbolFor('react.block');REACT_SERVER_BLOCK_TYPE=symbolFor('react.server.block');REACT_FUNDAMENTAL_TYPE=symbolFor('react.fundamental');REACT_SCOPE_TYPE=symbolFor('react.scope');REACT_OPAQUE_ID_TYPE=symbolFor('react.opaque.id');REACT_DEBUG_TRACING_MODE_TYPE=symbolFor('react.debug_trace_mode');REACT_OFFSCREEN_TYPE=symbolFor('react.offscreen');REACT_LEGACY_HIDDEN_TYPE=symbolFor('react.legacy_hidden');}var MAYBE_ITERATOR_SYMBOL=typeof Symbol==='function'&&Symbol.iterator;var FAUX_ITERATOR_SYMBOL='@@iterator';function getIteratorFn(maybeIterable){if(maybeIterable===null||_typeof(maybeIterable)!=='object'){return null;}var maybeIterator=MAYBE_ITERATOR_SYMBOL&&maybeIterable[MAYBE_ITERATOR_SYMBOL]||maybeIterable[FAUX_ITERATOR_SYMBOL];if(typeof maybeIterator==='function'){return maybeIterator;}return null;}// Helpers to patch console.logs to avoid logging during side-effect free
+var REACT_ELEMENT_TYPE=0xeac7;var REACT_PORTAL_TYPE=0xeaca;var REACT_FRAGMENT_TYPE=0xeacb;var REACT_STRICT_MODE_TYPE=0xeacc;var REACT_PROFILER_TYPE=0xead2;var REACT_PROVIDER_TYPE=0xeacd;var REACT_CONTEXT_TYPE=0xeace;var REACT_FORWARD_REF_TYPE=0xead0;var REACT_SUSPENSE_TYPE=0xead1;var REACT_SUSPENSE_LIST_TYPE=0xead8;var REACT_MEMO_TYPE=0xead3;var REACT_LAZY_TYPE=0xead4;var REACT_BLOCK_TYPE=0xead9;var REACT_SERVER_BLOCK_TYPE=0xeada;var REACT_FUNDAMENTAL_TYPE=0xead5;var REACT_SCOPE_TYPE=0xead7;var REACT_OPAQUE_ID_TYPE=0xeae0;var REACT_DEBUG_TRACING_MODE_TYPE=0xeae1;var REACT_OFFSCREEN_TYPE=0xeae2;var REACT_LEGACY_HIDDEN_TYPE=0xeae3;if(typeof Symbol==='function'&&Symbol.for){var symbolFor=Symbol.for;REACT_ELEMENT_TYPE=symbolFor('react.element');REACT_PORTAL_TYPE=symbolFor('react.portal');REACT_FRAGMENT_TYPE=symbolFor('react.fragment');REACT_STRICT_MODE_TYPE=symbolFor('react.strict_mode');REACT_PROFILER_TYPE=symbolFor('react.profiler');REACT_PROVIDER_TYPE=symbolFor('react.provider');REACT_CONTEXT_TYPE=symbolFor('react.context');REACT_FORWARD_REF_TYPE=symbolFor('react.forward_ref');REACT_SUSPENSE_TYPE=symbolFor('react.suspense');REACT_SUSPENSE_LIST_TYPE=symbolFor('react.suspense_list');REACT_MEMO_TYPE=symbolFor('react.memo');REACT_LAZY_TYPE=symbolFor('react.lazy');REACT_BLOCK_TYPE=symbolFor('react.block');REACT_SERVER_BLOCK_TYPE=symbolFor('react.server.block');REACT_FUNDAMENTAL_TYPE=symbolFor('react.fundamental');REACT_SCOPE_TYPE=symbolFor('react.scope');REACT_OPAQUE_ID_TYPE=symbolFor('react.opaque.id');REACT_DEBUG_TRACING_MODE_TYPE=symbolFor('react.debug_trace_mode');REACT_OFFSCREEN_TYPE=symbolFor('react.offscreen');REACT_LEGACY_HIDDEN_TYPE=symbolFor('react.legacy_hidden');}var MAYBE_ITERATOR_SYMBOL=typeof Symbol==='function'&&Symbol.iterator;var FAUX_ITERATOR_SYMBOL='@@iterator';function getIteratorFn(maybeIterable){if(maybeIterable===null||_typeof(maybeIterable)!=='object'){return null;}var maybeIterator=MAYBE_ITERATOR_SYMBOL&&maybeIterable[MAYBE_ITERATOR_SYMBOL]||maybeIterable[FAUX_ITERATOR_SYMBOL];if(typeof maybeIterator==='function'){return maybeIterator;}return null;}// Helpers to patch console.logs to avoid logging during side-effect free
 // replaying on render function. This currently only patches the object
 // lazily which won't cover if the log function was extracted eagerly.
 // We could also eagerly patch the method.
@@ -263,7 +263,7 @@ var _frame='\n'+sampleLines[s].replace(' at new ',' at ');{if(typeof fn==='funct
 return _frame;}}while(s>=1&&c>=0);}break;}}}}finally{reentry=false;{ReactCurrentDispatcher.current=previousDispatcher;reenableLogs();}Error.prepareStackTrace=previousPrepareStackTrace;}// Fallback to just using the name if we couldn't make it throw.
 var name=fn?fn.displayName||fn.name:'';var syntheticFrame=name?describeBuiltInComponentFrame(name):'';{if(typeof fn==='function'){componentFrameCache.set(fn,syntheticFrame);}}return syntheticFrame;}function describeClassComponentFrame(ctor,source,ownerFn){{return describeNativeComponentFrame(ctor,true);}}function describeFunctionComponentFrame(fn,source,ownerFn){{return describeNativeComponentFrame(fn,false);}}function shouldConstruct(Component){var prototype=Component.prototype;return!!(prototype&&prototype.isReactComponent);}function describeUnknownElementTypeFrameInDEV(type,source,ownerFn){if(type==null){return'';}if(typeof type==='function'){{return describeNativeComponentFrame(type,shouldConstruct(type));}}if(typeof type==='string'){return describeBuiltInComponentFrame(type);}switch(type){case REACT_SUSPENSE_TYPE:return describeBuiltInComponentFrame('Suspense');case REACT_SUSPENSE_LIST_TYPE:return describeBuiltInComponentFrame('SuspenseList');}if(_typeof(type)==='object'){switch(type.$$typeof){case REACT_FORWARD_REF_TYPE:return describeFunctionComponentFrame(type.render);case REACT_MEMO_TYPE:// Memo may contain any component type so we recursively resolve it.
 return describeUnknownElementTypeFrameInDEV(type.type,source,ownerFn);case REACT_BLOCK_TYPE:return describeFunctionComponentFrame(type._render);case REACT_LAZY_TYPE:{var lazyComponent=type;var payload=lazyComponent._payload;var init=lazyComponent._init;try{// Lazy may contain any component type so we recursively resolve it.
-return describeUnknownElementTypeFrameInDEV(init(payload),source,ownerFn);}catch(x){}}}}return'';}function describeFiber(fiber){var owner=fiber._debugOwner?fiber._debugOwner.type:null;var source=fiber._debugSource;switch(fiber.tag){case HostComponent:return describeBuiltInComponentFrame(fiber.type);case LazyComponent:return describeBuiltInComponentFrame('Lazy');case SuspenseComponent:return describeBuiltInComponentFrame('Suspense');case SuspenseListComponent:return describeBuiltInComponentFrame('SuspenseList');case FunctionComponent:case IndeterminateComponent:case SimpleMemoComponent:return describeFunctionComponentFrame(fiber.type);case ForwardRef:return describeFunctionComponentFrame(fiber.type.render);case Block:return describeFunctionComponentFrame(fiber.type._render);case ClassComponent:return describeClassComponentFrame(fiber.type);default:return'';}}function getStackByFiberInDevAndProd(workInProgress){try{var info='';var node=workInProgress;do{info+=describeFiber(node);node=node["return"];}while(node);return info;}catch(x){return'\nError generating stack: '+x.message+'\n'+x.stack;}}function getWrappedName(outerType,innerType,wrapperName){var functionName=innerType.displayName||innerType.name||'';return outerType.displayName||(functionName!==''?wrapperName+"("+functionName+")":wrapperName);}function getContextName(type){return type.displayName||'Context';}function getComponentName(type){if(type==null){// Host root, text node or just invalid type.
+return describeUnknownElementTypeFrameInDEV(init(payload),source,ownerFn);}catch(x){}}}}return'';}function describeFiber(fiber){var owner=fiber._debugOwner?fiber._debugOwner.type:null;var source=fiber._debugSource;switch(fiber.tag){case HostComponent:return describeBuiltInComponentFrame(fiber.type);case LazyComponent:return describeBuiltInComponentFrame('Lazy');case SuspenseComponent:return describeBuiltInComponentFrame('Suspense');case SuspenseListComponent:return describeBuiltInComponentFrame('SuspenseList');case FunctionComponent:case IndeterminateComponent:case SimpleMemoComponent:return describeFunctionComponentFrame(fiber.type);case ForwardRef:return describeFunctionComponentFrame(fiber.type.render);case Block:return describeFunctionComponentFrame(fiber.type._render);case ClassComponent:return describeClassComponentFrame(fiber.type);default:return'';}}function getStackByFiberInDevAndProd(workInProgress){try{var info='';var node=workInProgress;do{info+=describeFiber(node);node=node.return;}while(node);return info;}catch(x){return'\nError generating stack: '+x.message+'\n'+x.stack;}}function getWrappedName(outerType,innerType,wrapperName){var functionName=innerType.displayName||innerType.name||'';return outerType.displayName||(functionName!==''?wrapperName+"("+functionName+")":wrapperName);}function getContextName(type){return type.displayName||'Context';}function getComponentName(type){if(type==null){// Host root, text node or just invalid type.
 return null;}{if(typeof type.tag==='number'){error('Received an unexpected object in getComponentName(). '+'This is likely a bug in React. Please file an issue.');}}if(typeof type==='function'){return type.displayName||type.name||null;}if(typeof type==='string'){return type;}switch(type){case REACT_FRAGMENT_TYPE:return'Fragment';case REACT_PORTAL_TYPE:return'Portal';case REACT_PROFILER_TYPE:return'Profiler';case REACT_STRICT_MODE_TYPE:return'StrictMode';case REACT_SUSPENSE_TYPE:return'Suspense';case REACT_SUSPENSE_LIST_TYPE:return'SuspenseList';}if(_typeof(type)==='object'){switch(type.$$typeof){case REACT_CONTEXT_TYPE:var context=type;return getContextName(context)+'.Consumer';case REACT_PROVIDER_TYPE:var provider=type;return getContextName(provider._context)+'.Provider';case REACT_FORWARD_REF_TYPE:return getWrappedName(type,type.render,'ForwardRef');case REACT_MEMO_TYPE:return getComponentName(type.type);case REACT_BLOCK_TYPE:return getComponentName(type._render);case REACT_LAZY_TYPE:{var lazyComponent=type;var payload=lazyComponent._payload;var init=lazyComponent._init;try{return getComponentName(init(payload));}catch(x){return null;}}}}return null;}var ReactDebugCurrentFrame=ReactSharedInternals.ReactDebugCurrentFrame;var current=null;var isRendering=false;function getCurrentFiberOwnerNameInDevOrNull(){{if(current===null){return null;}var owner=current._debugOwner;if(owner!==null&&typeof owner!=='undefined'){return getComponentName(owner.type);}}return null;}function getCurrentFiberStackInDev(){{if(current===null){return'';}// Safe because if current fiber exists, we are reconciling,
 // and it is guaranteed to be the work-in-progress version.
 return getStackByFiberInDevAndProd(current);}}function resetCurrentFiber(){{ReactDebugCurrentFrame.getCurrentStack=null;current=null;isRendering=false;}}function setCurrentFiber(fiber){{ReactDebugCurrentFrame.getCurrentStack=getCurrentFiberStackInDev;current=fiber;isRendering=false;}}function setIsRendering(rendering){{isRendering=rendering;}}function getIsRendering(){{return isRendering;}}// Flow does not allow string concatenation of most non-string types. To work
@@ -547,8 +547,8 @@ case'annotation-xml':case'color-profile':case'font-face':case'font-face-src':cas
 // also add them to this module to ensure casing and incorrect name
 // warnings.
 var possibleStandardNames={// HTML
-accept:'accept',acceptcharset:'acceptCharset','accept-charset':'acceptCharset',accesskey:'accessKey',action:'action',allowfullscreen:'allowFullScreen',alt:'alt',as:'as',async:'async',autocapitalize:'autoCapitalize',autocomplete:'autoComplete',autocorrect:'autoCorrect',autofocus:'autoFocus',autoplay:'autoPlay',autosave:'autoSave',capture:'capture',cellpadding:'cellPadding',cellspacing:'cellSpacing',challenge:'challenge',charset:'charSet',checked:'checked',children:'children',cite:'cite',"class":'className',classid:'classID',classname:'className',cols:'cols',colspan:'colSpan',content:'content',contenteditable:'contentEditable',contextmenu:'contextMenu',controls:'controls',controlslist:'controlsList',coords:'coords',crossorigin:'crossOrigin',dangerouslysetinnerhtml:'dangerouslySetInnerHTML',data:'data',datetime:'dateTime',"default":'default',defaultchecked:'defaultChecked',defaultvalue:'defaultValue',defer:'defer',dir:'dir',disabled:'disabled',disablepictureinpicture:'disablePictureInPicture',disableremoteplayback:'disableRemotePlayback',download:'download',draggable:'draggable',enctype:'encType',enterkeyhint:'enterKeyHint',"for":'htmlFor',form:'form',formmethod:'formMethod',formaction:'formAction',formenctype:'formEncType',formnovalidate:'formNoValidate',formtarget:'formTarget',frameborder:'frameBorder',headers:'headers',height:'height',hidden:'hidden',high:'high',href:'href',hreflang:'hrefLang',htmlfor:'htmlFor',httpequiv:'httpEquiv','http-equiv':'httpEquiv',icon:'icon',id:'id',innerhtml:'innerHTML',inputmode:'inputMode',integrity:'integrity',is:'is',itemid:'itemID',itemprop:'itemProp',itemref:'itemRef',itemscope:'itemScope',itemtype:'itemType',keyparams:'keyParams',keytype:'keyType',kind:'kind',label:'label',lang:'lang',list:'list',loop:'loop',low:'low',manifest:'manifest',marginwidth:'marginWidth',marginheight:'marginHeight',max:'max',maxlength:'maxLength',media:'media',mediagroup:'mediaGroup',method:'method',min:'min',minlength:'minLength',multiple:'multiple',muted:'muted',name:'name',nomodule:'noModule',nonce:'nonce',novalidate:'noValidate',open:'open',optimum:'optimum',pattern:'pattern',placeholder:'placeholder',playsinline:'playsInline',poster:'poster',preload:'preload',profile:'profile',radiogroup:'radioGroup',readonly:'readOnly',referrerpolicy:'referrerPolicy',rel:'rel',required:'required',reversed:'reversed',role:'role',rows:'rows',rowspan:'rowSpan',sandbox:'sandbox',scope:'scope',scoped:'scoped',scrolling:'scrolling',seamless:'seamless',selected:'selected',shape:'shape',size:'size',sizes:'sizes',span:'span',spellcheck:'spellCheck',src:'src',srcdoc:'srcDoc',srclang:'srcLang',srcset:'srcSet',start:'start',step:'step',style:'style',summary:'summary',tabindex:'tabIndex',target:'target',title:'title',type:'type',usemap:'useMap',value:'value',width:'width',wmode:'wmode',wrap:'wrap',// SVG
-about:'about',accentheight:'accentHeight','accent-height':'accentHeight',accumulate:'accumulate',additive:'additive',alignmentbaseline:'alignmentBaseline','alignment-baseline':'alignmentBaseline',allowreorder:'allowReorder',alphabetic:'alphabetic',amplitude:'amplitude',arabicform:'arabicForm','arabic-form':'arabicForm',ascent:'ascent',attributename:'attributeName',attributetype:'attributeType',autoreverse:'autoReverse',azimuth:'azimuth',basefrequency:'baseFrequency',baselineshift:'baselineShift','baseline-shift':'baselineShift',baseprofile:'baseProfile',bbox:'bbox',begin:'begin',bias:'bias',by:'by',calcmode:'calcMode',capheight:'capHeight','cap-height':'capHeight',clip:'clip',clippath:'clipPath','clip-path':'clipPath',clippathunits:'clipPathUnits',cliprule:'clipRule','clip-rule':'clipRule',color:'color',colorinterpolation:'colorInterpolation','color-interpolation':'colorInterpolation',colorinterpolationfilters:'colorInterpolationFilters','color-interpolation-filters':'colorInterpolationFilters',colorprofile:'colorProfile','color-profile':'colorProfile',colorrendering:'colorRendering','color-rendering':'colorRendering',contentscripttype:'contentScriptType',contentstyletype:'contentStyleType',cursor:'cursor',cx:'cx',cy:'cy',d:'d',datatype:'datatype',decelerate:'decelerate',descent:'descent',diffuseconstant:'diffuseConstant',direction:'direction',display:'display',divisor:'divisor',dominantbaseline:'dominantBaseline','dominant-baseline':'dominantBaseline',dur:'dur',dx:'dx',dy:'dy',edgemode:'edgeMode',elevation:'elevation',enablebackground:'enableBackground','enable-background':'enableBackground',end:'end',exponent:'exponent',externalresourcesrequired:'externalResourcesRequired',fill:'fill',fillopacity:'fillOpacity','fill-opacity':'fillOpacity',fillrule:'fillRule','fill-rule':'fillRule',filter:'filter',filterres:'filterRes',filterunits:'filterUnits',floodopacity:'floodOpacity','flood-opacity':'floodOpacity',floodcolor:'floodColor','flood-color':'floodColor',focusable:'focusable',fontfamily:'fontFamily','font-family':'fontFamily',fontsize:'fontSize','font-size':'fontSize',fontsizeadjust:'fontSizeAdjust','font-size-adjust':'fontSizeAdjust',fontstretch:'fontStretch','font-stretch':'fontStretch',fontstyle:'fontStyle','font-style':'fontStyle',fontvariant:'fontVariant','font-variant':'fontVariant',fontweight:'fontWeight','font-weight':'fontWeight',format:'format',from:'from',fx:'fx',fy:'fy',g1:'g1',g2:'g2',glyphname:'glyphName','glyph-name':'glyphName',glyphorientationhorizontal:'glyphOrientationHorizontal','glyph-orientation-horizontal':'glyphOrientationHorizontal',glyphorientationvertical:'glyphOrientationVertical','glyph-orientation-vertical':'glyphOrientationVertical',glyphref:'glyphRef',gradienttransform:'gradientTransform',gradientunits:'gradientUnits',hanging:'hanging',horizadvx:'horizAdvX','horiz-adv-x':'horizAdvX',horizoriginx:'horizOriginX','horiz-origin-x':'horizOriginX',ideographic:'ideographic',imagerendering:'imageRendering','image-rendering':'imageRendering',in2:'in2',"in":'in',inlist:'inlist',intercept:'intercept',k1:'k1',k2:'k2',k3:'k3',k4:'k4',k:'k',kernelmatrix:'kernelMatrix',kernelunitlength:'kernelUnitLength',kerning:'kerning',keypoints:'keyPoints',keysplines:'keySplines',keytimes:'keyTimes',lengthadjust:'lengthAdjust',letterspacing:'letterSpacing','letter-spacing':'letterSpacing',lightingcolor:'lightingColor','lighting-color':'lightingColor',limitingconeangle:'limitingConeAngle',local:'local',markerend:'markerEnd','marker-end':'markerEnd',markerheight:'markerHeight',markermid:'markerMid','marker-mid':'markerMid',markerstart:'markerStart','marker-start':'markerStart',markerunits:'markerUnits',markerwidth:'markerWidth',mask:'mask',maskcontentunits:'maskContentUnits',maskunits:'maskUnits',mathematical:'mathematical',mode:'mode',numoctaves:'numOctaves',offset:'offset',opacity:'opacity',operator:'operator',order:'order',orient:'orient',orientation:'orientation',origin:'origin',overflow:'overflow',overlineposition:'overlinePosition','overline-position':'overlinePosition',overlinethickness:'overlineThickness','overline-thickness':'overlineThickness',paintorder:'paintOrder','paint-order':'paintOrder',panose1:'panose1','panose-1':'panose1',pathlength:'pathLength',patterncontentunits:'patternContentUnits',patterntransform:'patternTransform',patternunits:'patternUnits',pointerevents:'pointerEvents','pointer-events':'pointerEvents',points:'points',pointsatx:'pointsAtX',pointsaty:'pointsAtY',pointsatz:'pointsAtZ',prefix:'prefix',preservealpha:'preserveAlpha',preserveaspectratio:'preserveAspectRatio',primitiveunits:'primitiveUnits',property:'property',r:'r',radius:'radius',refx:'refX',refy:'refY',renderingintent:'renderingIntent','rendering-intent':'renderingIntent',repeatcount:'repeatCount',repeatdur:'repeatDur',requiredextensions:'requiredExtensions',requiredfeatures:'requiredFeatures',resource:'resource',restart:'restart',result:'result',results:'results',rotate:'rotate',rx:'rx',ry:'ry',scale:'scale',security:'security',seed:'seed',shaperendering:'shapeRendering','shape-rendering':'shapeRendering',slope:'slope',spacing:'spacing',specularconstant:'specularConstant',specularexponent:'specularExponent',speed:'speed',spreadmethod:'spreadMethod',startoffset:'startOffset',stddeviation:'stdDeviation',stemh:'stemh',stemv:'stemv',stitchtiles:'stitchTiles',stopcolor:'stopColor','stop-color':'stopColor',stopopacity:'stopOpacity','stop-opacity':'stopOpacity',strikethroughposition:'strikethroughPosition','strikethrough-position':'strikethroughPosition',strikethroughthickness:'strikethroughThickness','strikethrough-thickness':'strikethroughThickness',string:'string',stroke:'stroke',strokedasharray:'strokeDasharray','stroke-dasharray':'strokeDasharray',strokedashoffset:'strokeDashoffset','stroke-dashoffset':'strokeDashoffset',strokelinecap:'strokeLinecap','stroke-linecap':'strokeLinecap',strokelinejoin:'strokeLinejoin','stroke-linejoin':'strokeLinejoin',strokemiterlimit:'strokeMiterlimit','stroke-miterlimit':'strokeMiterlimit',strokewidth:'strokeWidth','stroke-width':'strokeWidth',strokeopacity:'strokeOpacity','stroke-opacity':'strokeOpacity',suppresscontenteditablewarning:'suppressContentEditableWarning',suppresshydrationwarning:'suppressHydrationWarning',surfacescale:'surfaceScale',systemlanguage:'systemLanguage',tablevalues:'tableValues',targetx:'targetX',targety:'targetY',textanchor:'textAnchor','text-anchor':'textAnchor',textdecoration:'textDecoration','text-decoration':'textDecoration',textlength:'textLength',textrendering:'textRendering','text-rendering':'textRendering',to:'to',transform:'transform',"typeof":'typeof',u1:'u1',u2:'u2',underlineposition:'underlinePosition','underline-position':'underlinePosition',underlinethickness:'underlineThickness','underline-thickness':'underlineThickness',unicode:'unicode',unicodebidi:'unicodeBidi','unicode-bidi':'unicodeBidi',unicoderange:'unicodeRange','unicode-range':'unicodeRange',unitsperem:'unitsPerEm','units-per-em':'unitsPerEm',unselectable:'unselectable',valphabetic:'vAlphabetic','v-alphabetic':'vAlphabetic',values:'values',vectoreffect:'vectorEffect','vector-effect':'vectorEffect',version:'version',vertadvy:'vertAdvY','vert-adv-y':'vertAdvY',vertoriginx:'vertOriginX','vert-origin-x':'vertOriginX',vertoriginy:'vertOriginY','vert-origin-y':'vertOriginY',vhanging:'vHanging','v-hanging':'vHanging',videographic:'vIdeographic','v-ideographic':'vIdeographic',viewbox:'viewBox',viewtarget:'viewTarget',visibility:'visibility',vmathematical:'vMathematical','v-mathematical':'vMathematical',vocab:'vocab',widths:'widths',wordspacing:'wordSpacing','word-spacing':'wordSpacing',writingmode:'writingMode','writing-mode':'writingMode',x1:'x1',x2:'x2',x:'x',xchannelselector:'xChannelSelector',xheight:'xHeight','x-height':'xHeight',xlinkactuate:'xlinkActuate','xlink:actuate':'xlinkActuate',xlinkarcrole:'xlinkArcrole','xlink:arcrole':'xlinkArcrole',xlinkhref:'xlinkHref','xlink:href':'xlinkHref',xlinkrole:'xlinkRole','xlink:role':'xlinkRole',xlinkshow:'xlinkShow','xlink:show':'xlinkShow',xlinktitle:'xlinkTitle','xlink:title':'xlinkTitle',xlinktype:'xlinkType','xlink:type':'xlinkType',xmlbase:'xmlBase','xml:base':'xmlBase',xmllang:'xmlLang','xml:lang':'xmlLang',xmlns:'xmlns','xml:space':'xmlSpace',xmlnsxlink:'xmlnsXlink','xmlns:xlink':'xmlnsXlink',xmlspace:'xmlSpace',y1:'y1',y2:'y2',y:'y',ychannelselector:'yChannelSelector',z:'z',zoomandpan:'zoomAndPan'};var ariaProperties={'aria-current':0,// state
+accept:'accept',acceptcharset:'acceptCharset','accept-charset':'acceptCharset',accesskey:'accessKey',action:'action',allowfullscreen:'allowFullScreen',alt:'alt',as:'as',async:'async',autocapitalize:'autoCapitalize',autocomplete:'autoComplete',autocorrect:'autoCorrect',autofocus:'autoFocus',autoplay:'autoPlay',autosave:'autoSave',capture:'capture',cellpadding:'cellPadding',cellspacing:'cellSpacing',challenge:'challenge',charset:'charSet',checked:'checked',children:'children',cite:'cite',class:'className',classid:'classID',classname:'className',cols:'cols',colspan:'colSpan',content:'content',contenteditable:'contentEditable',contextmenu:'contextMenu',controls:'controls',controlslist:'controlsList',coords:'coords',crossorigin:'crossOrigin',dangerouslysetinnerhtml:'dangerouslySetInnerHTML',data:'data',datetime:'dateTime',default:'default',defaultchecked:'defaultChecked',defaultvalue:'defaultValue',defer:'defer',dir:'dir',disabled:'disabled',disablepictureinpicture:'disablePictureInPicture',disableremoteplayback:'disableRemotePlayback',download:'download',draggable:'draggable',enctype:'encType',enterkeyhint:'enterKeyHint',for:'htmlFor',form:'form',formmethod:'formMethod',formaction:'formAction',formenctype:'formEncType',formnovalidate:'formNoValidate',formtarget:'formTarget',frameborder:'frameBorder',headers:'headers',height:'height',hidden:'hidden',high:'high',href:'href',hreflang:'hrefLang',htmlfor:'htmlFor',httpequiv:'httpEquiv','http-equiv':'httpEquiv',icon:'icon',id:'id',innerhtml:'innerHTML',inputmode:'inputMode',integrity:'integrity',is:'is',itemid:'itemID',itemprop:'itemProp',itemref:'itemRef',itemscope:'itemScope',itemtype:'itemType',keyparams:'keyParams',keytype:'keyType',kind:'kind',label:'label',lang:'lang',list:'list',loop:'loop',low:'low',manifest:'manifest',marginwidth:'marginWidth',marginheight:'marginHeight',max:'max',maxlength:'maxLength',media:'media',mediagroup:'mediaGroup',method:'method',min:'min',minlength:'minLength',multiple:'multiple',muted:'muted',name:'name',nomodule:'noModule',nonce:'nonce',novalidate:'noValidate',open:'open',optimum:'optimum',pattern:'pattern',placeholder:'placeholder',playsinline:'playsInline',poster:'poster',preload:'preload',profile:'profile',radiogroup:'radioGroup',readonly:'readOnly',referrerpolicy:'referrerPolicy',rel:'rel',required:'required',reversed:'reversed',role:'role',rows:'rows',rowspan:'rowSpan',sandbox:'sandbox',scope:'scope',scoped:'scoped',scrolling:'scrolling',seamless:'seamless',selected:'selected',shape:'shape',size:'size',sizes:'sizes',span:'span',spellcheck:'spellCheck',src:'src',srcdoc:'srcDoc',srclang:'srcLang',srcset:'srcSet',start:'start',step:'step',style:'style',summary:'summary',tabindex:'tabIndex',target:'target',title:'title',type:'type',usemap:'useMap',value:'value',width:'width',wmode:'wmode',wrap:'wrap',// SVG
+about:'about',accentheight:'accentHeight','accent-height':'accentHeight',accumulate:'accumulate',additive:'additive',alignmentbaseline:'alignmentBaseline','alignment-baseline':'alignmentBaseline',allowreorder:'allowReorder',alphabetic:'alphabetic',amplitude:'amplitude',arabicform:'arabicForm','arabic-form':'arabicForm',ascent:'ascent',attributename:'attributeName',attributetype:'attributeType',autoreverse:'autoReverse',azimuth:'azimuth',basefrequency:'baseFrequency',baselineshift:'baselineShift','baseline-shift':'baselineShift',baseprofile:'baseProfile',bbox:'bbox',begin:'begin',bias:'bias',by:'by',calcmode:'calcMode',capheight:'capHeight','cap-height':'capHeight',clip:'clip',clippath:'clipPath','clip-path':'clipPath',clippathunits:'clipPathUnits',cliprule:'clipRule','clip-rule':'clipRule',color:'color',colorinterpolation:'colorInterpolation','color-interpolation':'colorInterpolation',colorinterpolationfilters:'colorInterpolationFilters','color-interpolation-filters':'colorInterpolationFilters',colorprofile:'colorProfile','color-profile':'colorProfile',colorrendering:'colorRendering','color-rendering':'colorRendering',contentscripttype:'contentScriptType',contentstyletype:'contentStyleType',cursor:'cursor',cx:'cx',cy:'cy',d:'d',datatype:'datatype',decelerate:'decelerate',descent:'descent',diffuseconstant:'diffuseConstant',direction:'direction',display:'display',divisor:'divisor',dominantbaseline:'dominantBaseline','dominant-baseline':'dominantBaseline',dur:'dur',dx:'dx',dy:'dy',edgemode:'edgeMode',elevation:'elevation',enablebackground:'enableBackground','enable-background':'enableBackground',end:'end',exponent:'exponent',externalresourcesrequired:'externalResourcesRequired',fill:'fill',fillopacity:'fillOpacity','fill-opacity':'fillOpacity',fillrule:'fillRule','fill-rule':'fillRule',filter:'filter',filterres:'filterRes',filterunits:'filterUnits',floodopacity:'floodOpacity','flood-opacity':'floodOpacity',floodcolor:'floodColor','flood-color':'floodColor',focusable:'focusable',fontfamily:'fontFamily','font-family':'fontFamily',fontsize:'fontSize','font-size':'fontSize',fontsizeadjust:'fontSizeAdjust','font-size-adjust':'fontSizeAdjust',fontstretch:'fontStretch','font-stretch':'fontStretch',fontstyle:'fontStyle','font-style':'fontStyle',fontvariant:'fontVariant','font-variant':'fontVariant',fontweight:'fontWeight','font-weight':'fontWeight',format:'format',from:'from',fx:'fx',fy:'fy',g1:'g1',g2:'g2',glyphname:'glyphName','glyph-name':'glyphName',glyphorientationhorizontal:'glyphOrientationHorizontal','glyph-orientation-horizontal':'glyphOrientationHorizontal',glyphorientationvertical:'glyphOrientationVertical','glyph-orientation-vertical':'glyphOrientationVertical',glyphref:'glyphRef',gradienttransform:'gradientTransform',gradientunits:'gradientUnits',hanging:'hanging',horizadvx:'horizAdvX','horiz-adv-x':'horizAdvX',horizoriginx:'horizOriginX','horiz-origin-x':'horizOriginX',ideographic:'ideographic',imagerendering:'imageRendering','image-rendering':'imageRendering',in2:'in2',in:'in',inlist:'inlist',intercept:'intercept',k1:'k1',k2:'k2',k3:'k3',k4:'k4',k:'k',kernelmatrix:'kernelMatrix',kernelunitlength:'kernelUnitLength',kerning:'kerning',keypoints:'keyPoints',keysplines:'keySplines',keytimes:'keyTimes',lengthadjust:'lengthAdjust',letterspacing:'letterSpacing','letter-spacing':'letterSpacing',lightingcolor:'lightingColor','lighting-color':'lightingColor',limitingconeangle:'limitingConeAngle',local:'local',markerend:'markerEnd','marker-end':'markerEnd',markerheight:'markerHeight',markermid:'markerMid','marker-mid':'markerMid',markerstart:'markerStart','marker-start':'markerStart',markerunits:'markerUnits',markerwidth:'markerWidth',mask:'mask',maskcontentunits:'maskContentUnits',maskunits:'maskUnits',mathematical:'mathematical',mode:'mode',numoctaves:'numOctaves',offset:'offset',opacity:'opacity',operator:'operator',order:'order',orient:'orient',orientation:'orientation',origin:'origin',overflow:'overflow',overlineposition:'overlinePosition','overline-position':'overlinePosition',overlinethickness:'overlineThickness','overline-thickness':'overlineThickness',paintorder:'paintOrder','paint-order':'paintOrder',panose1:'panose1','panose-1':'panose1',pathlength:'pathLength',patterncontentunits:'patternContentUnits',patterntransform:'patternTransform',patternunits:'patternUnits',pointerevents:'pointerEvents','pointer-events':'pointerEvents',points:'points',pointsatx:'pointsAtX',pointsaty:'pointsAtY',pointsatz:'pointsAtZ',prefix:'prefix',preservealpha:'preserveAlpha',preserveaspectratio:'preserveAspectRatio',primitiveunits:'primitiveUnits',property:'property',r:'r',radius:'radius',refx:'refX',refy:'refY',renderingintent:'renderingIntent','rendering-intent':'renderingIntent',repeatcount:'repeatCount',repeatdur:'repeatDur',requiredextensions:'requiredExtensions',requiredfeatures:'requiredFeatures',resource:'resource',restart:'restart',result:'result',results:'results',rotate:'rotate',rx:'rx',ry:'ry',scale:'scale',security:'security',seed:'seed',shaperendering:'shapeRendering','shape-rendering':'shapeRendering',slope:'slope',spacing:'spacing',specularconstant:'specularConstant',specularexponent:'specularExponent',speed:'speed',spreadmethod:'spreadMethod',startoffset:'startOffset',stddeviation:'stdDeviation',stemh:'stemh',stemv:'stemv',stitchtiles:'stitchTiles',stopcolor:'stopColor','stop-color':'stopColor',stopopacity:'stopOpacity','stop-opacity':'stopOpacity',strikethroughposition:'strikethroughPosition','strikethrough-position':'strikethroughPosition',strikethroughthickness:'strikethroughThickness','strikethrough-thickness':'strikethroughThickness',string:'string',stroke:'stroke',strokedasharray:'strokeDasharray','stroke-dasharray':'strokeDasharray',strokedashoffset:'strokeDashoffset','stroke-dashoffset':'strokeDashoffset',strokelinecap:'strokeLinecap','stroke-linecap':'strokeLinecap',strokelinejoin:'strokeLinejoin','stroke-linejoin':'strokeLinejoin',strokemiterlimit:'strokeMiterlimit','stroke-miterlimit':'strokeMiterlimit',strokewidth:'strokeWidth','stroke-width':'strokeWidth',strokeopacity:'strokeOpacity','stroke-opacity':'strokeOpacity',suppresscontenteditablewarning:'suppressContentEditableWarning',suppresshydrationwarning:'suppressHydrationWarning',surfacescale:'surfaceScale',systemlanguage:'systemLanguage',tablevalues:'tableValues',targetx:'targetX',targety:'targetY',textanchor:'textAnchor','text-anchor':'textAnchor',textdecoration:'textDecoration','text-decoration':'textDecoration',textlength:'textLength',textrendering:'textRendering','text-rendering':'textRendering',to:'to',transform:'transform',typeof:'typeof',u1:'u1',u2:'u2',underlineposition:'underlinePosition','underline-position':'underlinePosition',underlinethickness:'underlineThickness','underline-thickness':'underlineThickness',unicode:'unicode',unicodebidi:'unicodeBidi','unicode-bidi':'unicodeBidi',unicoderange:'unicodeRange','unicode-range':'unicodeRange',unitsperem:'unitsPerEm','units-per-em':'unitsPerEm',unselectable:'unselectable',valphabetic:'vAlphabetic','v-alphabetic':'vAlphabetic',values:'values',vectoreffect:'vectorEffect','vector-effect':'vectorEffect',version:'version',vertadvy:'vertAdvY','vert-adv-y':'vertAdvY',vertoriginx:'vertOriginX','vert-origin-x':'vertOriginX',vertoriginy:'vertOriginY','vert-origin-y':'vertOriginY',vhanging:'vHanging','v-hanging':'vHanging',videographic:'vIdeographic','v-ideographic':'vIdeographic',viewbox:'viewBox',viewtarget:'viewTarget',visibility:'visibility',vmathematical:'vMathematical','v-mathematical':'vMathematical',vocab:'vocab',widths:'widths',wordspacing:'wordSpacing','word-spacing':'wordSpacing',writingmode:'writingMode','writing-mode':'writingMode',x1:'x1',x2:'x2',x:'x',xchannelselector:'xChannelSelector',xheight:'xHeight','x-height':'xHeight',xlinkactuate:'xlinkActuate','xlink:actuate':'xlinkActuate',xlinkarcrole:'xlinkArcrole','xlink:arcrole':'xlinkArcrole',xlinkhref:'xlinkHref','xlink:href':'xlinkHref',xlinkrole:'xlinkRole','xlink:role':'xlinkRole',xlinkshow:'xlinkShow','xlink:show':'xlinkShow',xlinktitle:'xlinkTitle','xlink:title':'xlinkTitle',xlinktype:'xlinkType','xlink:type':'xlinkType',xmlbase:'xmlBase','xml:base':'xmlBase',xmllang:'xmlLang','xml:lang':'xmlLang',xmlns:'xmlns','xml:space':'xmlSpace',xmlnsxlink:'xmlnsXlink','xmlns:xlink':'xmlnsXlink',xmlspace:'xmlSpace',y1:'y1',y2:'y2',y:'y',ychannelselector:'yChannelSelector',z:'z',zoomandpan:'zoomAndPan'};var ariaProperties={'aria-current':0,// state
 'aria-details':0,'aria-disabled':0,// state
 'aria-hidden':0,// state
 'aria-invalid':0,// state
@@ -735,7 +735,7 @@ var ReactCurrentOwner=ReactSharedInternals.ReactCurrentOwner;function getNearest
 var nextNode=node;do{node=nextNode;if((node.flags&(Placement|Hydrating))!==NoFlags){// This is an insertion or in-progress hydration. The nearest possible
 // mounted fiber is the parent but we need to continue to figure out
 // if that one is still mounted.
-nearestMounted=node["return"];}nextNode=node["return"];}while(nextNode);}else{while(node["return"]){node=node["return"];}}if(node.tag===HostRoot){// TODO: Check if this was a nested HostRoot when used with
+nearestMounted=node.return;}nextNode=node.return;}while(nextNode);}else{while(node.return){node=node.return;}}if(node.tag===HostRoot){// TODO: Check if this was a nested HostRoot when used with
 // renderContainerIntoSubtree.
 return nearestMounted;}// If we didn't hit the root, that means that we're in an disconnected tree
 // that has been unmounted.
@@ -743,12 +743,12 @@ return null;}function getSuspenseInstanceFromFiber(fiber){if(fiber.tag===Suspens
 var nearestMounted=getNearestMountedFiber(fiber);if(!(nearestMounted!==null)){{throw Error("Unable to find node on an unmounted component.");}}if(nearestMounted!==fiber){return null;}return fiber;}// If we have two possible branches, we'll walk backwards up to the root
 // to see what path the root points to. On the way we may hit one of the
 // special cases and we'll deal with them.
-var a=fiber;var b=alternate;while(true){var parentA=a["return"];if(parentA===null){// We're at the root.
+var a=fiber;var b=alternate;while(true){var parentA=a.return;if(parentA===null){// We're at the root.
 break;}var parentB=parentA.alternate;if(parentB===null){// There is no alternate. This is an unusual case. Currently, it only
 // happens when a Suspense component is hidden. An extra fragment fiber
 // is inserted in between the Suspense fiber and its children. Skip
 // over this extra fragment fiber and proceed to the next parent.
-var nextParent=parentA["return"];if(nextParent!==null){a=b=nextParent;continue;}// If there's no parent, we're at the root.
+var nextParent=parentA.return;if(nextParent!==null){a=b=nextParent;continue;}// If there's no parent, we're at the root.
 break;}// If both copies of the parent fiber point to the same child, we can
 // assume that the child is current. This happens when we bailout on low
 // priority: the bailed out fiber's child reuses the current child.
@@ -756,7 +756,7 @@ if(parentA.child===parentB.child){var child=parentA.child;while(child){if(child=
 assertIsMounted(parentA);return fiber;}if(child===b){// We've determined that B is the current branch.
 assertIsMounted(parentA);return alternate;}child=child.sibling;}// We should never have an alternate for any mounting node. So the only
 // way this could possibly happen is if this was unmounted, if at all.
-{{throw Error("Unable to find node on an unmounted component.");}}}if(a["return"]!==b["return"]){// The return pointer of A and the return pointer of B point to different
+{{throw Error("Unable to find node on an unmounted component.");}}}if(a.return!==b.return){// The return pointer of A and the return pointer of B point to different
 // fibers. We assume that return pointers never criss-cross, so A must
 // belong to the child set of A.return, and B must belong to the child
 // set of B.return.
@@ -771,12 +771,12 @@ _child=parentB.child;while(_child){if(_child===a){didFindChild=true;a=parentB;b=
 if(!(a.tag===HostRoot)){{throw Error("Unable to find node on an unmounted component.");}}if(a.stateNode.current===a){// We've determined that A is the current branch.
 return fiber;}// Otherwise B has to be current branch.
 return alternate;}function findCurrentHostFiber(parent){var currentParent=findCurrentFiberUsingSlowPath(parent);if(!currentParent){return null;}// Next we'll drill down this component to find the first HostComponent/Text.
-var node=currentParent;while(true){if(node.tag===HostComponent||node.tag===HostText){return node;}else if(node.child){node.child["return"]=node;node=node.child;continue;}if(node===currentParent){return null;}while(!node.sibling){if(!node["return"]||node["return"]===currentParent){return null;}node=node["return"];}node.sibling["return"]=node["return"];node=node.sibling;}// Flow needs the return null here, but ESLint complains about it.
+var node=currentParent;while(true){if(node.tag===HostComponent||node.tag===HostText){return node;}else if(node.child){node.child.return=node;node=node.child;continue;}if(node===currentParent){return null;}while(!node.sibling){if(!node.return||node.return===currentParent){return null;}node=node.return;}node.sibling.return=node.return;node=node.sibling;}// Flow needs the return null here, but ESLint complains about it.
 // eslint-disable-next-line no-unreachable
 return null;}function findCurrentHostFiberWithNoPortals(parent){var currentParent=findCurrentFiberUsingSlowPath(parent);if(!currentParent){return null;}// Next we'll drill down this component to find the first HostComponent/Text.
-var node=currentParent;while(true){if(node.tag===HostComponent||node.tag===HostText||enableFundamentalAPI){return node;}else if(node.child&&node.tag!==HostPortal){node.child["return"]=node;node=node.child;continue;}if(node===currentParent){return null;}while(!node.sibling){if(!node["return"]||node["return"]===currentParent){return null;}node=node["return"];}node.sibling["return"]=node["return"];node=node.sibling;}// Flow needs the return null here, but ESLint complains about it.
+var node=currentParent;while(true){if(node.tag===HostComponent||node.tag===HostText||enableFundamentalAPI){return node;}else if(node.child&&node.tag!==HostPortal){node.child.return=node;node=node.child;continue;}if(node===currentParent){return null;}while(!node.sibling){if(!node.return||node.return===currentParent){return null;}node=node.return;}node.sibling.return=node.return;node=node.sibling;}// Flow needs the return null here, but ESLint complains about it.
 // eslint-disable-next-line no-unreachable
-return null;}function doesFiberContain(parentFiber,childFiber){var node=childFiber;var parentFiberAlternate=parentFiber.alternate;while(node!==null){if(node===parentFiber||node===parentFiberAlternate){return true;}node=node["return"];}return false;}var attemptUserBlockingHydration;function setAttemptUserBlockingHydration(fn){attemptUserBlockingHydration=fn;}var attemptContinuousHydration;function setAttemptContinuousHydration(fn){attemptContinuousHydration=fn;}var attemptHydrationAtCurrentPriority;function setAttemptHydrationAtCurrentPriority(fn){attemptHydrationAtCurrentPriority=fn;}var attemptHydrationAtPriority;function setAttemptHydrationAtPriority(fn){attemptHydrationAtPriority=fn;}// TODO: Upgrade this definition once we're on a newer version of Flow that
+return null;}function doesFiberContain(parentFiber,childFiber){var node=childFiber;var parentFiberAlternate=parentFiber.alternate;while(node!==null){if(node===parentFiber||node===parentFiberAlternate){return true;}node=node.return;}return false;}var attemptUserBlockingHydration;function setAttemptUserBlockingHydration(fn){attemptUserBlockingHydration=fn;}var attemptContinuousHydration;function setAttemptContinuousHydration(fn){attemptContinuousHydration=fn;}var attemptHydrationAtCurrentPriority;function setAttemptHydrationAtCurrentPriority(fn){attemptHydrationAtCurrentPriority=fn;}var attemptHydrationAtPriority;function setAttemptHydrationAtPriority(fn){attemptHydrationAtPriority=fn;}// TODO: Upgrade this definition once we're on a newer version of Flow that
 var hasScheduledReplayAttempt=false;// The queue of discrete events to be replayed.
 var queuedDiscreteEvents=[];// Indicates if any continuous event targets are non-null for early bailout.
 // if the last target was dehydrated.
@@ -784,7 +784,7 @@ var queuedFocus=null;var queuedDrag=null;var queuedMouse=null;// For pointer eve
 var queuedPointers=new Map();var queuedPointerCaptures=new Map();// We could consider replaying selectionchange and touchmoves too.
 var queuedExplicitHydrationTargets=[];function hasQueuedDiscreteEvents(){return queuedDiscreteEvents.length>0;}var discreteReplayableEvents=['mousedown','mouseup','touchcancel','touchend','touchstart','auxclick','dblclick','pointercancel','pointerdown','pointerup','dragend','dragstart','drop','compositionend','compositionstart','keydown','keypress','keyup','input','textInput',// Intentionally camelCase
 'copy','cut','paste','click','change','contextmenu','reset','submit'];function isReplayableDiscreteEvent(eventType){return discreteReplayableEvents.indexOf(eventType)>-1;}function createQueuedReplayableEvent(blockedOn,domEventName,eventSystemFlags,targetContainer,nativeEvent){return{blockedOn:blockedOn,domEventName:domEventName,eventSystemFlags:eventSystemFlags|IS_REPLAYED,nativeEvent:nativeEvent,targetContainers:[targetContainer]};}function queueDiscreteEvent(blockedOn,domEventName,eventSystemFlags,targetContainer,nativeEvent){var queuedEvent=createQueuedReplayableEvent(blockedOn,domEventName,eventSystemFlags,targetContainer,nativeEvent);queuedDiscreteEvents.push(queuedEvent);}// Resets the replaying for this type of continuous event to no event.
-function clearIfContinuousEvent(domEventName,nativeEvent){switch(domEventName){case'focusin':case'focusout':queuedFocus=null;break;case'dragenter':case'dragleave':queuedDrag=null;break;case'mouseover':case'mouseout':queuedMouse=null;break;case'pointerover':case'pointerout':{var pointerId=nativeEvent.pointerId;queuedPointers["delete"](pointerId);break;}case'gotpointercapture':case'lostpointercapture':{var _pointerId=nativeEvent.pointerId;queuedPointerCaptures["delete"](_pointerId);break;}}}function accumulateOrCreateContinuousQueuedReplayableEvent(existingQueuedEvent,blockedOn,domEventName,eventSystemFlags,targetContainer,nativeEvent){if(existingQueuedEvent===null||existingQueuedEvent.nativeEvent!==nativeEvent){var queuedEvent=createQueuedReplayableEvent(blockedOn,domEventName,eventSystemFlags,targetContainer,nativeEvent);if(blockedOn!==null){var _fiber2=getInstanceFromNode(blockedOn);if(_fiber2!==null){// Attempt to increase the priority of this target.
+function clearIfContinuousEvent(domEventName,nativeEvent){switch(domEventName){case'focusin':case'focusout':queuedFocus=null;break;case'dragenter':case'dragleave':queuedDrag=null;break;case'mouseover':case'mouseout':queuedMouse=null;break;case'pointerover':case'pointerout':{var pointerId=nativeEvent.pointerId;queuedPointers.delete(pointerId);break;}case'gotpointercapture':case'lostpointercapture':{var _pointerId=nativeEvent.pointerId;queuedPointerCaptures.delete(_pointerId);break;}}}function accumulateOrCreateContinuousQueuedReplayableEvent(existingQueuedEvent,blockedOn,domEventName,eventSystemFlags,targetContainer,nativeEvent){if(existingQueuedEvent===null||existingQueuedEvent.nativeEvent!==nativeEvent){var queuedEvent=createQueuedReplayableEvent(blockedOn,domEventName,eventSystemFlags,targetContainer,nativeEvent);if(blockedOn!==null){var _fiber2=getInstanceFromNode(blockedOn);if(_fiber2!==null){// Attempt to increase the priority of this target.
 attemptContinuousHydration(_fiber2);}}return queuedEvent;}// If we have already queued this exact event, then it's because
 // the different event systems have different DOM event listeners.
 // We can accumulate the flags, and the targetContainers, and
@@ -802,7 +802,7 @@ queuedTarget.blockedOn=instance;attemptHydrationAtPriority(queuedTarget.lanePrio
 // a root other than sync.
 return;}}}}queuedTarget.blockedOn=null;}function attemptReplayContinuousQueuedEvent(queuedEvent){if(queuedEvent.blockedOn!==null){return false;}var targetContainers=queuedEvent.targetContainers;while(targetContainers.length>0){var targetContainer=targetContainers[0];var nextBlockedOn=attemptToDispatchEvent(queuedEvent.domEventName,queuedEvent.eventSystemFlags,targetContainer,queuedEvent.nativeEvent);if(nextBlockedOn!==null){// We're still blocked. Try again later.
 var _fiber3=getInstanceFromNode(nextBlockedOn);if(_fiber3!==null){attemptContinuousHydration(_fiber3);}queuedEvent.blockedOn=nextBlockedOn;return false;}// This target container was successfully dispatched. Try the next.
-targetContainers.shift();}return true;}function attemptReplayContinuousQueuedEventInMap(queuedEvent,key,map){if(attemptReplayContinuousQueuedEvent(queuedEvent)){map["delete"](key);}}function replayUnblockedEvents(){hasScheduledReplayAttempt=false;// First replay discrete events.
+targetContainers.shift();}return true;}function attemptReplayContinuousQueuedEventInMap(queuedEvent,key,map){if(attemptReplayContinuousQueuedEvent(queuedEvent)){map.delete(key);}}function replayUnblockedEvents(){hasScheduledReplayAttempt=false;// First replay discrete events.
 while(queuedDiscreteEvents.length>0){var nextDiscreteEvent=queuedDiscreteEvents[0];if(nextDiscreteEvent.blockedOn!==null){// We're still blocked.
 // Increase the priority of this boundary to unblock
 // the next discrete event.
@@ -1279,7 +1279,7 @@ return null;case'keypress':/**
 // is 2, the property `which` does not represent an emoji correctly.
 // In such a case, we directly return the `char` property instead of
 // using `which`.
-if(nativeEvent["char"]&&nativeEvent["char"].length>1){return nativeEvent["char"];}else if(nativeEvent.which){return String.fromCharCode(nativeEvent.which);}}return null;case'compositionend':return useFallbackCompositionData&&!isUsingKoreanIME(nativeEvent)?null:nativeEvent.data;default:return null;}}/**
+if(nativeEvent.char&&nativeEvent.char.length>1){return nativeEvent.char;}else if(nativeEvent.which){return String.fromCharCode(nativeEvent.which);}}return null;case'compositionend':return useFallbackCompositionData&&!isUsingKoreanIME(nativeEvent)?null:nativeEvent.data;default:return null;}}/**
  * Extract a SyntheticInputEvent for `beforeInput`, based on either native
  * `textInput` or fallback behavior.
  *
@@ -1641,21 +1641,21 @@ var node=targetInst;mainLoop:while(true){if(node===null){return;}var nodeTag=nod
 // Normally portals handle their own events all the way down to the root.
 // So we should be able to stop now. However, we don't know if this portal
 // was part of *our* root.
-var grandNode=node["return"];while(grandNode!==null){var grandTag=grandNode.tag;if(grandTag===HostRoot||grandTag===HostPortal){var grandContainer=grandNode.stateNode.containerInfo;if(isMatchingRootContainer(grandContainer,targetContainerNode)){// This is the rootContainer we're looking for and we found it as
+var grandNode=node.return;while(grandNode!==null){var grandTag=grandNode.tag;if(grandTag===HostRoot||grandTag===HostPortal){var grandContainer=grandNode.stateNode.containerInfo;if(isMatchingRootContainer(grandContainer,targetContainerNode)){// This is the rootContainer we're looking for and we found it as
 // a parent of the Portal. That means we can ignore it because the
 // Portal will bubble through to us.
-return;}}grandNode=grandNode["return"];}}// Now we need to find it's corresponding host fiber in the other
+return;}}grandNode=grandNode.return;}}// Now we need to find it's corresponding host fiber in the other
 // tree. To do this we can use getClosestInstanceFromNode, but we
 // need to validate that the fiber is a host instance, otherwise
 // we need to traverse up through the DOM till we find the correct
 // node that is from the other tree.
-while(container!==null){var parentNode=getClosestInstanceFromNode(container);if(parentNode===null){return;}var parentTag=parentNode.tag;if(parentTag===HostComponent||parentTag===HostText){node=ancestorInst=parentNode;continue mainLoop;}container=container.parentNode;}}node=node["return"];}}}batchedEventUpdates(function(){return dispatchEventsForPlugins(domEventName,eventSystemFlags,nativeEvent,ancestorInst);});}function createDispatchListener(instance,listener,currentTarget){return{instance:instance,listener:listener,currentTarget:currentTarget};}function accumulateSinglePhaseListeners(targetFiber,reactName,nativeEventType,inCapturePhase,accumulateTargetOnly){var captureName=reactName!==null?reactName+'Capture':null;var reactEventName=inCapturePhase?captureName:reactName;var listeners=[];var instance=targetFiber;var lastHostComponent=null;// Accumulate all instances and listeners via the target -> root path.
+while(container!==null){var parentNode=getClosestInstanceFromNode(container);if(parentNode===null){return;}var parentTag=parentNode.tag;if(parentTag===HostComponent||parentTag===HostText){node=ancestorInst=parentNode;continue mainLoop;}container=container.parentNode;}}node=node.return;}}}batchedEventUpdates(function(){return dispatchEventsForPlugins(domEventName,eventSystemFlags,nativeEvent,ancestorInst);});}function createDispatchListener(instance,listener,currentTarget){return{instance:instance,listener:listener,currentTarget:currentTarget};}function accumulateSinglePhaseListeners(targetFiber,reactName,nativeEventType,inCapturePhase,accumulateTargetOnly){var captureName=reactName!==null?reactName+'Capture':null;var reactEventName=inCapturePhase?captureName:reactName;var listeners=[];var instance=targetFiber;var lastHostComponent=null;// Accumulate all instances and listeners via the target -> root path.
 while(instance!==null){var _instance2=instance,stateNode=_instance2.stateNode,tag=_instance2.tag;// Handle listeners that are on HostComponents (i.e. <div>)
 if(tag===HostComponent&&stateNode!==null){lastHostComponent=stateNode;// createEventHandle listeners
 if(reactEventName!==null){var listener=getListener(instance,reactEventName);if(listener!=null){listeners.push(createDispatchListener(instance,listener,lastHostComponent));}}}// If we are only accumulating events for the target, then we don't
 // continue to propagate through the React fiber tree to find other
 // listeners.
-if(accumulateTargetOnly){break;}instance=instance["return"];}return listeners;}// We should only use this function for:
+if(accumulateTargetOnly){break;}instance=instance.return;}return listeners;}// We should only use this function for:
 // - BeforeInputEventPlugin
 // - ChangeEventPlugin
 // - SelectEventPlugin
@@ -1664,7 +1664,7 @@ if(accumulateTargetOnly){break;}instance=instance["return"];}return listeners;}/
 // phase event listeners (via emulation).
 function accumulateTwoPhaseListeners(targetFiber,reactName){var captureName=reactName+'Capture';var listeners=[];var instance=targetFiber;// Accumulate all instances and listeners via the target -> root path.
 while(instance!==null){var _instance3=instance,stateNode=_instance3.stateNode,tag=_instance3.tag;// Handle listeners that are on HostComponents (i.e. <div>)
-if(tag===HostComponent&&stateNode!==null){var currentTarget=stateNode;var captureListener=getListener(instance,captureName);if(captureListener!=null){listeners.unshift(createDispatchListener(instance,captureListener,currentTarget));}var bubbleListener=getListener(instance,reactName);if(bubbleListener!=null){listeners.push(createDispatchListener(instance,bubbleListener,currentTarget));}}instance=instance["return"];}return listeners;}function getParent(inst){if(inst===null){return null;}do{inst=inst["return"];// TODO: If this is a HostRoot we might want to bail out.
+if(tag===HostComponent&&stateNode!==null){var currentTarget=stateNode;var captureListener=getListener(instance,captureName);if(captureListener!=null){listeners.unshift(createDispatchListener(instance,captureListener,currentTarget));}var bubbleListener=getListener(instance,reactName);if(bubbleListener!=null){listeners.push(createDispatchListener(instance,bubbleListener,currentTarget));}}instance=instance.return;}return listeners;}function getParent(inst){if(inst===null){return null;}do{inst=inst.return;// TODO: If this is a HostRoot we might want to bail out.
 // That is depending on if we want nested subtrees (layers) to bubble
 // events to their parent. We could also go through parentNode on the
 // host node but that wouldn't work for React Native and doesn't let us
@@ -1675,7 +1675,7 @@ if(tag===HostComponent&&stateNode!==null){var currentTarget=stateNode;var captur
  */function getLowestCommonAncestor(instA,instB){var nodeA=instA;var nodeB=instB;var depthA=0;for(var tempA=nodeA;tempA;tempA=getParent(tempA)){depthA++;}var depthB=0;for(var tempB=nodeB;tempB;tempB=getParent(tempB)){depthB++;}// If A is deeper, crawl up.
 while(depthA-depthB>0){nodeA=getParent(nodeA);depthA--;}// If B is deeper, crawl up.
 while(depthB-depthA>0){nodeB=getParent(nodeB);depthB--;}// Walk in lockstep until we find a match.
-var depth=depthA;while(depth--){if(nodeA===nodeB||nodeB!==null&&nodeA===nodeB.alternate){return nodeA;}nodeA=getParent(nodeA);nodeB=getParent(nodeB);}return null;}function accumulateEnterLeaveListenersForEvent(dispatchQueue,event,target,common,inCapturePhase){var registrationName=event._reactName;var listeners=[];var instance=target;while(instance!==null){if(instance===common){break;}var _instance4=instance,alternate=_instance4.alternate,stateNode=_instance4.stateNode,tag=_instance4.tag;if(alternate!==null&&alternate===common){break;}if(tag===HostComponent&&stateNode!==null){var currentTarget=stateNode;if(inCapturePhase){var captureListener=getListener(instance,registrationName);if(captureListener!=null){listeners.unshift(createDispatchListener(instance,captureListener,currentTarget));}}else if(!inCapturePhase){var bubbleListener=getListener(instance,registrationName);if(bubbleListener!=null){listeners.push(createDispatchListener(instance,bubbleListener,currentTarget));}}}instance=instance["return"];}if(listeners.length!==0){dispatchQueue.push({event:event,listeners:listeners});}}// We should only use this function for:
+var depth=depthA;while(depth--){if(nodeA===nodeB||nodeB!==null&&nodeA===nodeB.alternate){return nodeA;}nodeA=getParent(nodeA);nodeB=getParent(nodeB);}return null;}function accumulateEnterLeaveListenersForEvent(dispatchQueue,event,target,common,inCapturePhase){var registrationName=event._reactName;var listeners=[];var instance=target;while(instance!==null){if(instance===common){break;}var _instance4=instance,alternate=_instance4.alternate,stateNode=_instance4.stateNode,tag=_instance4.tag;if(alternate!==null&&alternate===common){break;}if(tag===HostComponent&&stateNode!==null){var currentTarget=stateNode;if(inCapturePhase){var captureListener=getListener(instance,registrationName);if(captureListener!=null){listeners.unshift(createDispatchListener(instance,captureListener,currentTarget));}}else if(!inCapturePhase){var bubbleListener=getListener(instance,registrationName);if(bubbleListener!=null){listeners.push(createDispatchListener(instance,bubbleListener,currentTarget));}}}instance=instance.return;}if(listeners.length!==0){dispatchQueue.push({event:event,listeners:listeners});}}// We should only use this function for:
 // - EnterLeaveEventPlugin
 // This is because we only process this plugin
 // in the bubble phase, so we need to accumulate two
@@ -1837,17 +1837,17 @@ typeof isCustomComponentTag==='boolean'){// Validate that the properties corresp
 var serverValue=void 0;var propertyInfo=getPropertyInfo(propKey);if(suppressHydrationWarning);else if(propKey===SUPPRESS_CONTENT_EDITABLE_WARNING||propKey===SUPPRESS_HYDRATION_WARNING||// Controlled attributes are not validated
 // TODO: Only ignore them on controlled tags.
 propKey==='value'||propKey==='checked'||propKey==='selected');else if(propKey===DANGEROUSLY_SET_INNER_HTML){var serverHTML=domElement.innerHTML;var nextHtml=nextProp?nextProp[HTML$1]:undefined;if(nextHtml!=null){var expectedHTML=normalizeHTML(domElement,nextHtml);if(expectedHTML!==serverHTML){warnForPropDifference(propKey,serverHTML,expectedHTML);}}}else if(propKey===STYLE){// $FlowFixMe - Should be inferred as not undefined.
-extraAttributeNames["delete"](propKey);if(canDiffStyleForHydrationWarning){var expectedStyle=createDangerousStringForStyles(nextProp);serverValue=domElement.getAttribute('style');if(expectedStyle!==serverValue){warnForPropDifference(propKey,serverValue,expectedStyle);}}}else if(isCustomComponentTag){// $FlowFixMe - Should be inferred as not undefined.
-extraAttributeNames["delete"](propKey.toLowerCase());serverValue=getValueForAttribute(domElement,propKey,nextProp);if(nextProp!==serverValue){warnForPropDifference(propKey,serverValue,nextProp);}}else if(!shouldIgnoreAttribute(propKey,propertyInfo,isCustomComponentTag)&&!shouldRemoveAttribute(propKey,nextProp,propertyInfo,isCustomComponentTag)){var isMismatchDueToBadCasing=false;if(propertyInfo!==null){// $FlowFixMe - Should be inferred as not undefined.
-extraAttributeNames["delete"](propertyInfo.attributeName);serverValue=getValueForProperty(domElement,propKey,nextProp,propertyInfo);}else{var ownNamespace=parentNamespace;if(ownNamespace===HTML_NAMESPACE$1){ownNamespace=getIntrinsicNamespace(tag);}if(ownNamespace===HTML_NAMESPACE$1){// $FlowFixMe - Should be inferred as not undefined.
-extraAttributeNames["delete"](propKey.toLowerCase());}else{var standardName=getPossibleStandardName(propKey);if(standardName!==null&&standardName!==propKey){// If an SVG prop is supplied with bad casing, it will
+extraAttributeNames.delete(propKey);if(canDiffStyleForHydrationWarning){var expectedStyle=createDangerousStringForStyles(nextProp);serverValue=domElement.getAttribute('style');if(expectedStyle!==serverValue){warnForPropDifference(propKey,serverValue,expectedStyle);}}}else if(isCustomComponentTag){// $FlowFixMe - Should be inferred as not undefined.
+extraAttributeNames.delete(propKey.toLowerCase());serverValue=getValueForAttribute(domElement,propKey,nextProp);if(nextProp!==serverValue){warnForPropDifference(propKey,serverValue,nextProp);}}else if(!shouldIgnoreAttribute(propKey,propertyInfo,isCustomComponentTag)&&!shouldRemoveAttribute(propKey,nextProp,propertyInfo,isCustomComponentTag)){var isMismatchDueToBadCasing=false;if(propertyInfo!==null){// $FlowFixMe - Should be inferred as not undefined.
+extraAttributeNames.delete(propertyInfo.attributeName);serverValue=getValueForProperty(domElement,propKey,nextProp,propertyInfo);}else{var ownNamespace=parentNamespace;if(ownNamespace===HTML_NAMESPACE$1){ownNamespace=getIntrinsicNamespace(tag);}if(ownNamespace===HTML_NAMESPACE$1){// $FlowFixMe - Should be inferred as not undefined.
+extraAttributeNames.delete(propKey.toLowerCase());}else{var standardName=getPossibleStandardName(propKey);if(standardName!==null&&standardName!==propKey){// If an SVG prop is supplied with bad casing, it will
 // be successfully parsed from HTML, but will produce a mismatch
 // (and would be incorrectly rendered on the client).
 // However, we already warn about bad casing elsewhere.
 // So we'll skip the misleading extra mismatch warning in this case.
 isMismatchDueToBadCasing=true;// $FlowFixMe - Should be inferred as not undefined.
-extraAttributeNames["delete"](standardName);}// $FlowFixMe - Should be inferred as not undefined.
-extraAttributeNames["delete"](propKey);}serverValue=getValueForAttribute(domElement,propKey,nextProp);}if(nextProp!==serverValue&&!isMismatchDueToBadCasing){warnForPropDifference(propKey,serverValue,nextProp);}}}}{// $FlowFixMe - Should be inferred as not undefined.
+extraAttributeNames.delete(standardName);}// $FlowFixMe - Should be inferred as not undefined.
+extraAttributeNames.delete(propKey);}serverValue=getValueForAttribute(domElement,propKey,nextProp);}if(nextProp!==serverValue&&!isMismatchDueToBadCasing){warnForPropDifference(propKey,serverValue,nextProp);}}}}{// $FlowFixMe - Should be inferred as not undefined.
 if(extraAttributeNames.size>0&&!suppressHydrationWarning){// $FlowFixMe - Should be inferred as not undefined.
 warnForExtraAttributes(extraAttributeNames);}}switch(tag){case'input':// TODO: Make sure we check if this is still unmounted or do any clean
 // up necessary since we never stop tracking anymore.
@@ -2047,7 +2047,7 @@ var mergedContext=processChildContext(workInProgress,type,previousContext);insta
 pop(didPerformWorkStackCursor,workInProgress);pop(contextStackCursor,workInProgress);// Now push the new context and mark that it has changed.
 push(contextStackCursor,mergedContext,workInProgress);push(didPerformWorkStackCursor,didChange,workInProgress);}else{pop(didPerformWorkStackCursor,workInProgress);push(didPerformWorkStackCursor,didChange,workInProgress);}}}function findCurrentUnmaskedContext(fiber){{// Currently this is only used with renderSubtreeIntoContainer; not sure if it
 // makes sense elsewhere
-if(!(isFiberMounted(fiber)&&fiber.tag===ClassComponent)){{throw Error("Expected subtree parent to be a mounted class component. This error is likely caused by a bug in React. Please file an issue.");}}var node=fiber;do{switch(node.tag){case HostRoot:return node.stateNode.context;case ClassComponent:{var Component=node.type;if(isContextProvider(Component)){return node.stateNode.__reactInternalMemoizedMergedChildContext;}break;}}node=node["return"];}while(node!==null);{{throw Error("Found unexpected detached subtree parent. This error is likely caused by a bug in React. Please file an issue.");}}}}var LegacyRoot=0;var BlockingRoot=1;var ConcurrentRoot=2;var rendererID=null;var injectedHook=null;var hasLoggedError=false;var isDevToolsPresent=typeof __REACT_DEVTOOLS_GLOBAL_HOOK__!=='undefined';function injectInternals(internals){if(typeof __REACT_DEVTOOLS_GLOBAL_HOOK__==='undefined'){// No DevTools
+if(!(isFiberMounted(fiber)&&fiber.tag===ClassComponent)){{throw Error("Expected subtree parent to be a mounted class component. This error is likely caused by a bug in React. Please file an issue.");}}var node=fiber;do{switch(node.tag){case HostRoot:return node.stateNode.context;case ClassComponent:{var Component=node.type;if(isContextProvider(Component)){return node.stateNode.__reactInternalMemoizedMergedChildContext;}break;}}node=node.return;}while(node!==null);{{throw Error("Found unexpected detached subtree parent. This error is likely caused by a bug in React. Please file an issue.");}}}}var LegacyRoot=0;var BlockingRoot=1;var ConcurrentRoot=2;var rendererID=null;var injectedHook=null;var hasLoggedError=false;var isDevToolsPresent=typeof __REACT_DEVTOOLS_GLOBAL_HOOK__!=='undefined';function injectInternals(internals){if(typeof __REACT_DEVTOOLS_GLOBAL_HOOK__==='undefined'){// No DevTools
 return false;}var hook=__REACT_DEVTOOLS_GLOBAL_HOOK__;if(hook.isDisabled){// This isn't a real property on the hook, but it can be set to opt out
 // of DevTools integration and associated warnings and logs.
 // https://github.com/facebook/react/issues/3877
@@ -2081,7 +2081,7 @@ if(syncQueue!==null){syncQueue=syncQueue.slice(i+1);}// Resume flushing in the n
 Scheduler_scheduleCallback(Scheduler_ImmediatePriority,flushSyncCallbackQueue);throw error;}finally{isFlushingSyncQueue=false;}}}}// TODO: this is special because it gets imported during build.
 var ReactVersion='17.0.2';var NoMode=0;var StrictMode=1;// TODO: Remove BlockingMode and ConcurrentMode by reading from the root
 // tag instead
-var BlockingMode=2;var ConcurrentMode=4;var ProfileMode=8;var DebugTracingMode=16;var ReactCurrentBatchConfig=ReactSharedInternals.ReactCurrentBatchConfig;var NoTransition=0;function requestCurrentTransition(){return ReactCurrentBatchConfig.transition;}var ReactStrictModeWarnings={recordUnsafeLifecycleWarnings:function recordUnsafeLifecycleWarnings(fiber,instance){},flushPendingUnsafeLifecycleWarnings:function flushPendingUnsafeLifecycleWarnings(){},recordLegacyContextWarning:function recordLegacyContextWarning(fiber,instance){},flushLegacyContextWarning:function flushLegacyContextWarning(){},discardPendingWarnings:function discardPendingWarnings(){}};{var findStrictRoot=function findStrictRoot(fiber){var maybeStrictRoot=null;var node=fiber;while(node!==null){if(node.mode&StrictMode){maybeStrictRoot=node;}node=node["return"];}return maybeStrictRoot;};var setToSortedString=function setToSortedString(set){var array=[];set.forEach(function(value){array.push(value);});return array.sort().join(', ');};var pendingComponentWillMountWarnings=[];var pendingUNSAFE_ComponentWillMountWarnings=[];var pendingComponentWillReceivePropsWarnings=[];var pendingUNSAFE_ComponentWillReceivePropsWarnings=[];var pendingComponentWillUpdateWarnings=[];var pendingUNSAFE_ComponentWillUpdateWarnings=[];// Tracks components we have already warned about.
+var BlockingMode=2;var ConcurrentMode=4;var ProfileMode=8;var DebugTracingMode=16;var ReactCurrentBatchConfig=ReactSharedInternals.ReactCurrentBatchConfig;var NoTransition=0;function requestCurrentTransition(){return ReactCurrentBatchConfig.transition;}var ReactStrictModeWarnings={recordUnsafeLifecycleWarnings:function recordUnsafeLifecycleWarnings(fiber,instance){},flushPendingUnsafeLifecycleWarnings:function flushPendingUnsafeLifecycleWarnings(){},recordLegacyContextWarning:function recordLegacyContextWarning(fiber,instance){},flushLegacyContextWarning:function flushLegacyContextWarning(){},discardPendingWarnings:function discardPendingWarnings(){}};{var findStrictRoot=function findStrictRoot(fiber){var maybeStrictRoot=null;var node=fiber;while(node!==null){if(node.mode&StrictMode){maybeStrictRoot=node;}node=node.return;}return maybeStrictRoot;};var setToSortedString=function setToSortedString(set){var array=[];set.forEach(function(value){array.push(value);});return array.sort().join(', ');};var pendingComponentWillMountWarnings=[];var pendingUNSAFE_ComponentWillMountWarnings=[];var pendingComponentWillReceivePropsWarnings=[];var pendingUNSAFE_ComponentWillReceivePropsWarnings=[];var pendingComponentWillUpdateWarnings=[];var pendingUNSAFE_ComponentWillUpdateWarnings=[];// Tracks components we have already warned about.
 var didWarnAboutUnsafeLifecycles=new Set();ReactStrictModeWarnings.recordUnsafeLifecycleWarnings=function(fiber,instance){// Dedup strategy: Warn once per component.
 if(didWarnAboutUnsafeLifecycles.has(fiber.type)){return;}if(typeof instance.componentWillMount==='function'&&// Don't warn about react-lifecycles-compat polyfilled components.
 instance.componentWillMount.__suppressDeprecationWarning!==true){pendingComponentWillMountWarnings.push(fiber);}if(fiber.mode&StrictMode&&typeof instance.UNSAFE_componentWillMount==='function'){pendingUNSAFE_ComponentWillMountWarnings.push(fiber);}if(typeof instance.componentWillReceiveProps==='function'&&instance.componentWillReceiveProps.__suppressDeprecationWarning!==true){pendingComponentWillReceivePropsWarnings.push(fiber);}if(fiber.mode&StrictMode&&typeof instance.UNSAFE_componentWillReceiveProps==='function'){pendingUNSAFE_ComponentWillReceivePropsWarnings.push(fiber);}if(typeof instance.componentWillUpdate==='function'&&instance.componentWillUpdate.__suppressDeprecationWarning!==true){pendingComponentWillUpdateWarnings.push(fiber);}if(fiber.mode&StrictMode&&typeof instance.UNSAFE_componentWillUpdate==='function'){pendingUNSAFE_ComponentWillUpdateWarnings.push(fiber);}};ReactStrictModeWarnings.flushPendingUnsafeLifecycleWarnings=function(){// We do an initial pass to gather component names
@@ -2100,8 +2100,8 @@ currentlyRenderingFiber=null;lastContextDependency=null;lastContextWithAllBitsOb
 return 0;}else{var changedBits=typeof context._calculateChangedBits==='function'?context._calculateChangedBits(oldValue,newValue):MAX_SIGNED_31_BIT_INT;{if((changedBits&MAX_SIGNED_31_BIT_INT)!==changedBits){error('calculateChangedBits: Expected the return value to be a '+'31-bit integer. Instead received: %s',changedBits);}}return changedBits|0;}}function scheduleWorkOnParentPath(parent,renderLanes){// Update the child lanes of all the ancestors, including the alternates.
 var node=parent;while(node!==null){var alternate=node.alternate;if(!isSubsetOfLanes(node.childLanes,renderLanes)){node.childLanes=mergeLanes(node.childLanes,renderLanes);if(alternate!==null){alternate.childLanes=mergeLanes(alternate.childLanes,renderLanes);}}else if(alternate!==null&&!isSubsetOfLanes(alternate.childLanes,renderLanes)){alternate.childLanes=mergeLanes(alternate.childLanes,renderLanes);}else{// Neither alternate was updated, which means the rest of the
 // ancestor path already has sufficient priority.
-break;}node=node["return"];}}function propagateContextChange(workInProgress,context,changedBits,renderLanes){var fiber=workInProgress.child;if(fiber!==null){// Set the return pointer of the child to the work-in-progress fiber.
-fiber["return"]=workInProgress;}while(fiber!==null){var nextFiber=void 0;// Visit this fiber.
+break;}node=node.return;}}function propagateContextChange(workInProgress,context,changedBits,renderLanes){var fiber=workInProgress.child;if(fiber!==null){// Set the return pointer of the child to the work-in-progress fiber.
+fiber.return=workInProgress;}while(fiber!==null){var nextFiber=void 0;// Visit this fiber.
 var list=fiber.dependencies;if(list!==null){nextFiber=fiber.child;var dependency=list.firstContext;while(dependency!==null){// Check if the context matches.
 if(dependency.context===context&&(dependency.observedBits&changedBits)!==0){// Match! Schedule an update on this fiber.
 if(fiber.tag===ClassComponent){// Schedule a force update on the work-in-progress.
@@ -2109,17 +2109,17 @@ var update=createUpdate(NoTimestamp,pickArbitraryLane(renderLanes));update.tag=F
 // update to the current fiber, too, which means it will persist even if
 // this render is thrown away. Since it's a race condition, not sure it's
 // worth fixing.
-enqueueUpdate(fiber,update);}fiber.lanes=mergeLanes(fiber.lanes,renderLanes);var alternate=fiber.alternate;if(alternate!==null){alternate.lanes=mergeLanes(alternate.lanes,renderLanes);}scheduleWorkOnParentPath(fiber["return"],renderLanes);// Mark the updated lanes on the list, too.
+enqueueUpdate(fiber,update);}fiber.lanes=mergeLanes(fiber.lanes,renderLanes);var alternate=fiber.alternate;if(alternate!==null){alternate.lanes=mergeLanes(alternate.lanes,renderLanes);}scheduleWorkOnParentPath(fiber.return,renderLanes);// Mark the updated lanes on the list, too.
 list.lanes=mergeLanes(list.lanes,renderLanes);// Since we already found a match, we can stop traversing the
 // dependency list.
 break;}dependency=dependency.next;}}else if(fiber.tag===ContextProvider){// Don't scan deeper if this is a matching provider
 nextFiber=fiber.type===workInProgress.type?null:fiber.child;}else{// Traverse down.
 nextFiber=fiber.child;}if(nextFiber!==null){// Set the return pointer of the child to the work-in-progress fiber.
-nextFiber["return"]=fiber;}else{// No child. Traverse to next sibling.
+nextFiber.return=fiber;}else{// No child. Traverse to next sibling.
 nextFiber=fiber;while(nextFiber!==null){if(nextFiber===workInProgress){// We're back to the root of this subtree. Exit.
 nextFiber=null;break;}var sibling=nextFiber.sibling;if(sibling!==null){// Set the return pointer of the sibling to the work-in-progress fiber.
-sibling["return"]=nextFiber["return"];nextFiber=sibling;break;}// No more siblings. Traverse up.
-nextFiber=nextFiber["return"];}}fiber=nextFiber;}}function prepareToReadContext(workInProgress,renderLanes){currentlyRenderingFiber=workInProgress;lastContextDependency=null;lastContextWithAllBitsObserved=null;var dependencies=workInProgress.dependencies;if(dependencies!==null){var firstContext=dependencies.firstContext;if(firstContext!==null){if(includesSomeLane(dependencies.lanes,renderLanes)){// Context list has a pending update. Mark that this fiber performed work.
+sibling.return=nextFiber.return;nextFiber=sibling;break;}// No more siblings. Traverse up.
+nextFiber=nextFiber.return;}}fiber=nextFiber;}}function prepareToReadContext(workInProgress,renderLanes){currentlyRenderingFiber=workInProgress;lastContextDependency=null;lastContextWithAllBitsObserved=null;var dependencies=workInProgress.dependencies;if(dependencies!==null){var firstContext=dependencies.firstContext;if(firstContext!==null){if(includesSomeLane(dependencies.lanes,renderLanes)){// Context list has a pending update. Mark that this fiber performed work.
 markWorkInProgressReceivedUpdate();}// Reset the work-in-progress list
 dependencies.firstContext=null;}}}function _readContext(context,observedBits){{// This warning would fire if you read context inside a Hook like useMemo.
 // Unlike the class check below, it's not enforced in production for perf.
@@ -2286,18 +2286,18 @@ return oldIndex;}}else{// This is an insertion.
 newFiber.flags=Placement;return lastPlacedIndex;}}function placeSingleChild(newFiber){// This is simpler for the single child case. We only need to do a
 // placement for inserting new children.
 if(shouldTrackSideEffects&&newFiber.alternate===null){newFiber.flags=Placement;}return newFiber;}function updateTextNode(returnFiber,current,textContent,lanes){if(current===null||current.tag!==HostText){// Insert
-var created=createFiberFromText(textContent,returnFiber.mode,lanes);created["return"]=returnFiber;return created;}else{// Update
-var existing=useFiber(current,textContent);existing["return"]=returnFiber;return existing;}}function updateElement(returnFiber,current,element,lanes){if(current!==null){if(current.elementType===element.type||// Keep this check inline so it only runs on the false path:
+var created=createFiberFromText(textContent,returnFiber.mode,lanes);created.return=returnFiber;return created;}else{// Update
+var existing=useFiber(current,textContent);existing.return=returnFiber;return existing;}}__signature__(updateTextNode,"useFiber{existing}",function(){return[useFiber];});function updateElement(returnFiber,current,element,lanes){if(current!==null){if(current.elementType===element.type||// Keep this check inline so it only runs on the false path:
 hotCompareElements(current.elementType,element.type,hotUpdateChild(current),current.type)){// Move based on index
-var existing=useFiber(current,element.props);existing.ref=coerceRef(returnFiber,current,element);existing["return"]=returnFiber;{existing._debugSource=element._source;existing._debugOwner=element._owner;}return existing;}}// Insert
-var created=createFiberFromElement(element,returnFiber.mode,lanes);created.ref=coerceRef(returnFiber,current,element);created["return"]=returnFiber;return created;}function updatePortal(returnFiber,current,portal,lanes){if(current===null||current.tag!==HostPortal||current.stateNode.containerInfo!==portal.containerInfo||current.stateNode.implementation!==portal.implementation){// Insert
-var created=createFiberFromPortal(portal,returnFiber.mode,lanes);created["return"]=returnFiber;return created;}else{// Update
-var existing=useFiber(current,portal.children||[]);existing["return"]=returnFiber;return existing;}}function updateFragment(returnFiber,current,fragment,lanes,key){if(current===null||current.tag!==Fragment){// Insert
-var created=createFiberFromFragment(fragment,returnFiber.mode,lanes,key);created["return"]=returnFiber;return created;}else{// Update
-var existing=useFiber(current,fragment);existing["return"]=returnFiber;return existing;}}function createChild(returnFiber,newChild,lanes){if(typeof newChild==='string'||typeof newChild==='number'){// Text nodes don't have keys. If the previous node is implicitly keyed
+var existing=useFiber(current,element.props);existing.ref=coerceRef(returnFiber,current,element);existing.return=returnFiber;{existing._debugSource=element._source;existing._debugOwner=element._owner;}return existing;}}// Insert
+var created=createFiberFromElement(element,returnFiber.mode,lanes);created.ref=coerceRef(returnFiber,current,element);created.return=returnFiber;return created;}__signature__(updateElement,"useFiber{existing}",function(){return[useFiber];});function updatePortal(returnFiber,current,portal,lanes){if(current===null||current.tag!==HostPortal||current.stateNode.containerInfo!==portal.containerInfo||current.stateNode.implementation!==portal.implementation){// Insert
+var created=createFiberFromPortal(portal,returnFiber.mode,lanes);created.return=returnFiber;return created;}else{// Update
+var existing=useFiber(current,portal.children||[]);existing.return=returnFiber;return existing;}}__signature__(updatePortal,"useFiber{existing}",function(){return[useFiber];});function updateFragment(returnFiber,current,fragment,lanes,key){if(current===null||current.tag!==Fragment){// Insert
+var created=createFiberFromFragment(fragment,returnFiber.mode,lanes,key);created.return=returnFiber;return created;}else{// Update
+var existing=useFiber(current,fragment);existing.return=returnFiber;return existing;}}__signature__(updateFragment,"useFiber{existing}",function(){return[useFiber];});function createChild(returnFiber,newChild,lanes){if(typeof newChild==='string'||typeof newChild==='number'){// Text nodes don't have keys. If the previous node is implicitly keyed
 // we can continue to replace it without aborting even if it is not a text
 // node.
-var created=createFiberFromText(''+newChild,returnFiber.mode,lanes);created["return"]=returnFiber;return created;}if(_typeof(newChild)==='object'&&newChild!==null){switch(newChild.$$typeof){case REACT_ELEMENT_TYPE:{var _created=createFiberFromElement(newChild,returnFiber.mode,lanes);_created.ref=coerceRef(returnFiber,null,newChild);_created["return"]=returnFiber;return _created;}case REACT_PORTAL_TYPE:{var _created2=createFiberFromPortal(newChild,returnFiber.mode,lanes);_created2["return"]=returnFiber;return _created2;}}if(isArray$1(newChild)||getIteratorFn(newChild)){var _created3=createFiberFromFragment(newChild,returnFiber.mode,lanes,null);_created3["return"]=returnFiber;return _created3;}throwOnInvalidObjectType(returnFiber,newChild);}{if(typeof newChild==='function'){warnOnFunctionType(returnFiber);}}return null;}function updateSlot(returnFiber,oldFiber,newChild,lanes){// Update the fiber if the keys match, otherwise return null.
+var created=createFiberFromText(''+newChild,returnFiber.mode,lanes);created.return=returnFiber;return created;}if(_typeof(newChild)==='object'&&newChild!==null){switch(newChild.$$typeof){case REACT_ELEMENT_TYPE:{var _created=createFiberFromElement(newChild,returnFiber.mode,lanes);_created.ref=coerceRef(returnFiber,null,newChild);_created.return=returnFiber;return _created;}case REACT_PORTAL_TYPE:{var _created2=createFiberFromPortal(newChild,returnFiber.mode,lanes);_created2.return=returnFiber;return _created2;}}if(isArray$1(newChild)||getIteratorFn(newChild)){var _created3=createFiberFromFragment(newChild,returnFiber.mode,lanes,null);_created3.return=returnFiber;return _created3;}throwOnInvalidObjectType(returnFiber,newChild);}{if(typeof newChild==='function'){warnOnFunctionType(returnFiber);}}return null;}function updateSlot(returnFiber,oldFiber,newChild,lanes){// Update the fiber if the keys match, otherwise return null.
 var key=oldFiber!==null?oldFiber.key:null;if(typeof newChild==='string'||typeof newChild==='number'){// Text nodes don't have keys. If the previous node is implicitly keyed
 // we can continue to replace it without aborting even if it is not a text
 // node.
@@ -2342,7 +2342,7 @@ for(;newIdx<newChildren.length;newIdx++){var _newFiber2=updateFromMap(existingCh
 // current, that means that we reused the fiber. We need to delete
 // it from the child list so that we don't add it to the deletion
 // list.
-existingChildren["delete"](_newFiber2.key===null?newIdx:_newFiber2.key);}}lastPlacedIndex=placeChild(_newFiber2,lastPlacedIndex,newIdx);if(previousNewFiber===null){resultingFirstChild=_newFiber2;}else{previousNewFiber.sibling=_newFiber2;}previousNewFiber=_newFiber2;}}if(shouldTrackSideEffects){// Any existing children that weren't consumed above were deleted. We need
+existingChildren.delete(_newFiber2.key===null?newIdx:_newFiber2.key);}}lastPlacedIndex=placeChild(_newFiber2,lastPlacedIndex,newIdx);if(previousNewFiber===null){resultingFirstChild=_newFiber2;}else{previousNewFiber.sibling=_newFiber2;}previousNewFiber=_newFiber2;}}if(shouldTrackSideEffects){// Any existing children that weren't consumed above were deleted. We need
 // to add them to the deletion list.
 existingChildren.forEach(function(child){return deleteChild(returnFiber,child);});}return resultingFirstChild;}function reconcileChildrenIterator(returnFiber,currentFirstChild,newChildrenIterable,lanes){// This is the same implementation as reconcileChildrenArray(),
 // but using the iterator instead.
@@ -2373,26 +2373,26 @@ for(;!step.done;newIdx++,step=newChildren.next()){var _newFiber4=updateFromMap(e
 // current, that means that we reused the fiber. We need to delete
 // it from the child list so that we don't add it to the deletion
 // list.
-existingChildren["delete"](_newFiber4.key===null?newIdx:_newFiber4.key);}}lastPlacedIndex=placeChild(_newFiber4,lastPlacedIndex,newIdx);if(previousNewFiber===null){resultingFirstChild=_newFiber4;}else{previousNewFiber.sibling=_newFiber4;}previousNewFiber=_newFiber4;}}if(shouldTrackSideEffects){// Any existing children that weren't consumed above were deleted. We need
+existingChildren.delete(_newFiber4.key===null?newIdx:_newFiber4.key);}}lastPlacedIndex=placeChild(_newFiber4,lastPlacedIndex,newIdx);if(previousNewFiber===null){resultingFirstChild=_newFiber4;}else{previousNewFiber.sibling=_newFiber4;}previousNewFiber=_newFiber4;}}if(shouldTrackSideEffects){// Any existing children that weren't consumed above were deleted. We need
 // to add them to the deletion list.
 existingChildren.forEach(function(child){return deleteChild(returnFiber,child);});}return resultingFirstChild;}function reconcileSingleTextNode(returnFiber,currentFirstChild,textContent,lanes){// There's no need to check for keys on text nodes since we don't have a
 // way to define them.
 if(currentFirstChild!==null&&currentFirstChild.tag===HostText){// We already have an existing node so let's just update it and delete
 // the rest.
-deleteRemainingChildren(returnFiber,currentFirstChild.sibling);var existing=useFiber(currentFirstChild,textContent);existing["return"]=returnFiber;return existing;}// The existing first child is not a text node so we need to create one
+deleteRemainingChildren(returnFiber,currentFirstChild.sibling);var existing=useFiber(currentFirstChild,textContent);existing.return=returnFiber;return existing;}// The existing first child is not a text node so we need to create one
 // and delete the existing ones.
-deleteRemainingChildren(returnFiber,currentFirstChild);var created=createFiberFromText(textContent,returnFiber.mode,lanes);created["return"]=returnFiber;return created;}function reconcileSingleElement(returnFiber,currentFirstChild,element,lanes){var key=element.key;var child=currentFirstChild;while(child!==null){// TODO: If key === null and child.key === null, then this only applies to
+deleteRemainingChildren(returnFiber,currentFirstChild);var created=createFiberFromText(textContent,returnFiber.mode,lanes);created.return=returnFiber;return created;}__signature__(reconcileSingleTextNode,"useFiber{existing}",function(){return[useFiber];});function reconcileSingleElement(returnFiber,currentFirstChild,element,lanes){var key=element.key;var child=currentFirstChild;while(child!==null){// TODO: If key === null and child.key === null, then this only applies to
 // the first item in the list.
-if(child.key===key){switch(child.tag){case Fragment:{if(element.type===REACT_FRAGMENT_TYPE){deleteRemainingChildren(returnFiber,child.sibling);var existing=useFiber(child,element.props.children);existing["return"]=returnFiber;{existing._debugSource=element._source;existing._debugOwner=element._owner;}return existing;}break;}case Block:// We intentionally fallthrough here if enableBlocksAPI is not on.
+if(child.key===key){switch(child.tag){case Fragment:{if(element.type===REACT_FRAGMENT_TYPE){deleteRemainingChildren(returnFiber,child.sibling);var existing=useFiber(child,element.props.children);existing.return=returnFiber;{existing._debugSource=element._source;existing._debugOwner=element._owner;}return existing;}break;}case Block:// We intentionally fallthrough here if enableBlocksAPI is not on.
 // eslint-disable-next-lined no-fallthrough
 default:{if(child.elementType===element.type||// Keep this check inline so it only runs on the false path:
-hotCompareElements(child.elementType,element.type,hotUpdateChild(child),child.type)){deleteRemainingChildren(returnFiber,child.sibling);var _existing3=useFiber(child,element.props);_existing3.ref=coerceRef(returnFiber,child,element);_existing3["return"]=returnFiber;{_existing3._debugSource=element._source;_existing3._debugOwner=element._owner;}return _existing3;}break;}}// Didn't match.
-deleteRemainingChildren(returnFiber,child);break;}else{deleteChild(returnFiber,child);}child=child.sibling;}if(element.type===REACT_FRAGMENT_TYPE){var created=createFiberFromFragment(element.props.children,returnFiber.mode,lanes,element.key);created["return"]=returnFiber;return created;}else{var _created4=createFiberFromElement(element,returnFiber.mode,lanes);_created4.ref=coerceRef(returnFiber,currentFirstChild,element);_created4["return"]=returnFiber;return _created4;}}function reconcileSinglePortal(returnFiber,currentFirstChild,portal,lanes){var key=portal.key;var child=currentFirstChild;while(child!==null){// TODO: If key === null and child.key === null, then this only applies to
+hotCompareElements(child.elementType,element.type,hotUpdateChild(child),child.type)){deleteRemainingChildren(returnFiber,child.sibling);var _existing3=useFiber(child,element.props);_existing3.ref=coerceRef(returnFiber,child,element);_existing3.return=returnFiber;{_existing3._debugSource=element._source;_existing3._debugOwner=element._owner;}return _existing3;}break;}}// Didn't match.
+deleteRemainingChildren(returnFiber,child);break;}else{deleteChild(returnFiber,child);}child=child.sibling;}if(element.type===REACT_FRAGMENT_TYPE){var created=createFiberFromFragment(element.props.children,returnFiber.mode,lanes,element.key);created.return=returnFiber;return created;}else{var _created4=createFiberFromElement(element,returnFiber.mode,lanes);_created4.ref=coerceRef(returnFiber,currentFirstChild,element);_created4.return=returnFiber;return _created4;}}__signature__(reconcileSingleElement,"useFiber{existing}\nuseFiber{_existing3}",function(){return[useFiber,useFiber];});function reconcileSinglePortal(returnFiber,currentFirstChild,portal,lanes){var key=portal.key;var child=currentFirstChild;while(child!==null){// TODO: If key === null and child.key === null, then this only applies to
 // the first item in the list.
-if(child.key===key){if(child.tag===HostPortal&&child.stateNode.containerInfo===portal.containerInfo&&child.stateNode.implementation===portal.implementation){deleteRemainingChildren(returnFiber,child.sibling);var existing=useFiber(child,portal.children||[]);existing["return"]=returnFiber;return existing;}else{deleteRemainingChildren(returnFiber,child);break;}}else{deleteChild(returnFiber,child);}child=child.sibling;}var created=createFiberFromPortal(portal,returnFiber.mode,lanes);created["return"]=returnFiber;return created;}// This API will tag the children with the side-effect of the reconciliation
+if(child.key===key){if(child.tag===HostPortal&&child.stateNode.containerInfo===portal.containerInfo&&child.stateNode.implementation===portal.implementation){deleteRemainingChildren(returnFiber,child.sibling);var existing=useFiber(child,portal.children||[]);existing.return=returnFiber;return existing;}else{deleteRemainingChildren(returnFiber,child);break;}}else{deleteChild(returnFiber,child);}child=child.sibling;}var created=createFiberFromPortal(portal,returnFiber.mode,lanes);created.return=returnFiber;return created;}// This API will tag the children with the side-effect of the reconciliation
 // itself. They will be added to the side-effect list as we pass through the
 // children and the parent.
-function reconcileChildFibers(returnFiber,currentFirstChild,newChild,lanes){// This function is not recursive.
+__signature__(reconcileSinglePortal,"useFiber{existing}",function(){return[useFiber];});function reconcileChildFibers(returnFiber,currentFirstChild,newChild,lanes){// This function is not recursive.
 // If the top level item is an array, we treat it as a set of children,
 // not as a fragment. Nested arrays on the other hand will be treated as
 // fragment nodes. Recursion happens at the normal flow.
@@ -2408,7 +2408,7 @@ break;}}}// Intentionally fall through to the next case, which handles both
 // functions and classes
 // eslint-disable-next-lined no-fallthrough
 case Block:case FunctionComponent:case ForwardRef:case SimpleMemoComponent:{{{throw Error((getComponentName(returnFiber.type)||'Component')+"(...): Nothing was returned from render. This usually means a return statement is missing. Or, to render nothing, return null.");}}}}}// Remaining cases are all treated as empty.
-return deleteRemainingChildren(returnFiber,currentFirstChild);}return reconcileChildFibers;}var reconcileChildFibers=ChildReconciler(true);var mountChildFibers=ChildReconciler(false);function cloneChildFibers(current,workInProgress){if(!(current===null||workInProgress.child===current.child)){{throw Error("Resuming work not yet implemented.");}}if(workInProgress.child===null){return;}var currentChild=workInProgress.child;var newChild=createWorkInProgress(currentChild,currentChild.pendingProps);workInProgress.child=newChild;newChild["return"]=workInProgress;while(currentChild.sibling!==null){currentChild=currentChild.sibling;newChild=newChild.sibling=createWorkInProgress(currentChild,currentChild.pendingProps);newChild["return"]=workInProgress;}newChild.sibling=null;}// Reset a workInProgress child set to prepare it for a second pass.
+return deleteRemainingChildren(returnFiber,currentFirstChild);}return reconcileChildFibers;}var reconcileChildFibers=ChildReconciler(true);var mountChildFibers=ChildReconciler(false);function cloneChildFibers(current,workInProgress){if(!(current===null||workInProgress.child===current.child)){{throw Error("Resuming work not yet implemented.");}}if(workInProgress.child===null){return;}var currentChild=workInProgress.child;var newChild=createWorkInProgress(currentChild,currentChild.pendingProps);workInProgress.child=newChild;newChild.return=workInProgress;while(currentChild.sibling!==null){currentChild=currentChild.sibling;newChild=newChild.sibling=createWorkInProgress(currentChild,currentChild.pendingProps);newChild.return=workInProgress;}newChild.sibling=null;}// Reset a workInProgress child set to prepare it for a second pass.
 function resetChildFibers(workInProgress,lanes){var child=workInProgress.child;while(child!==null){resetWorkInProgress(child,lanes);child=child.sibling;}}var NO_CONTEXT={};var contextStackCursor$1=createCursor(NO_CONTEXT);var contextFiberStackCursor=createCursor(NO_CONTEXT);var rootInstanceStackCursor=createCursor(NO_CONTEXT);function requiredContext(c){if(!(c!==NO_CONTEXT)){{throw Error("Expected host context to exist. This error is likely caused by a bug in React. Please file an issue.");}}return c;}function getRootHostContainer(){var rootInstance=requiredContext(rootInstanceStackCursor.current);return rootInstance;}function pushHostContainer(fiber,nextRootInstance){// Push current root instance onto the stack;
 // This allows us to reset root when portals are popped.
 push(rootInstanceStackCursor,nextRootInstance,fiber);// Track the context and the Fiber that provided it.
@@ -2448,10 +2448,10 @@ if(props.unstable_avoidThisFallback!==true){return true;}// If it's a boundary w
 if(hasInvisibleParent){return false;}// If the parent is not able to handle it, we must handle it.
 return true;}function findFirstSuspended(row){var node=row;while(node!==null){if(node.tag===SuspenseComponent){var state=node.memoizedState;if(state!==null){var dehydrated=state.dehydrated;if(dehydrated===null||isSuspenseInstancePending(dehydrated)||isSuspenseInstanceFallback(dehydrated)){return node;}}}else if(node.tag===SuspenseListComponent&&// revealOrder undefined can't be trusted because it don't
 // keep track of whether it suspended or not.
-node.memoizedProps.revealOrder!==undefined){var didSuspend=(node.flags&DidCapture)!==NoFlags;if(didSuspend){return node;}}else if(node.child!==null){node.child["return"]=node;node=node.child;continue;}if(node===row){return null;}while(node.sibling===null){if(node["return"]===null||node["return"]===row){return null;}node=node["return"];}node.sibling["return"]=node["return"];node=node.sibling;}return null;}var NoFlags$1=/*  */0;// Represents whether effect should fire.
+node.memoizedProps.revealOrder!==undefined){var didSuspend=(node.flags&DidCapture)!==NoFlags;if(didSuspend){return node;}}else if(node.child!==null){node.child.return=node;node=node.child;continue;}if(node===row){return null;}while(node.sibling===null){if(node.return===null||node.return===row){return null;}node=node.return;}node.sibling.return=node.return;node=node.sibling;}return null;}var NoFlags$1=/*  */0;// Represents whether effect should fire.
 var HasEffect=/* */1;// Represents the phase in which the effect (not the clean-up) fires.
 var Layout=/*    */2;var Passive$1=/*   */4;// This may have been an insertion or a hydration.
-var hydrationParentFiber=null;var nextHydratableInstance=null;var isHydrating=false;function enterHydrationState(fiber){var parentInstance=fiber.stateNode.containerInfo;nextHydratableInstance=getFirstHydratableChild(parentInstance);hydrationParentFiber=fiber;isHydrating=true;return true;}function deleteHydratableInstance(returnFiber,instance){{switch(returnFiber.tag){case HostRoot:didNotHydrateContainerInstance(returnFiber.stateNode.containerInfo,instance);break;case HostComponent:didNotHydrateInstance(returnFiber.type,returnFiber.memoizedProps,returnFiber.stateNode,instance);break;}}var childToDelete=createFiberFromHostInstanceForDeletion();childToDelete.stateNode=instance;childToDelete["return"]=returnFiber;childToDelete.flags=Deletion;// This might seem like it belongs on progressedFirstDeletion. However,
+var hydrationParentFiber=null;var nextHydratableInstance=null;var isHydrating=false;function enterHydrationState(fiber){var parentInstance=fiber.stateNode.containerInfo;nextHydratableInstance=getFirstHydratableChild(parentInstance);hydrationParentFiber=fiber;isHydrating=true;return true;}function deleteHydratableInstance(returnFiber,instance){{switch(returnFiber.tag){case HostRoot:didNotHydrateContainerInstance(returnFiber.stateNode.containerInfo,instance);break;case HostComponent:didNotHydrateInstance(returnFiber.type,returnFiber.memoizedProps,returnFiber.stateNode,instance);break;}}var childToDelete=createFiberFromHostInstanceForDeletion();childToDelete.stateNode=instance;childToDelete.return=returnFiber;childToDelete.flags=Deletion;// This might seem like it belongs on progressedFirstDeletion. However,
 // these children are not part of the reconciliation list of children.
 // Even if we abort and rereconcile the children, that will try to hydrate
 // again and the nodes are still in the host tree so these will be
@@ -2470,7 +2470,7 @@ fiber.updateQueue=updatePayload;// If the update payload indicates that there is
 // is a new ref we mark this as an update.
 if(updatePayload!==null){return true;}return false;}function prepareToHydrateHostTextInstance(fiber){var textInstance=fiber.stateNode;var textContent=fiber.memoizedProps;var shouldUpdate=hydrateTextInstance(textInstance,textContent,fiber);{if(shouldUpdate){// We assume that prepareToHydrateHostTextInstance is called in a context where the
 // hydration parent is the parent host component of this host text.
-var returnFiber=hydrationParentFiber;if(returnFiber!==null){switch(returnFiber.tag){case HostRoot:{var parentContainer=returnFiber.stateNode.containerInfo;didNotMatchHydratedContainerTextInstance(parentContainer,textInstance,textContent);break;}case HostComponent:{var parentType=returnFiber.type;var parentProps=returnFiber.memoizedProps;var parentInstance=returnFiber.stateNode;didNotMatchHydratedTextInstance(parentType,parentProps,parentInstance,textInstance,textContent);break;}}}}}return shouldUpdate;}function skipPastDehydratedSuspenseInstance(fiber){var suspenseState=fiber.memoizedState;var suspenseInstance=suspenseState!==null?suspenseState.dehydrated:null;if(!suspenseInstance){{throw Error("Expected to have a hydrated suspense instance. This error is likely caused by a bug in React. Please file an issue.");}}return getNextHydratableInstanceAfterSuspenseInstance(suspenseInstance);}function popToNextHostParent(fiber){var parent=fiber["return"];while(parent!==null&&parent.tag!==HostComponent&&parent.tag!==HostRoot&&parent.tag!==SuspenseComponent){parent=parent["return"];}hydrationParentFiber=parent;}function popHydrationState(fiber){if(fiber!==hydrationParentFiber){// We're deeper than the current hydration context, inside an inserted
+var returnFiber=hydrationParentFiber;if(returnFiber!==null){switch(returnFiber.tag){case HostRoot:{var parentContainer=returnFiber.stateNode.containerInfo;didNotMatchHydratedContainerTextInstance(parentContainer,textInstance,textContent);break;}case HostComponent:{var parentType=returnFiber.type;var parentProps=returnFiber.memoizedProps;var parentInstance=returnFiber.stateNode;didNotMatchHydratedTextInstance(parentType,parentProps,parentInstance,textInstance,textContent);break;}}}}}return shouldUpdate;}function skipPastDehydratedSuspenseInstance(fiber){var suspenseState=fiber.memoizedState;var suspenseInstance=suspenseState!==null?suspenseState.dehydrated:null;if(!suspenseInstance){{throw Error("Expected to have a hydrated suspense instance. This error is likely caused by a bug in React. Please file an issue.");}}return getNextHydratableInstanceAfterSuspenseInstance(suspenseInstance);}function popToNextHostParent(fiber){var parent=fiber.return;while(parent!==null&&parent.tag!==HostComponent&&parent.tag!==HostRoot&&parent.tag!==SuspenseComponent){parent=parent.return;}hydrationParentFiber=parent;}function popHydrationState(fiber){if(fiber!==hydrationParentFiber){// We're deeper than the current hydration context, inside an inserted
 // tree.
 return false;}if(!isHydrating){// If we're not currently hydrating but we're in a hydration context, then
 // we were an insertion and now need to pop up reenter hydration of our
@@ -2662,7 +2662,7 @@ if(!objectIs(prevGetSnapshot,getSnapshot)||!objectIs(prevSource,source)||!object
 // So if there are interleaved updates, they get pushed to the older queue.
 // When this becomes current, the previous queue and dispatch method will be discarded,
 // including any interleaving updates that occur.
-var newQueue={pending:null,dispatch:null,lastRenderedReducer:basicStateReducer,lastRenderedState:snapshot};newQueue.dispatch=setSnapshot=dispatchAction.bind(null,currentlyRenderingFiber$1,newQueue);stateHook.queue=newQueue;stateHook.baseQueue=null;snapshot=readFromUnsubcribedMutableSource(root,source,getSnapshot);stateHook.memoizedState=stateHook.baseState=snapshot;}return snapshot;}function mountMutableSource(source,getSnapshot,subscribe){var hook=mountWorkInProgressHook();hook.memoizedState={refs:{getSnapshot:getSnapshot,setSnapshot:null},source:source,subscribe:subscribe};return useMutableSource(hook,source,getSnapshot,subscribe);}function updateMutableSource(source,getSnapshot,subscribe){var hook=updateWorkInProgressHook();return useMutableSource(hook,source,getSnapshot,subscribe);}function mountState(initialState){var hook=mountWorkInProgressHook();if(typeof initialState==='function'){// $FlowFixMe: Flow doesn't like mixed types
+var newQueue={pending:null,dispatch:null,lastRenderedReducer:basicStateReducer,lastRenderedState:snapshot};newQueue.dispatch=setSnapshot=dispatchAction.bind(null,currentlyRenderingFiber$1,newQueue);stateHook.queue=newQueue;stateHook.baseQueue=null;snapshot=readFromUnsubcribedMutableSource(root,source,getSnapshot);stateHook.memoizedState=stateHook.baseState=snapshot;}return snapshot;}__signature__(useMutableSource,"useState{_dispatcher$useState(function () {\n    return readFromUnsubcribedMutableSource(root, source, getSnapshot);\n  })}\nuseEffect{}\nuseEffect{}");function mountMutableSource(source,getSnapshot,subscribe){var hook=mountWorkInProgressHook();hook.memoizedState={refs:{getSnapshot:getSnapshot,setSnapshot:null},source:source,subscribe:subscribe};return useMutableSource(hook,source,getSnapshot,subscribe);}__signature__(mountMutableSource,"useMutableSource{}",function(){return[useMutableSource];});function updateMutableSource(source,getSnapshot,subscribe){var hook=updateWorkInProgressHook();return useMutableSource(hook,source,getSnapshot,subscribe);}__signature__(updateMutableSource,"useMutableSource{}",function(){return[useMutableSource];});function mountState(initialState){var hook=mountWorkInProgressHook();if(typeof initialState==='function'){// $FlowFixMe: Flow doesn't like mixed types
 initialState=initialState();}hook.memoizedState=hook.baseState=initialState;var queue=hook.queue={pending:null,dispatch:null,lastRenderedReducer:basicStateReducer,lastRenderedState:initialState};var dispatch=queue.dispatch=dispatchAction.bind(null,currentlyRenderingFiber$1,queue);return[hook.memoizedState,dispatch];}function updateState(initialState){return updateReducer(basicStateReducer);}function rerenderState(initialState){return rerenderReducer(basicStateReducer);}function pushEffect(tag,create,destroy,deps){var effect={tag:tag,create:create,destroy:destroy,deps:deps,// Circular
 next:null};var componentUpdateQueue=currentlyRenderingFiber$1.updateQueue;if(componentUpdateQueue===null){componentUpdateQueue=createFunctionComponentUpdateQueue();currentlyRenderingFiber$1.updateQueue=componentUpdateQueue;componentUpdateQueue.lastEffect=effect.next=effect;}else{var lastEffect=componentUpdateQueue.lastEffect;if(lastEffect===null){componentUpdateQueue.lastEffect=effect.next=effect;}else{var firstEffect=lastEffect.next;lastEffect.next=effect;effect.next=firstEffect;componentUpdateQueue.lastEffect=effect;}}return effect;}function mountRef(initialValue){var hook=mountWorkInProgressHook();var ref={current:initialValue};{Object.seal(ref);}hook.memoizedState=ref;return ref;}function updateRef(initialValue){var hook=updateWorkInProgressHook();return hook.memoizedState;}function mountEffectImpl(fiberFlags,hookFlags,create,deps){var hook=mountWorkInProgressHook();var nextDeps=deps===undefined?null:deps;currentlyRenderingFiber$1.flags|=fiberFlags;hook.memoizedState=pushEffect(HasEffect|hookFlags,create,undefined,nextDeps);}function updateEffectImpl(fiberFlags,hookFlags,create,deps){var hook=updateWorkInProgressHook();var nextDeps=deps===undefined?null:deps;var destroy=undefined;if(currentHook!==null){var prevEffect=currentHook.memoizedState;destroy=prevEffect.destroy;if(nextDeps!==null){var prevDeps=prevEffect.deps;if(areHookInputsEqual(nextDeps,prevDeps)){pushEffect(hookFlags,create,destroy,nextDeps);return;}}}currentlyRenderingFiber$1.flags|=fiberFlags;hook.memoizedState=pushEffect(HasEffect|hookFlags,create,destroy,nextDeps);}function mountEffect(create,deps){{// $FlowExpectedError - jest isn't a global, and isn't recognized outside of tests
 if('undefined'!==typeof jest){warnIfNotCurrentlyActingEffectsInDEV(currentlyRenderingFiber$1);}}return mountEffectImpl(Update|Passive,Passive$1,create,deps);}function updateEffect(create,deps){{// $FlowExpectedError - jest isn't a global, and isn't recognized outside of tests
@@ -2735,7 +2735,7 @@ Component.defaultProps===undefined){var resolvedType=type;{resolvedType=resolveF
 workInProgress.tag=SimpleMemoComponent;workInProgress.type=resolvedType;{validateFunctionComponentInDev(workInProgress,type);}return updateSimpleMemoComponent(current,workInProgress,resolvedType,nextProps,updateLanes,renderLanes);}{var innerPropTypes=type.propTypes;if(innerPropTypes){// Inner memo component props aren't currently validated in createElement.
 // We could move it there, but we'd still need this for lazy code path.
 checkPropTypes(innerPropTypes,nextProps,// Resolved props
-'prop',getComponentName(type));}}var child=createFiberFromTypeAndProps(Component.type,null,nextProps,workInProgress,workInProgress.mode,renderLanes);child.ref=workInProgress.ref;child["return"]=workInProgress;workInProgress.child=child;return child;}{var _type=Component.type;var _innerPropTypes=_type.propTypes;if(_innerPropTypes){// Inner memo component props aren't currently validated in createElement.
+'prop',getComponentName(type));}}var child=createFiberFromTypeAndProps(Component.type,null,nextProps,workInProgress,workInProgress.mode,renderLanes);child.ref=workInProgress.ref;child.return=workInProgress;workInProgress.child=child;return child;}{var _type=Component.type;var _innerPropTypes=_type.propTypes;if(_innerPropTypes){// Inner memo component props aren't currently validated in createElement.
 // We could move it there, but we'd still need this for lazy code path.
 checkPropTypes(_innerPropTypes,nextProps,// Resolved props
 'prop',getComponentName(_type));}}var currentChild=current.child;// This is always exactly one child
@@ -2743,7 +2743,7 @@ if(!includesSomeLane(updateLanes,renderLanes)){// This will be the props with re
 // unlike current.memoizedProps which will be the unresolved ones.
 var prevProps=currentChild.memoizedProps;// Default to shallow comparison
 var compare=Component.compare;compare=compare!==null?compare:shallowEqual;if(compare(prevProps,nextProps)&&current.ref===workInProgress.ref){return bailoutOnAlreadyFinishedWork(current,workInProgress,renderLanes);}}// React DevTools reads this flag.
-workInProgress.flags|=PerformedWork;var newChild=createWorkInProgress(currentChild,nextProps);newChild.ref=workInProgress.ref;newChild["return"]=workInProgress;workInProgress.child=newChild;return newChild;}function updateSimpleMemoComponent(current,workInProgress,Component,nextProps,updateLanes,renderLanes){// TODO: current can be non-null here even if the component
+workInProgress.flags|=PerformedWork;var newChild=createWorkInProgress(currentChild,nextProps);newChild.ref=workInProgress.ref;newChild.return=workInProgress;workInProgress.child=newChild;return newChild;}function updateSimpleMemoComponent(current,workInProgress,Component,nextProps,updateLanes,renderLanes){// TODO: current can be non-null here even if the component
 // hasn't yet mounted. This happens when the inner render suspends.
 // We'll need to figure out if this is fine or can cause issues.
 {if(workInProgress.type!==workInProgress.elementType){// Lazy component props can't be validated in createElement
@@ -2944,15 +2944,15 @@ var _nextFallbackChildren3=nextProps.fallback;var _nextPrimaryChildren4=nextProp
 // fallback children.
 workInProgress.memoizedState=SUSPENDED_MARKER;return _fallbackChildFragment2;}else{// Still haven't timed out. Continue rendering the children, like we
 // normally do.
-var _nextPrimaryChildren5=nextProps.children;var _primaryChildFragment6=updateSuspensePrimaryChildren(current,workInProgress,_nextPrimaryChildren5,renderLanes);workInProgress.memoizedState=null;return _primaryChildFragment6;}}}}function mountSuspensePrimaryChildren(workInProgress,primaryChildren,renderLanes){var mode=workInProgress.mode;var primaryChildProps={mode:'visible',children:primaryChildren};var primaryChildFragment=createFiberFromOffscreen(primaryChildProps,mode,renderLanes,null);primaryChildFragment["return"]=workInProgress;workInProgress.child=primaryChildFragment;return primaryChildFragment;}function mountSuspenseFallbackChildren(workInProgress,primaryChildren,fallbackChildren,renderLanes){var mode=workInProgress.mode;var progressedPrimaryFragment=workInProgress.child;var primaryChildProps={mode:'hidden',children:primaryChildren};var primaryChildFragment;var fallbackChildFragment;if((mode&BlockingMode)===NoMode&&progressedPrimaryFragment!==null){// In legacy mode, we commit the primary tree as if it successfully
+var _nextPrimaryChildren5=nextProps.children;var _primaryChildFragment6=updateSuspensePrimaryChildren(current,workInProgress,_nextPrimaryChildren5,renderLanes);workInProgress.memoizedState=null;return _primaryChildFragment6;}}}}function mountSuspensePrimaryChildren(workInProgress,primaryChildren,renderLanes){var mode=workInProgress.mode;var primaryChildProps={mode:'visible',children:primaryChildren};var primaryChildFragment=createFiberFromOffscreen(primaryChildProps,mode,renderLanes,null);primaryChildFragment.return=workInProgress;workInProgress.child=primaryChildFragment;return primaryChildFragment;}function mountSuspenseFallbackChildren(workInProgress,primaryChildren,fallbackChildren,renderLanes){var mode=workInProgress.mode;var progressedPrimaryFragment=workInProgress.child;var primaryChildProps={mode:'hidden',children:primaryChildren};var primaryChildFragment;var fallbackChildFragment;if((mode&BlockingMode)===NoMode&&progressedPrimaryFragment!==null){// In legacy mode, we commit the primary tree as if it successfully
 // completed, even though it's in an inconsistent state.
 primaryChildFragment=progressedPrimaryFragment;primaryChildFragment.childLanes=NoLanes;primaryChildFragment.pendingProps=primaryChildProps;if(workInProgress.mode&ProfileMode){// Reset the durations from the first pass so they aren't included in the
 // final amounts. This seems counterintuitive, since we're intentionally
 // not measuring part of the render phase, but this makes it match what we
 // do in Concurrent Mode.
-primaryChildFragment.actualDuration=0;primaryChildFragment.actualStartTime=-1;primaryChildFragment.selfBaseDuration=0;primaryChildFragment.treeBaseDuration=0;}fallbackChildFragment=createFiberFromFragment(fallbackChildren,mode,renderLanes,null);}else{primaryChildFragment=createFiberFromOffscreen(primaryChildProps,mode,NoLanes,null);fallbackChildFragment=createFiberFromFragment(fallbackChildren,mode,renderLanes,null);}primaryChildFragment["return"]=workInProgress;fallbackChildFragment["return"]=workInProgress;primaryChildFragment.sibling=fallbackChildFragment;workInProgress.child=primaryChildFragment;return fallbackChildFragment;}function createWorkInProgressOffscreenFiber(current,offscreenProps){// The props argument to `createWorkInProgress` is `any` typed, so we use this
+primaryChildFragment.actualDuration=0;primaryChildFragment.actualStartTime=-1;primaryChildFragment.selfBaseDuration=0;primaryChildFragment.treeBaseDuration=0;}fallbackChildFragment=createFiberFromFragment(fallbackChildren,mode,renderLanes,null);}else{primaryChildFragment=createFiberFromOffscreen(primaryChildProps,mode,NoLanes,null);fallbackChildFragment=createFiberFromFragment(fallbackChildren,mode,renderLanes,null);}primaryChildFragment.return=workInProgress;fallbackChildFragment.return=workInProgress;primaryChildFragment.sibling=fallbackChildFragment;workInProgress.child=primaryChildFragment;return fallbackChildFragment;}function createWorkInProgressOffscreenFiber(current,offscreenProps){// The props argument to `createWorkInProgress` is `any` typed, so we use this
 // wrapper function to constrain it.
-return createWorkInProgress(current,offscreenProps);}function updateSuspensePrimaryChildren(current,workInProgress,primaryChildren,renderLanes){var currentPrimaryChildFragment=current.child;var currentFallbackChildFragment=currentPrimaryChildFragment.sibling;var primaryChildFragment=createWorkInProgressOffscreenFiber(currentPrimaryChildFragment,{mode:'visible',children:primaryChildren});if((workInProgress.mode&BlockingMode)===NoMode){primaryChildFragment.lanes=renderLanes;}primaryChildFragment["return"]=workInProgress;primaryChildFragment.sibling=null;if(currentFallbackChildFragment!==null){// Delete the fallback child fragment
+return createWorkInProgress(current,offscreenProps);}function updateSuspensePrimaryChildren(current,workInProgress,primaryChildren,renderLanes){var currentPrimaryChildFragment=current.child;var currentFallbackChildFragment=currentPrimaryChildFragment.sibling;var primaryChildFragment=createWorkInProgressOffscreenFiber(currentPrimaryChildFragment,{mode:'visible',children:primaryChildren});if((workInProgress.mode&BlockingMode)===NoMode){primaryChildFragment.lanes=renderLanes;}primaryChildFragment.return=workInProgress;primaryChildFragment.sibling=null;if(currentFallbackChildFragment!==null){// Delete the fallback child fragment
 currentFallbackChildFragment.nextEffect=null;currentFallbackChildFragment.flags=Deletion;workInProgress.firstEffect=workInProgress.lastEffect=currentFallbackChildFragment;}workInProgress.child=primaryChildFragment;return primaryChildFragment;}function updateSuspenseFallbackChildren(current,workInProgress,primaryChildren,fallbackChildren,renderLanes){var mode=workInProgress.mode;var currentPrimaryChildFragment=current.child;var currentFallbackChildFragment=currentPrimaryChildFragment.sibling;var primaryChildProps={mode:'hidden',children:primaryChildren};var primaryChildFragment;if(// In legacy mode, we commit the primary tree as if it successfully
 // completed, even though it's in an inconsistent state.
 (mode&BlockingMode)===NoMode&&// Make sure we're on the second pass, i.e. the primary child fragment was
@@ -2974,7 +2974,7 @@ primaryChildFragment.actualDuration=0;primaryChildFragment.actualStartTime=-1;pr
 var progressedLastEffect=primaryChildFragment.lastEffect;if(progressedLastEffect!==null){workInProgress.firstEffect=primaryChildFragment.firstEffect;workInProgress.lastEffect=progressedLastEffect;progressedLastEffect.nextEffect=null;}else{// TODO: Reset this somewhere else? Lol legacy mode is so weird.
 workInProgress.firstEffect=workInProgress.lastEffect=null;}}else{primaryChildFragment=createWorkInProgressOffscreenFiber(currentPrimaryChildFragment,primaryChildProps);}var fallbackChildFragment;if(currentFallbackChildFragment!==null){fallbackChildFragment=createWorkInProgress(currentFallbackChildFragment,fallbackChildren);}else{fallbackChildFragment=createFiberFromFragment(fallbackChildren,mode,renderLanes,null);// Needs a placement effect because the parent (the Suspense boundary) already
 // mounted but this is a new fiber.
-fallbackChildFragment.flags|=Placement;}fallbackChildFragment["return"]=workInProgress;primaryChildFragment["return"]=workInProgress;primaryChildFragment.sibling=fallbackChildFragment;workInProgress.child=primaryChildFragment;return fallbackChildFragment;}function scheduleWorkOnFiber(fiber,renderLanes){fiber.lanes=mergeLanes(fiber.lanes,renderLanes);var alternate=fiber.alternate;if(alternate!==null){alternate.lanes=mergeLanes(alternate.lanes,renderLanes);}scheduleWorkOnParentPath(fiber["return"],renderLanes);}function propagateSuspenseContextChange(workInProgress,firstChild,renderLanes){// Mark any Suspense boundaries with fallbacks as having work to do.
+fallbackChildFragment.flags|=Placement;}fallbackChildFragment.return=workInProgress;primaryChildFragment.return=workInProgress;primaryChildFragment.sibling=fallbackChildFragment;workInProgress.child=primaryChildFragment;return fallbackChildFragment;}function scheduleWorkOnFiber(fiber,renderLanes){fiber.lanes=mergeLanes(fiber.lanes,renderLanes);var alternate=fiber.alternate;if(alternate!==null){alternate.lanes=mergeLanes(alternate.lanes,renderLanes);}scheduleWorkOnParentPath(fiber.return,renderLanes);}function propagateSuspenseContextChange(workInProgress,firstChild,renderLanes){// Mark any Suspense boundaries with fallbacks as having work to do.
 // If they were previously forced into fallbacks, they may now be able
 // to unblock.
 var node=firstChild;while(node!==null){if(node.tag===SuspenseComponent){var state=node.memoizedState;if(state!==null){scheduleWorkOnFiber(node,renderLanes);}}else if(node.tag===SuspenseListComponent){// If the tail is hidden there might not be an Suspense boundaries
@@ -2982,7 +2982,7 @@ var node=firstChild;while(node!==null){if(node.tag===SuspenseComponent){var stat
 // list itself.
 // We don't have to traverse to the children of the list since
 // the list will propagate the change when it rerenders.
-scheduleWorkOnFiber(node,renderLanes);}else if(node.child!==null){node.child["return"]=node;node=node.child;continue;}if(node===workInProgress){return;}while(node.sibling===null){if(node["return"]===null||node["return"]===workInProgress){return;}node=node["return"];}node.sibling["return"]=node["return"];node=node.sibling;}}function findLastContentRow(firstChild){// This is going to find the last row among these children that is already
+scheduleWorkOnFiber(node,renderLanes);}else if(node.child!==null){node.child.return=node;node=node.child;continue;}if(node===workInProgress){return;}while(node.sibling===null){if(node.return===null||node.return===workInProgress){return;}node=node.return;}node.sibling.return=node.return;node=node.sibling;}}function findLastContentRow(firstChild){// This is going to find the last row among these children that is already
 // showing content on the screen, as opposed to being in fallback state or
 // new. If a row has multiple Suspense boundaries, any of them being in the
 // fallback state, counts as the whole row being in a fallback state.
@@ -3049,10 +3049,10 @@ if(!includesSomeLane(renderLanes,workInProgress.childLanes)){// The children don
 // a work-in-progress set. If so, we need to transfer their effects.
 return null;}else{// This fiber doesn't have work, but its subtree does. Clone the child
 // fibers and continue.
-cloneChildFibers(current,workInProgress);return workInProgress.child;}}function remountFiber(current,oldWorkInProgress,newWorkInProgress){{var returnFiber=oldWorkInProgress["return"];if(returnFiber===null){throw new Error('Cannot swap the root fiber.');}// Disconnect from the old current.
+cloneChildFibers(current,workInProgress);return workInProgress.child;}}function remountFiber(current,oldWorkInProgress,newWorkInProgress){{var returnFiber=oldWorkInProgress.return;if(returnFiber===null){throw new Error('Cannot swap the root fiber.');}// Disconnect from the old current.
 // It will get deleted.
 current.alternate=null;oldWorkInProgress.alternate=null;// Connect to the new tree.
-newWorkInProgress.index=oldWorkInProgress.index;newWorkInProgress.sibling=oldWorkInProgress.sibling;newWorkInProgress["return"]=oldWorkInProgress["return"];newWorkInProgress.ref=oldWorkInProgress.ref;// Replace the child/sibling pointers above it.
+newWorkInProgress.index=oldWorkInProgress.index;newWorkInProgress.sibling=oldWorkInProgress.sibling;newWorkInProgress.return=oldWorkInProgress.return;newWorkInProgress.ref=oldWorkInProgress.ref;// Replace the child/sibling pointers above it.
 if(oldWorkInProgress===returnFiber.child){returnFiber.child=newWorkInProgress;}else{var prevSibling=returnFiber.child;if(prevSibling===null){throw new Error('Expected parent to have a child.');}while(prevSibling.sibling!==oldWorkInProgress){prevSibling=prevSibling.sibling;if(prevSibling===null){throw new Error('Expected to find the previous sibling.');}}prevSibling.sibling=newWorkInProgress;}// Delete the old fiber and place the new one.
 // Since the old fiber is disconnected, we have to schedule it manually.
 var last=returnFiber.lastEffect;if(last!==null){last.nextEffect=current;returnFiber.lastEffect=current;}else{returnFiber.firstEffect=returnFiber.lastEffect=current;}current.nextEffect=null;current.flags=Deletion;newWorkInProgress.flags|=Placement;// Restart work from the new fiber.
@@ -3119,7 +3119,7 @@ var _resolvedProps3=resolveDefaultProps(_type2,_unresolvedProps3);{if(workInProg
 workInProgress.flags|=Update;}function markRef$1(workInProgress){workInProgress.flags|=Ref;}var appendAllChildren;var updateHostContainer;var updateHostComponent$1;var updateHostText$1;{// Mutation mode
 appendAllChildren=function appendAllChildren(parent,workInProgress,needsVisibilityToggle,isHidden){// We only have the top Fiber that was created but we need recurse down its
 // children to find all the terminal nodes.
-var node=workInProgress.child;while(node!==null){if(node.tag===HostComponent||node.tag===HostText){appendInitialChild(parent,node.stateNode);}else if(node.tag===HostPortal);else if(node.child!==null){node.child["return"]=node;node=node.child;continue;}if(node===workInProgress){return;}while(node.sibling===null){if(node["return"]===null||node["return"]===workInProgress){return;}node=node["return"];}node.sibling["return"]=node["return"];node=node.sibling;}};updateHostContainer=function updateHostContainer(workInProgress){// Noop
+var node=workInProgress.child;while(node!==null){if(node.tag===HostComponent||node.tag===HostText){appendInitialChild(parent,node.stateNode);}else if(node.tag===HostPortal);else if(node.child!==null){node.child.return=node;node=node.child;continue;}if(node===workInProgress){return;}while(node.sibling===null){if(node.return===null||node.return===workInProgress){return;}node=node.return;}node.sibling.return=node.return;node=node.sibling;}};updateHostContainer=function updateHostContainer(workInProgress){// Noop
 };updateHostComponent$1=function updateHostComponent$1(current,workInProgress,type,newProps,rootContainerInstance){// If we have an alternate, that means this is an update and we need to
 // schedule a side-effect to do the updates.
 var oldProps=current.memoizedProps;if(oldProps===newProps){// In mutation mode, this is sufficient for a bailout because
@@ -3407,14 +3407,14 @@ return;}// Confirmed that the boundary is in a concurrent mode tree. Continue
 // ensure that new initial loading states can commit as soon as possible.
 attachPingListener(root,wakeable,rootRenderLanes);_workInProgress.flags|=ShouldCapture;_workInProgress.lanes=rootRenderLanes;return;}// This boundary already captured during this render. Continue to the next
 // boundary.
-_workInProgress=_workInProgress["return"];}while(_workInProgress!==null);// No boundary was found. Fallthrough to error mode.
+_workInProgress=_workInProgress.return;}while(_workInProgress!==null);// No boundary was found. Fallthrough to error mode.
 // TODO: Use invariant so the message is stripped in prod?
 value=new Error((getComponentName(sourceFiber.type)||'A React component')+' suspended while rendering, but no fallback UI was specified.\n'+'\n'+'Add a <Suspense fallback=...> component higher in the tree to '+'provide a loading indicator or placeholder to display.');}// We didn't find a boundary that could handle this type of exception. Start
 // over and traverse parent path again, this time treating the exception
 // as an error.
 renderDidError();value=createCapturedValue(value,sourceFiber);var workInProgress=returnFiber;do{switch(workInProgress.tag){case HostRoot:{var _errorInfo=value;workInProgress.flags|=ShouldCapture;var lane=pickArbitraryLane(rootRenderLanes);workInProgress.lanes=mergeLanes(workInProgress.lanes,lane);var _update=createRootErrorUpdate(workInProgress,_errorInfo,lane);enqueueCapturedUpdate(workInProgress,_update);return;}case ClassComponent:// Capture and retry
 var errorInfo=value;var ctor=workInProgress.type;var instance=workInProgress.stateNode;if((workInProgress.flags&DidCapture)===NoFlags&&(typeof ctor.getDerivedStateFromError==='function'||instance!==null&&typeof instance.componentDidCatch==='function'&&!isAlreadyFailedLegacyErrorBoundary(instance))){workInProgress.flags|=ShouldCapture;var _lane=pickArbitraryLane(rootRenderLanes);workInProgress.lanes=mergeLanes(workInProgress.lanes,_lane);// Schedule the error boundary to re-render using updated state
-var _update2=createClassErrorUpdate(workInProgress,errorInfo,_lane);enqueueCapturedUpdate(workInProgress,_update2);return;}break;}workInProgress=workInProgress["return"];}while(workInProgress!==null);}var didWarnAboutUndefinedSnapshotBeforeUpdate=null;{didWarnAboutUndefinedSnapshotBeforeUpdate=new Set();}var PossiblyWeakSet=typeof WeakSet==='function'?WeakSet:Set;var callComponentWillUnmountWithTimer=function callComponentWillUnmountWithTimer(current,instance){instance.props=current.memoizedProps;instance.state=current.memoizedState;{instance.componentWillUnmount();}};// Capture errors so they don't interrupt unmounting.
+var _update2=createClassErrorUpdate(workInProgress,errorInfo,_lane);enqueueCapturedUpdate(workInProgress,_update2);return;}break;}workInProgress=workInProgress.return;}while(workInProgress!==null);}var didWarnAboutUndefinedSnapshotBeforeUpdate=null;{didWarnAboutUndefinedSnapshotBeforeUpdate=new Set();}var PossiblyWeakSet=typeof WeakSet==='function'?WeakSet:Set;var callComponentWillUnmountWithTimer=function callComponentWillUnmountWithTimer(current,instance){instance.props=current.memoizedProps;instance.state=current.memoizedState;{instance.componentWillUnmount();}};// Capture errors so they don't interrupt unmounting.
 function safelyCallComponentWillUnmount(current,instance){{invokeGuardedCallback(null,callComponentWillUnmountWithTimer,null,current,instance);if(hasCaughtError()){var unmountError=clearCaughtError();captureCommitPhaseError(current,unmountError);}}}function safelyDetachRef(current){var ref=current.ref;if(ref!==null){if(typeof ref==='function'){{invokeGuardedCallback(null,ref,null,null);if(hasCaughtError()){var refError=clearCaughtError();captureCommitPhaseError(current,refError);}}}else{ref.current=null;}}}function safelyCallDestroy(current,destroy){{invokeGuardedCallback(null,destroy,null);if(hasCaughtError()){var error=clearCaughtError();captureCommitPhaseError(current,error);}}}function commitBeforeMutationLifeCycles(current,finishedWork){switch(finishedWork.tag){case FunctionComponent:case ForwardRef:case SimpleMemoComponent:case Block:{return;}case ClassComponent:{if(finishedWork.flags&Snapshot){if(current!==null){var prevProps=current.memoizedProps;var prevState=current.memoizedState;var instance=finishedWork.stateNode;// We could update instance props and state here,
 // but instead we rely on them being set during last render.
 // TODO: revisit this when we implement resuming.
@@ -3446,7 +3446,7 @@ if(current===null&&finishedWork.flags&Update){var type=finishedWork.type;var pro
 return;}case HostPortal:{// We have no life-cycles associated with portals.
 return;}case Profiler:{{var _finishedWork$memoize2=finishedWork.memoizedProps,onCommit=_finishedWork$memoize2.onCommit,onRender=_finishedWork$memoize2.onRender;var effectDuration=finishedWork.stateNode.effectDuration;var commitTime=getCommitTime();if(typeof onRender==='function'){{onRender(finishedWork.memoizedProps.id,current===null?'mount':'update',finishedWork.actualDuration,finishedWork.treeBaseDuration,finishedWork.actualStartTime,commitTime,finishedRoot.memoizedInteractions);}}}return;}case SuspenseComponent:{commitSuspenseHydrationCallbacks(finishedRoot,finishedWork);return;}case SuspenseListComponent:case IncompleteClassComponent:case FundamentalComponent:case ScopeComponent:case OffscreenComponent:case LegacyHiddenComponent:return;}{{throw Error("This unit of work tag should not have side-effects. This error is likely caused by a bug in React. Please file an issue.");}}}function hideOrUnhideAllChildren(finishedWork,isHidden){{// We only have the top Fiber that was inserted but we need to recurse down its
 // children to find all the terminal nodes.
-var node=finishedWork;while(true){if(node.tag===HostComponent){var instance=node.stateNode;if(isHidden){hideInstance(instance);}else{unhideInstance(node.stateNode,node.memoizedProps);}}else if(node.tag===HostText){var _instance3=node.stateNode;if(isHidden){hideTextInstance(_instance3);}else{unhideTextInstance(_instance3,node.memoizedProps);}}else if((node.tag===OffscreenComponent||node.tag===LegacyHiddenComponent)&&node.memoizedState!==null&&node!==finishedWork);else if(node.child!==null){node.child["return"]=node;node=node.child;continue;}if(node===finishedWork){return;}while(node.sibling===null){if(node["return"]===null||node["return"]===finishedWork){return;}node=node["return"];}node.sibling["return"]=node["return"];node=node.sibling;}}}function commitAttachRef(finishedWork){var ref=finishedWork.ref;if(ref!==null){var instance=finishedWork.stateNode;var instanceToUse;switch(finishedWork.tag){case HostComponent:instanceToUse=getPublicInstance(instance);break;default:instanceToUse=instance;}// Moved outside to ensure DCE works with this flag
+var node=finishedWork;while(true){if(node.tag===HostComponent){var instance=node.stateNode;if(isHidden){hideInstance(instance);}else{unhideInstance(node.stateNode,node.memoizedProps);}}else if(node.tag===HostText){var _instance3=node.stateNode;if(isHidden){hideTextInstance(_instance3);}else{unhideTextInstance(_instance3,node.memoizedProps);}}else if((node.tag===OffscreenComponent||node.tag===LegacyHiddenComponent)&&node.memoizedState!==null&&node!==finishedWork);else if(node.child!==null){node.child.return=node;node=node.child;continue;}if(node===finishedWork){return;}while(node.sibling===null){if(node.return===null||node.return===finishedWork){return;}node=node.return;}node.sibling.return=node.return;node=node.sibling;}}}function commitAttachRef(finishedWork){var ref=finishedWork.ref;if(ref!==null){var instance=finishedWork.stateNode;var instanceToUse;switch(finishedWork.tag){case HostComponent:instanceToUse=getPublicInstance(instance);break;default:instanceToUse=instance;}// Moved outside to ensure DCE works with this flag
 if(typeof ref==='function'){ref(instanceToUse);}else{{if(!ref.hasOwnProperty('current')){error('Unexpected ref object provided for %s. '+'Use either a ref-setter function or React.createRef().',getComponentName(finishedWork.type));}}ref.current=instanceToUse;}}}function commitDetachRef(current){var currentRef=current.ref;if(currentRef!==null){if(typeof currentRef==='function'){currentRef(null);}else{currentRef.current=null;}}}// User-originating errors (lifecycles and refs) should not interrupt
 // deletion, so don't let them throw. Host-originating errors should
 // interrupt deletion, so it's okay
@@ -3462,7 +3462,7 @@ var node=root;while(true){commitUnmount(finishedRoot,node);// Visit children bec
 // Skip portals because commitUnmount() currently visits them recursively.
 if(node.child!==null&&// If we use mutation we drill down into portals using commitUnmount above.
 // If we don't use mutation we drill down into portals here instead.
-node.tag!==HostPortal){node.child["return"]=node;node=node.child;continue;}if(node===root){return;}while(node.sibling===null){if(node["return"]===null||node["return"]===root){return;}node=node["return"];}node.sibling["return"]=node["return"];node=node.sibling;}}function detachFiberMutation(fiber){// Cut off the return pointers to disconnect it from the tree. Ideally, we
+node.tag!==HostPortal){node.child.return=node;node=node.child;continue;}if(node===root){return;}while(node.sibling===null){if(node.return===null||node.return===root){return;}node=node.return;}node.sibling.return=node.return;node=node.sibling;}}function detachFiberMutation(fiber){// Cut off the return pointers to disconnect it from the tree. Ideally, we
 // should clear the child pointer of the parent alternate to let this
 // get GC:ed but we don't know which for sure which parent is the current
 // one so we'll settle for GC:ing the subtree of this child. This child
@@ -3475,19 +3475,19 @@ node.tag!==HostPortal){node.child["return"]=node;node=node.child;continue;}if(no
 // Don't disconnect stateNode now; it will be detached in detachFiberAfterEffects.
 // It may be required if the current component is an error boundary,
 // and one of its descendants throws while unmounting a passive effect.
-fiber.alternate=null;fiber.child=null;fiber.dependencies=null;fiber.firstEffect=null;fiber.lastEffect=null;fiber.memoizedProps=null;fiber.memoizedState=null;fiber.pendingProps=null;fiber["return"]=null;fiber.updateQueue=null;{fiber._debugOwner=null;}}function getHostParentFiber(fiber){var parent=fiber["return"];while(parent!==null){if(isHostParent(parent)){return parent;}parent=parent["return"];}{{throw Error("Expected to find a host parent. This error is likely caused by a bug in React. Please file an issue.");}}}function isHostParent(fiber){return fiber.tag===HostComponent||fiber.tag===HostRoot||fiber.tag===HostPortal;}function getHostSibling(fiber){// We're going to search forward into the tree until we find a sibling host
+fiber.alternate=null;fiber.child=null;fiber.dependencies=null;fiber.firstEffect=null;fiber.lastEffect=null;fiber.memoizedProps=null;fiber.memoizedState=null;fiber.pendingProps=null;fiber.return=null;fiber.updateQueue=null;{fiber._debugOwner=null;}}function getHostParentFiber(fiber){var parent=fiber.return;while(parent!==null){if(isHostParent(parent)){return parent;}parent=parent.return;}{{throw Error("Expected to find a host parent. This error is likely caused by a bug in React. Please file an issue.");}}}function isHostParent(fiber){return fiber.tag===HostComponent||fiber.tag===HostRoot||fiber.tag===HostPortal;}function getHostSibling(fiber){// We're going to search forward into the tree until we find a sibling host
 // node. Unfortunately, if multiple insertions are done in a row we have to
 // search past them. This leads to exponential search for the next sibling.
 // TODO: Find a more efficient way to do this.
 var node=fiber;siblings:while(true){// If we didn't find anything, let's try the next sibling.
-while(node.sibling===null){if(node["return"]===null||isHostParent(node["return"])){// If we pop out of the root or hit the parent the fiber we are the
+while(node.sibling===null){if(node.return===null||isHostParent(node.return)){// If we pop out of the root or hit the parent the fiber we are the
 // last sibling.
-return null;}node=node["return"];}node.sibling["return"]=node["return"];node=node.sibling;while(node.tag!==HostComponent&&node.tag!==HostText&&node.tag!==DehydratedFragment){// If it is not host node and, we might have a host node inside it.
+return null;}node=node.return;}node.sibling.return=node.return;node=node.sibling;while(node.tag!==HostComponent&&node.tag!==HostText&&node.tag!==DehydratedFragment){// If it is not host node and, we might have a host node inside it.
 // Try to search down until we find one.
 if(node.flags&Placement){// If we don't have a child, try the siblings instead.
 continue siblings;}// If we don't have a child, try the siblings instead.
 // We also skip portals because they are not part of this host tree.
-if(node.child===null||node.tag===HostPortal){continue siblings;}else{node.child["return"]=node;node=node.child;}}// Check if this host node is stable or about to be placed.
+if(node.child===null||node.tag===HostPortal){continue siblings;}else{node.child.return=node;node=node.child;}}// Check if this host node is stable or about to be placed.
 if(!(node.flags&Placement)){// Found it!
 return node.stateNode;}}}function commitPlacement(finishedWork){var parentFiber=getHostParentFiber(finishedWork);// Note: these two variables *must* always be updated together.
 var parent;var isContainer;var parentStateNode=parentFiber.stateNode;switch(parentFiber.tag){case HostComponent:parent=parentStateNode;isContainer=false;break;case HostRoot:parent=parentStateNode.containerInfo;isContainer=true;break;case HostPortal:parent=parentStateNode.containerInfo;isContainer=true;break;case FundamentalComponent:// eslint-disable-next-line-no-fallthrough
@@ -3500,16 +3500,16 @@ if(isContainer){insertOrAppendPlacementNodeIntoContainer(finishedWork,before,par
 var node=current;// Each iteration, currentParent is populated with node's host parent if not
 // currentParentIsValid.
 var currentParentIsValid=false;// Note: these two variables *must* always be updated together.
-var currentParent;var currentParentIsContainer;while(true){if(!currentParentIsValid){var parent=node["return"];findParent:while(true){if(!(parent!==null)){{throw Error("Expected to find a host parent. This error is likely caused by a bug in React. Please file an issue.");}}var parentStateNode=parent.stateNode;switch(parent.tag){case HostComponent:currentParent=parentStateNode;currentParentIsContainer=false;break findParent;case HostRoot:currentParent=parentStateNode.containerInfo;currentParentIsContainer=true;break findParent;case HostPortal:currentParent=parentStateNode.containerInfo;currentParentIsContainer=true;break findParent;}parent=parent["return"];}currentParentIsValid=true;}if(node.tag===HostComponent||node.tag===HostText){commitNestedUnmounts(finishedRoot,node);// After all the children have unmounted, it is now safe to remove the
+var currentParent;var currentParentIsContainer;while(true){if(!currentParentIsValid){var parent=node.return;findParent:while(true){if(!(parent!==null)){{throw Error("Expected to find a host parent. This error is likely caused by a bug in React. Please file an issue.");}}var parentStateNode=parent.stateNode;switch(parent.tag){case HostComponent:currentParent=parentStateNode;currentParentIsContainer=false;break findParent;case HostRoot:currentParent=parentStateNode.containerInfo;currentParentIsContainer=true;break findParent;case HostPortal:currentParent=parentStateNode.containerInfo;currentParentIsContainer=true;break findParent;}parent=parent.return;}currentParentIsValid=true;}if(node.tag===HostComponent||node.tag===HostText){commitNestedUnmounts(finishedRoot,node);// After all the children have unmounted, it is now safe to remove the
 // node from the tree.
 if(currentParentIsContainer){removeChildFromContainer(currentParent,node.stateNode);}else{removeChild(currentParent,node.stateNode);}// Don't visit children because we already visited them.
 }else if(node.tag===HostPortal){if(node.child!==null){// When we go into a portal, it becomes the parent to remove from.
 // We will reassign it back when we pop the portal on the way up.
 currentParent=node.stateNode.containerInfo;currentParentIsContainer=true;// Visit children because portals might contain host components.
-node.child["return"]=node;node=node.child;continue;}}else{commitUnmount(finishedRoot,node);// Visit children because we may find more host components below.
-if(node.child!==null){node.child["return"]=node;node=node.child;continue;}}if(node===current){return;}while(node.sibling===null){if(node["return"]===null||node["return"]===current){return;}node=node["return"];if(node.tag===HostPortal){// When we go out of the portal, we need to restore the parent.
+node.child.return=node;node=node.child;continue;}}else{commitUnmount(finishedRoot,node);// Visit children because we may find more host components below.
+if(node.child!==null){node.child.return=node;node=node.child;continue;}}if(node===current){return;}while(node.sibling===null){if(node.return===null||node.return===current){return;}node=node.return;if(node.tag===HostPortal){// When we go out of the portal, we need to restore the parent.
 // Since we don't keep a stack of them, we will search for it.
-currentParentIsValid=false;}}node.sibling["return"]=node["return"];node=node.sibling;}}function commitDeletion(finishedRoot,current,renderPriorityLevel){{// Recursively delete all host nodes from the parent.
+currentParentIsValid=false;}}node.sibling.return=node.return;node=node.sibling;}}function commitDeletion(finishedRoot,current,renderPriorityLevel){{// Recursively delete all host nodes from the parent.
 // Detach refs and call componentWillUnmount() on the whole subtree.
 unmountHostComponents(finishedRoot,current);}var alternate=current.alternate;detachFiberMutation(current);if(alternate!==null){detachFiberMutation(alternate);}}function commitWork(current,finishedWork){switch(finishedWork.tag){case FunctionComponent:case ForwardRef:case MemoComponent:case SimpleMemoComponent:case Block:{// Layout effects are destroyed during the mutation phase so that all
 // destroy functions for all fibers are called before any create functions.
@@ -3541,7 +3541,7 @@ var wakeables=finishedWork.updateQueue;if(wakeables!==null){finishedWork.updateQ
 var retry=resolveRetryWakeable.bind(null,finishedWork,wakeable);if(!retryCache.has(wakeable)){{if(wakeable.__reactDoNotTraceInteractions!==true){retry=tracing.unstable_wrap(retry);}}retryCache.add(wakeable);wakeable.then(retry,retry);}});}}// This function detects when a Suspense boundary goes from visible to hidden.
 // It returns false if the boundary is already hidden.
 // TODO: Use an effect tag.
-function isSuspenseBoundaryBeingHidden(current,finishedWork){if(current!==null){var oldState=current.memoizedState;if(oldState===null||oldState.dehydrated!==null){var newState=finishedWork.memoizedState;return newState!==null&&newState.dehydrated===null;}}return false;}function commitResetTextContent(current){resetTextContent(current.stateNode);}var COMPONENT_TYPE=0;var HAS_PSEUDO_CLASS_TYPE=1;var ROLE_TYPE=2;var TEST_NAME_TYPE=3;var TEXT_TYPE=4;if(typeof Symbol==='function'&&Symbol["for"]){var symbolFor$1=Symbol["for"];COMPONENT_TYPE=symbolFor$1('selector.component');HAS_PSEUDO_CLASS_TYPE=symbolFor$1('selector.has_pseudo_class');ROLE_TYPE=symbolFor$1('selector.role');TEST_NAME_TYPE=symbolFor$1('selector.test_id');TEXT_TYPE=symbolFor$1('selector.text');}var commitHooks=[];function onCommitRoot$1(){{commitHooks.forEach(function(commitHook){return commitHook();});}}var ceil=Math.ceil;var ReactCurrentDispatcher$2=ReactSharedInternals.ReactCurrentDispatcher,ReactCurrentOwner$2=ReactSharedInternals.ReactCurrentOwner,IsSomeRendererActing=ReactSharedInternals.IsSomeRendererActing;var NoContext=/*             */0;var BatchedContext=/*               */1;var EventContext=/*                 */2;var DiscreteEventContext=/*         */4;var LegacyUnbatchedContext=/*       */8;var RenderContext=/*                */16;var CommitContext=/*                */32;var RetryAfterError=/*       */64;var RootIncomplete=0;var RootFatalErrored=1;var RootErrored=2;var RootSuspended=3;var RootSuspendedWithDelay=4;var RootCompleted=5;// Describes where we are in the React execution stack
+function isSuspenseBoundaryBeingHidden(current,finishedWork){if(current!==null){var oldState=current.memoizedState;if(oldState===null||oldState.dehydrated!==null){var newState=finishedWork.memoizedState;return newState!==null&&newState.dehydrated===null;}}return false;}function commitResetTextContent(current){resetTextContent(current.stateNode);}var COMPONENT_TYPE=0;var HAS_PSEUDO_CLASS_TYPE=1;var ROLE_TYPE=2;var TEST_NAME_TYPE=3;var TEXT_TYPE=4;if(typeof Symbol==='function'&&Symbol.for){var symbolFor$1=Symbol.for;COMPONENT_TYPE=symbolFor$1('selector.component');HAS_PSEUDO_CLASS_TYPE=symbolFor$1('selector.has_pseudo_class');ROLE_TYPE=symbolFor$1('selector.role');TEST_NAME_TYPE=symbolFor$1('selector.test_id');TEXT_TYPE=symbolFor$1('selector.text');}var commitHooks=[];function onCommitRoot$1(){{commitHooks.forEach(function(commitHook){return commitHook();});}}var ceil=Math.ceil;var ReactCurrentDispatcher$2=ReactSharedInternals.ReactCurrentDispatcher,ReactCurrentOwner$2=ReactSharedInternals.ReactCurrentOwner,IsSomeRendererActing=ReactSharedInternals.IsSomeRendererActing;var NoContext=/*             */0;var BatchedContext=/*               */1;var EventContext=/*                 */2;var DiscreteEventContext=/*         */4;var LegacyUnbatchedContext=/*       */8;var RenderContext=/*                */16;var CommitContext=/*                */32;var RetryAfterError=/*       */64;var RootIncomplete=0;var RootFatalErrored=1;var RootErrored=2;var RootSuspended=3;var RootSuspendedWithDelay=4;var RootCompleted=5;// Describes where we are in the React execution stack
 var executionContext=NoContext;// The root we're working on
 var workInProgressRoot=null;// The fiber we're working on
 var workInProgress=null;// The lanes we're rendering
@@ -3655,7 +3655,7 @@ mostRecentlyUpdatedRoot=root;}// This is split into a separate function so we ca
 // on a fiber.
 function markUpdateLaneFromFiberToRoot(sourceFiber,lane){// Update the source fiber's lanes
 sourceFiber.lanes=mergeLanes(sourceFiber.lanes,lane);var alternate=sourceFiber.alternate;if(alternate!==null){alternate.lanes=mergeLanes(alternate.lanes,lane);}{if(alternate===null&&(sourceFiber.flags&(Placement|Hydrating))!==NoFlags){warnAboutUpdateOnNotYetMountedFiberInDEV(sourceFiber);}}// Walk the parent path to the root and update the child expiration time.
-var node=sourceFiber;var parent=sourceFiber["return"];while(parent!==null){parent.childLanes=mergeLanes(parent.childLanes,lane);alternate=parent.alternate;if(alternate!==null){alternate.childLanes=mergeLanes(alternate.childLanes,lane);}else{{if((parent.flags&(Placement|Hydrating))!==NoFlags){warnAboutUpdateOnNotYetMountedFiberInDEV(sourceFiber);}}}node=parent;parent=parent["return"];}if(node.tag===HostRoot){var root=node.stateNode;return root;}else{return null;}}// Use this function to schedule a task for a root. There's only one task per
+var node=sourceFiber;var parent=sourceFiber.return;while(parent!==null){parent.childLanes=mergeLanes(parent.childLanes,lane);alternate=parent.alternate;if(alternate!==null){alternate.childLanes=mergeLanes(alternate.childLanes,lane);}else{{if((parent.flags&(Placement|Hydrating))!==NoFlags){warnAboutUpdateOnNotYetMountedFiberInDEV(sourceFiber);}}}node=parent;parent=parent.return;}if(node.tag===HostRoot){var root=node.stateNode;return root;}else{return null;}}// Use this function to schedule a task for a root. There's only one task per
 // root; if a task was already scheduled, we'll check to make sure the priority
 // of the existing task is the same as the priority of the next level that the
 // root has work on. This function is called on every update, and right before
@@ -3784,10 +3784,10 @@ resetRenderTimer();flushSyncCallbackQueue();}}}function flushSync(fn,a){var prev
 flushSyncCallbackQueue();}}}function pushRenderLanes(fiber,lanes){push(subtreeRenderLanesCursor,subtreeRenderLanes,fiber);subtreeRenderLanes=mergeLanes(subtreeRenderLanes,lanes);workInProgressRootIncludedLanes=mergeLanes(workInProgressRootIncludedLanes,lanes);}function popRenderLanes(fiber){subtreeRenderLanes=subtreeRenderLanesCursor.current;pop(subtreeRenderLanesCursor,fiber);}function prepareFreshStack(root,lanes){root.finishedWork=null;root.finishedLanes=NoLanes;var timeoutHandle=root.timeoutHandle;if(timeoutHandle!==noTimeout){// The root previous suspended and scheduled a timeout to commit a fallback
 // state. Now that we have additional work, cancel the timeout.
 root.timeoutHandle=noTimeout;// $FlowFixMe Complains noTimeout is not a TimeoutID, despite the check above
-cancelTimeout(timeoutHandle);}if(workInProgress!==null){var interruptedWork=workInProgress["return"];while(interruptedWork!==null){unwindInterruptedWork(interruptedWork);interruptedWork=interruptedWork["return"];}}workInProgressRoot=root;workInProgress=createWorkInProgress(root.current,null);workInProgressRootRenderLanes=subtreeRenderLanes=workInProgressRootIncludedLanes=lanes;workInProgressRootExitStatus=RootIncomplete;workInProgressRootFatalError=null;workInProgressRootSkippedLanes=NoLanes;workInProgressRootUpdatedLanes=NoLanes;workInProgressRootPingedLanes=NoLanes;{spawnedWorkDuringRender=null;}{ReactStrictModeWarnings.discardPendingWarnings();}}function handleError(root,thrownValue){do{var erroredWork=workInProgress;try{// Reset module-level state that was set during the render phase.
+cancelTimeout(timeoutHandle);}if(workInProgress!==null){var interruptedWork=workInProgress.return;while(interruptedWork!==null){unwindInterruptedWork(interruptedWork);interruptedWork=interruptedWork.return;}}workInProgressRoot=root;workInProgress=createWorkInProgress(root.current,null);workInProgressRootRenderLanes=subtreeRenderLanes=workInProgressRootIncludedLanes=lanes;workInProgressRootExitStatus=RootIncomplete;workInProgressRootFatalError=null;workInProgressRootSkippedLanes=NoLanes;workInProgressRootUpdatedLanes=NoLanes;workInProgressRootPingedLanes=NoLanes;{spawnedWorkDuringRender=null;}{ReactStrictModeWarnings.discardPendingWarnings();}}function handleError(root,thrownValue){do{var erroredWork=workInProgress;try{// Reset module-level state that was set during the render phase.
 resetContextDependencies();resetHooksAfterThrow();resetCurrentFiber();// TODO: I found and added this missing line while investigating a
 // separate issue. Write a regression test using string refs.
-ReactCurrentOwner$2.current=null;if(erroredWork===null||erroredWork["return"]===null){// Expected to be working on a non-root fiber. This is a fatal error
+ReactCurrentOwner$2.current=null;if(erroredWork===null||erroredWork.return===null){// Expected to be working on a non-root fiber. This is a fatal error
 // because there's no ancestor that can handle it; the root is
 // supposed to capture all errors that weren't caught by an error
 // boundary.
@@ -3800,10 +3800,10 @@ workInProgressRootExitStatus=RootFatalErrored;workInProgressRootFatalError=throw
 workInProgress=null;return;}if(enableProfilerTimer&&erroredWork.mode&ProfileMode){// Record the time spent rendering before an error was thrown. This
 // avoids inaccurate Profiler durations in the case of a
 // suspended render.
-stopProfilerTimerIfRunningAndRecordDelta(erroredWork,true);}throwException(root,erroredWork["return"],erroredWork,thrownValue,workInProgressRootRenderLanes);completeUnitOfWork(erroredWork);}catch(yetAnotherThrownValue){// Something in the return path also threw.
+stopProfilerTimerIfRunningAndRecordDelta(erroredWork,true);}throwException(root,erroredWork.return,erroredWork,thrownValue,workInProgressRootRenderLanes);completeUnitOfWork(erroredWork);}catch(yetAnotherThrownValue){// Something in the return path also threw.
 thrownValue=yetAnotherThrownValue;if(workInProgress===erroredWork&&erroredWork!==null){// If this boundary has already errored, then we had trouble processing
 // the error. Bubble it to the next boundary.
-erroredWork=erroredWork["return"];workInProgress=erroredWork;}else{erroredWork=workInProgress;}continue;}// Return to the normal work loop.
+erroredWork=erroredWork.return;workInProgress=erroredWork;}else{erroredWork=workInProgress;}continue;}// Return to the normal work loop.
 return;}while(true);}function pushDispatcher(){var prevDispatcher=ReactCurrentDispatcher$2.current;ReactCurrentDispatcher$2.current=ContextOnlyDispatcher;if(prevDispatcher===null){// The React isomorphic package does not include a default dispatcher.
 // Instead the first renderer will lazily attach one, in order to give
 // nicer error messages.
@@ -3838,7 +3838,7 @@ completeUnitOfWork(unitOfWork);}else{workInProgress=next;}ReactCurrentOwner$2.cu
 var completedWork=unitOfWork;do{// The current, flushed, state of this fiber is the alternate. Ideally
 // nothing should rely on this, but relying on it here means that we don't
 // need an additional field on the work in progress.
-var current=completedWork.alternate;var returnFiber=completedWork["return"];// Check if the work completed or if something threw.
+var current=completedWork.alternate;var returnFiber=completedWork.return;// Check if the work completed or if something threw.
 if((completedWork.flags&Incomplete)===NoFlags){setCurrentFiber(completedWork);var next=void 0;if((completedWork.mode&ProfileMode)===NoMode){next=completeWork(current,completedWork,subtreeRenderLanes);}else{startProfilerTimer(completedWork);next=completeWork(current,completedWork,subtreeRenderLanes);// Update render duration assuming we didn't error.
 stopProfilerTimerIfRunningAndRecordDelta(completedWork,false);}resetCurrentFiber();if(next!==null){// Completing this fiber spawned new work. Work on that next.
 workInProgress=next;return;}resetChildLanes(completedWork);if(returnFiber!==null&&// Do not append effects to parents if a sibling failed to complete
@@ -3897,7 +3897,7 @@ root.callbackNode=null;// Update the first and last pending times on this root. 
 var remainingLanes=mergeLanes(finishedWork.lanes,finishedWork.childLanes);markRootFinished(root,remainingLanes);// Clear already finished discrete updates in case that a later call of
 // `flushDiscreteUpdates` starts a useless render pass which may cancels
 // a scheduled timeout.
-if(rootsWithPendingDiscreteUpdates!==null){if(!hasDiscreteLanes(remainingLanes)&&rootsWithPendingDiscreteUpdates.has(root)){rootsWithPendingDiscreteUpdates["delete"](root);}}if(root===workInProgressRoot){// We can reset these now that they are finished.
+if(rootsWithPendingDiscreteUpdates!==null){if(!hasDiscreteLanes(remainingLanes)&&rootsWithPendingDiscreteUpdates.has(root)){rootsWithPendingDiscreteUpdates.delete(root);}}if(root===workInProgressRoot){// We can reset these now that they are finished.
 workInProgressRoot=null;workInProgress=null;workInProgressRootRenderLanes=NoLanes;}// Get the list of effects.
 var firstEffect;if(finishedWork.flags>PerformedWork){// A fiber's effect list consists only of its children, not itself. So if
 // the root has an effect, we need to add it to the end of the list. The
@@ -3983,7 +3983,7 @@ effect.nextEffect=null;if(effect.flags&Deletion){detachFiberAfterEffects(effect)
 // exceeds the limit, we'll fire a warning.
 nestedPassiveUpdateCount=rootWithPendingPassiveEffects===null?0:nestedPassiveUpdateCount+1;return true;}function isAlreadyFailedLegacyErrorBoundary(instance){return legacyErrorBoundariesThatAlreadyFailed!==null&&legacyErrorBoundariesThatAlreadyFailed.has(instance);}function markLegacyErrorBoundaryAsFailed(instance){if(legacyErrorBoundariesThatAlreadyFailed===null){legacyErrorBoundariesThatAlreadyFailed=new Set([instance]);}else{legacyErrorBoundariesThatAlreadyFailed.add(instance);}}function prepareToThrowUncaughtError(error){if(!hasUncaughtError){hasUncaughtError=true;firstUncaughtError=error;}}var onUncaughtError=prepareToThrowUncaughtError;function captureCommitPhaseErrorOnRoot(rootFiber,sourceFiber,error){var errorInfo=createCapturedValue(error,sourceFiber);var update=createRootErrorUpdate(rootFiber,errorInfo,SyncLane);enqueueUpdate(rootFiber,update);var eventTime=requestEventTime();var root=markUpdateLaneFromFiberToRoot(rootFiber,SyncLane);if(root!==null){markRootUpdated(root,SyncLane,eventTime);ensureRootIsScheduled(root,eventTime);schedulePendingInteractions(root,SyncLane);}}function captureCommitPhaseError(sourceFiber,error){if(sourceFiber.tag===HostRoot){// Error was thrown at the root. There is no parent, so the root
 // itself should capture it.
-captureCommitPhaseErrorOnRoot(sourceFiber,sourceFiber,error);return;}var fiber=sourceFiber["return"];while(fiber!==null){if(fiber.tag===HostRoot){captureCommitPhaseErrorOnRoot(fiber,sourceFiber,error);return;}else if(fiber.tag===ClassComponent){var ctor=fiber.type;var instance=fiber.stateNode;if(typeof ctor.getDerivedStateFromError==='function'||typeof instance.componentDidCatch==='function'&&!isAlreadyFailedLegacyErrorBoundary(instance)){var errorInfo=createCapturedValue(error,sourceFiber);var update=createClassErrorUpdate(fiber,errorInfo,SyncLane);enqueueUpdate(fiber,update);var eventTime=requestEventTime();var root=markUpdateLaneFromFiberToRoot(fiber,SyncLane);if(root!==null){markRootUpdated(root,SyncLane,eventTime);ensureRootIsScheduled(root,eventTime);schedulePendingInteractions(root,SyncLane);}else{// This component has already been unmounted.
+captureCommitPhaseErrorOnRoot(sourceFiber,sourceFiber,error);return;}var fiber=sourceFiber.return;while(fiber!==null){if(fiber.tag===HostRoot){captureCommitPhaseErrorOnRoot(fiber,sourceFiber,error);return;}else if(fiber.tag===ClassComponent){var ctor=fiber.type;var instance=fiber.stateNode;if(typeof ctor.getDerivedStateFromError==='function'||typeof instance.componentDidCatch==='function'&&!isAlreadyFailedLegacyErrorBoundary(instance)){var errorInfo=createCapturedValue(error,sourceFiber);var update=createClassErrorUpdate(fiber,errorInfo,SyncLane);enqueueUpdate(fiber,update);var eventTime=requestEventTime();var root=markUpdateLaneFromFiberToRoot(fiber,SyncLane);if(root!==null){markRootUpdated(root,SyncLane,eventTime);ensureRootIsScheduled(root,eventTime);schedulePendingInteractions(root,SyncLane);}else{// This component has already been unmounted.
 // We can't schedule any follow up work for the root because the fiber is already unmounted,
 // but we can still call the log-only boundary so the error isn't swallowed.
 //
@@ -3991,9 +3991,9 @@ captureCommitPhaseErrorOnRoot(sourceFiber,sourceFiber,error);return;}var fiber=s
 // We can delete this special case once the new fork is merged.
 if(typeof instance.componentDidCatch==='function'&&!isAlreadyFailedLegacyErrorBoundary(instance)){try{instance.componentDidCatch(error,errorInfo);}catch(errorToIgnore){// TODO Ignore this error? Rethrow it?
 // This is kind of an edge case.
-}}}return;}}fiber=fiber["return"];}}function pingSuspendedRoot(root,wakeable,pingedLanes){var pingCache=root.pingCache;if(pingCache!==null){// The wakeable resolved, so we no longer need to memoize, because it will
+}}}return;}}fiber=fiber.return;}}function pingSuspendedRoot(root,wakeable,pingedLanes){var pingCache=root.pingCache;if(pingCache!==null){// The wakeable resolved, so we no longer need to memoize, because it will
 // never be thrown again.
-pingCache["delete"](wakeable);}var eventTime=requestEventTime();markRootPinged(root,pingedLanes);if(workInProgressRoot===root&&isSubsetOfLanes(workInProgressRootRenderLanes,pingedLanes)){// Received a ping at the same priority level at which we're currently
+pingCache.delete(wakeable);}var eventTime=requestEventTime();markRootPinged(root,pingedLanes);if(workInProgressRoot===root&&isSubsetOfLanes(workInProgressRootRenderLanes,pingedLanes)){// Received a ping at the same priority level at which we're currently
 // rendering. We might want to restart this render. This should mirror
 // the logic of whether or not a root suspends once it completes.
 // TODO: If we're rendering sync either due to Sync, Batched or expired,
@@ -4011,7 +4011,7 @@ if(retryLane===NoLane){retryLane=requestRetryLane(boundaryFiber);}// TODO: Speci
 var eventTime=requestEventTime();var root=markUpdateLaneFromFiberToRoot(boundaryFiber,retryLane);if(root!==null){markRootUpdated(root,retryLane,eventTime);ensureRootIsScheduled(root,eventTime);schedulePendingInteractions(root,retryLane);}}function resolveRetryWakeable(boundaryFiber,wakeable){var retryLane=NoLane;// Default
 var retryCache;{retryCache=boundaryFiber.stateNode;}if(retryCache!==null){// The wakeable resolved, so we no longer need to memoize, because it will
 // never be thrown again.
-retryCache["delete"](wakeable);}retryTimedOutBoundary(boundaryFiber,retryLane);}// Computes the next Just Noticeable Difference (JND) boundary.
+retryCache.delete(wakeable);}retryTimedOutBoundary(boundaryFiber,retryLane);}// Computes the next Just Noticeable Difference (JND) boundary.
 // The theory is that a person can't tell the difference between small differences in time.
 // Therefore, if we wait a bit longer than necessary that won't translate to a noticeable
 // difference in the experience. However, waiting for longer might mean that we can avoid
@@ -4078,7 +4078,7 @@ scheduleCallback(ImmediatePriority$1,function(){throw error;});}finally{// Clear
 var pendingInteractionMap=root.pendingInteractionMap;pendingInteractionMap.forEach(function(scheduledInteractions,lane){// Only decrement the pending interaction count if we're done.
 // If there's still work at the current priority,
 // That indicates that we are waiting for suspense data.
-if(!includesSomeLane(remainingLanesAfterCommit,lane)){pendingInteractionMap["delete"](lane);scheduledInteractions.forEach(function(interaction){interaction.__count--;if(subscriber!==null&&interaction.__count===0){try{subscriber.onInteractionScheduledWorkCompleted(interaction);}catch(error){// If the subscriber throws, rethrow it in a separate task
+if(!includesSomeLane(remainingLanesAfterCommit,lane)){pendingInteractionMap.delete(lane);scheduledInteractions.forEach(function(interaction){interaction.__count--;if(subscriber!==null&&interaction.__count===0){try{subscriber.onInteractionScheduledWorkCompleted(interaction);}catch(error){// If the subscriber throws, rethrow it in a separate task
 scheduleCallback(ImmediatePriority$1,function(){throw error;});}}});}});}}// `act` testing API
 function shouldForceFlushFallbacksInDEV(){// Never force flush in production. This function should get stripped out.
 return actingUpdatesScopeDepth>0;}// so we can tell if any async act() calls try to run in parallel.
@@ -4116,12 +4116,12 @@ return;}flushPassiveEffects();flushSync(function(){updateContainer(element,root,
 // visual feedback, "flashing" outermost parent rectangles is sufficient.
 findHostInstancesForFiberShallowly(fiber,hostInstances);}else{// If there's no match, maybe there will be one further down in the child tree.
 if(child!==null){findHostInstancesForMatchingFibersRecursively(child,types,hostInstances);}}if(sibling!==null){findHostInstancesForMatchingFibersRecursively(sibling,types,hostInstances);}}}function findHostInstancesForFiberShallowly(fiber,hostInstances){{var foundHostInstances=findChildHostInstancesForFiberShallowly(fiber,hostInstances);if(foundHostInstances){return;}// If we didn't find any host children, fallback to closest host parent.
-var node=fiber;while(true){switch(node.tag){case HostComponent:hostInstances.add(node.stateNode);return;case HostPortal:hostInstances.add(node.stateNode.containerInfo);return;case HostRoot:hostInstances.add(node.stateNode.containerInfo);return;}if(node["return"]===null){throw new Error('Expected to reach root first.');}node=node["return"];}}}function findChildHostInstancesForFiberShallowly(fiber,hostInstances){{var node=fiber;var foundHostInstances=false;while(true){if(node.tag===HostComponent){// We got a match.
+var node=fiber;while(true){switch(node.tag){case HostComponent:hostInstances.add(node.stateNode);return;case HostPortal:hostInstances.add(node.stateNode.containerInfo);return;case HostRoot:hostInstances.add(node.stateNode.containerInfo);return;}if(node.return===null){throw new Error('Expected to reach root first.');}node=node.return;}}}function findChildHostInstancesForFiberShallowly(fiber,hostInstances){{var node=fiber;var foundHostInstances=false;while(true){if(node.tag===HostComponent){// We got a match.
 foundHostInstances=true;hostInstances.add(node.stateNode);// There may still be more, so keep searching.
-}else if(node.child!==null){node.child["return"]=node;node=node.child;continue;}if(node===fiber){return foundHostInstances;}while(node.sibling===null){if(node["return"]===null||node["return"]===fiber){return foundHostInstances;}node=node["return"];}node.sibling["return"]=node["return"];node=node.sibling;}}return false;}var hasBadMapPolyfill;{hasBadMapPolyfill=false;try{var nonExtensibleObject=Object.preventExtensions({});/* eslint-disable no-new */new Map([[nonExtensibleObject,null]]);new Set([nonExtensibleObject]);/* eslint-enable no-new */}catch(e){// TODO: Consider warning about bad polyfills
+}else if(node.child!==null){node.child.return=node;node=node.child;continue;}if(node===fiber){return foundHostInstances;}while(node.sibling===null){if(node.return===null||node.return===fiber){return foundHostInstances;}node=node.return;}node.sibling.return=node.return;node=node.sibling;}}return false;}var hasBadMapPolyfill;{hasBadMapPolyfill=false;try{var nonExtensibleObject=Object.preventExtensions({});/* eslint-disable no-new */new Map([[nonExtensibleObject,null]]);new Set([nonExtensibleObject]);/* eslint-enable no-new */}catch(e){// TODO: Consider warning about bad polyfills
 hasBadMapPolyfill=true;}}var debugCounter=1;function FiberNode(tag,pendingProps,key,mode){// Instance
 this.tag=tag;this.key=key;this.elementType=null;this.type=null;this.stateNode=null;// Fiber
-this["return"]=null;this.child=null;this.sibling=null;this.index=0;this.ref=null;this.pendingProps=pendingProps;this.memoizedProps=null;this.updateQueue=null;this.memoizedState=null;this.dependencies=null;this.mode=mode;// Effects
+this.return=null;this.child=null;this.sibling=null;this.index=0;this.ref=null;this.pendingProps=pendingProps;this.memoizedProps=null;this.updateQueue=null;this.memoizedState=null;this.dependencies=null;this.mode=mode;// Effects
 this.flags=NoFlags;this.nextEffect=null;this.firstEffect=null;this.lastEffect=null;this.lanes=NoLanes;this.childLanes=NoLanes;this.alternate=null;{// Note: The following is done to avoid a v8 performance cliff.
 //
 // Initializing the fields below to smis and later updating them with
@@ -4219,7 +4219,7 @@ target=createFiber(IndeterminateComponent,null,null,NoMode);}// This is intentio
 // the hottest path, and Object.assign() was too slow:
 // https://github.com/facebook/react/issues/12502
 // This code is DEV-only so size is not a concern.
-target.tag=source.tag;target.key=source.key;target.elementType=source.elementType;target.type=source.type;target.stateNode=source.stateNode;target["return"]=source["return"];target.child=source.child;target.sibling=source.sibling;target.index=source.index;target.ref=source.ref;target.pendingProps=source.pendingProps;target.memoizedProps=source.memoizedProps;target.updateQueue=source.updateQueue;target.memoizedState=source.memoizedState;target.dependencies=source.dependencies;target.mode=source.mode;target.flags=source.flags;target.nextEffect=source.nextEffect;target.firstEffect=source.firstEffect;target.lastEffect=source.lastEffect;target.lanes=source.lanes;target.childLanes=source.childLanes;target.alternate=source.alternate;{target.actualDuration=source.actualDuration;target.actualStartTime=source.actualStartTime;target.selfBaseDuration=source.selfBaseDuration;target.treeBaseDuration=source.treeBaseDuration;}target._debugID=source._debugID;target._debugSource=source._debugSource;target._debugOwner=source._debugOwner;target._debugNeedsRemount=source._debugNeedsRemount;target._debugHookTypes=source._debugHookTypes;return target;}function FiberRootNode(containerInfo,tag,hydrate){this.tag=tag;this.containerInfo=containerInfo;this.pendingChildren=null;this.current=null;this.pingCache=null;this.finishedWork=null;this.timeoutHandle=noTimeout;this.context=null;this.pendingContext=null;this.hydrate=hydrate;this.callbackNode=null;this.callbackPriority=NoLanePriority;this.eventTimes=createLaneMap(NoLanes);this.expirationTimes=createLaneMap(NoTimestamp);this.pendingLanes=NoLanes;this.suspendedLanes=NoLanes;this.pingedLanes=NoLanes;this.expiredLanes=NoLanes;this.mutableReadLanes=NoLanes;this.finishedLanes=NoLanes;this.entangledLanes=NoLanes;this.entanglements=createLaneMap(NoLanes);{this.mutableSourceEagerHydrationData=null;}{this.interactionThreadID=tracing.unstable_getThreadID();this.memoizedInteractions=new Set();this.pendingInteractionMap=new Map();}{switch(tag){case BlockingRoot:this._debugRootType='createBlockingRoot()';break;case ConcurrentRoot:this._debugRootType='createRoot()';break;case LegacyRoot:this._debugRootType='createLegacyRoot()';break;}}}function createFiberRoot(containerInfo,tag,hydrate,hydrationCallbacks){var root=new FiberRootNode(containerInfo,tag,hydrate);// stateNode is any.
+target.tag=source.tag;target.key=source.key;target.elementType=source.elementType;target.type=source.type;target.stateNode=source.stateNode;target.return=source.return;target.child=source.child;target.sibling=source.sibling;target.index=source.index;target.ref=source.ref;target.pendingProps=source.pendingProps;target.memoizedProps=source.memoizedProps;target.updateQueue=source.updateQueue;target.memoizedState=source.memoizedState;target.dependencies=source.dependencies;target.mode=source.mode;target.flags=source.flags;target.nextEffect=source.nextEffect;target.firstEffect=source.firstEffect;target.lastEffect=source.lastEffect;target.lanes=source.lanes;target.childLanes=source.childLanes;target.alternate=source.alternate;{target.actualDuration=source.actualDuration;target.actualStartTime=source.actualStartTime;target.selfBaseDuration=source.selfBaseDuration;target.treeBaseDuration=source.treeBaseDuration;}target._debugID=source._debugID;target._debugSource=source._debugSource;target._debugOwner=source._debugOwner;target._debugNeedsRemount=source._debugNeedsRemount;target._debugHookTypes=source._debugHookTypes;return target;}function FiberRootNode(containerInfo,tag,hydrate){this.tag=tag;this.containerInfo=containerInfo;this.pendingChildren=null;this.current=null;this.pingCache=null;this.finishedWork=null;this.timeoutHandle=noTimeout;this.context=null;this.pendingContext=null;this.hydrate=hydrate;this.callbackNode=null;this.callbackPriority=NoLanePriority;this.eventTimes=createLaneMap(NoLanes);this.expirationTimes=createLaneMap(NoTimestamp);this.pendingLanes=NoLanes;this.suspendedLanes=NoLanes;this.pingedLanes=NoLanes;this.expiredLanes=NoLanes;this.mutableReadLanes=NoLanes;this.finishedLanes=NoLanes;this.entangledLanes=NoLanes;this.entanglements=createLaneMap(NoLanes);{this.mutableSourceEagerHydrationData=null;}{this.interactionThreadID=tracing.unstable_getThreadID();this.memoizedInteractions=new Set();this.pendingInteractionMap=new Map();}{switch(tag){case BlockingRoot:this._debugRootType='createBlockingRoot()';break;case ConcurrentRoot:this._debugRootType='createRoot()';break;case LegacyRoot:this._debugRootType='createLegacyRoot()';break;}}}function createFiberRoot(containerInfo,tag,hydrate,hydrationCallbacks){var root=new FiberRootNode(containerInfo,tag,hydrate);// stateNode is any.
 var uninitializedFiber=createHostRootFiber(tag);root.current=uninitializedFiber;uninitializedFiber.stateNode=root;initializeUpdateQueue(uninitializedFiber);return root;}// This ensures that the version used for server rendering matches the one
 // that is eventually read during hydration.
 // If they don't match there's a potential tear and a full deopt render is required.
@@ -4300,10 +4300,20 @@ console.info('%cDownload the React DevTools '+'for a better development experien
 /*!*****************************************************!*\
   !*** ./node_modules/@hot-loader/react-dom/index.js ***!
   \*****************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
+/* module decorator */ module = __webpack_require__.nmd(module);
 
+
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 function checkDCE() {
   /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */
@@ -4336,18 +4346,47 @@ if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-dom.development.js */ "./node_modules/@hot-loader/react-dom/cjs/react-dom.development.js");
 }
 
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(checkDCE, "checkDCE", "F:\\Projects\\react\\react-config\\node_modules\\@hot-loader\\react-dom\\index.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
+
 /***/ }),
 
 /***/ "./node_modules/ansi-html-community/index.js":
 /*!***************************************************!*\
   !*** ./node_modules/ansi-html-community/index.js ***!
   \***************************************************/
-/***/ ((module) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
+/* module decorator */ module = __webpack_require__.nmd(module);
 
+
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
 
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 module.exports = ansiHTML; // Reference to https://github.com/sindresorhus/ansi-regex
 
@@ -4549,6 +4588,30 @@ function _setTags(colors) {
 }
 
 ansiHTML.reset();
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(_regANSI, "_regANSI", "F:\\Projects\\react\\react-config\\node_modules\\ansi-html-community\\index.js");
+  reactHotLoader.register(_defColors, "_defColors", "F:\\Projects\\react\\react-config\\node_modules\\ansi-html-community\\index.js");
+  reactHotLoader.register(_styles, "_styles", "F:\\Projects\\react\\react-config\\node_modules\\ansi-html-community\\index.js");
+  reactHotLoader.register(_openTags, "_openTags", "F:\\Projects\\react\\react-config\\node_modules\\ansi-html-community\\index.js");
+  reactHotLoader.register(_closeTags, "_closeTags", "F:\\Projects\\react\\react-config\\node_modules\\ansi-html-community\\index.js");
+  reactHotLoader.register(ansiHTML, "ansiHTML", "F:\\Projects\\react\\react-config\\node_modules\\ansi-html-community\\index.js");
+  reactHotLoader.register(_setTags, "_setTags", "F:\\Projects\\react\\react-config\\node_modules\\ansi-html-community\\index.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
 
 /***/ }),
 
@@ -4556,10 +4619,14 @@ ansiHTML.reset();
 /*!******************************************!*\
   !*** ./node_modules/ansi-regex/index.js ***!
   \******************************************/
-/***/ ((module) => {
+/***/ (function(module) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 module.exports = function () {
   var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
@@ -4572,14 +4639,170 @@ module.exports = function () {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
+module.exports = function (cssWithMappingToString) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = "";
+      var needLayer = typeof item[5] !== "undefined";
+
+      if (item[4]) {
+        content += "@supports (".concat(item[4], ") {");
+      }
+
+      if (item[2]) {
+        content += "@media ".concat(item[2], " {");
+      }
+
+      if (needLayer) {
+        content += "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {");
+      }
+
+      content += cssWithMappingToString(item);
+
+      if (needLayer) {
+        content += "}";
+      }
+
+      if (item[2]) {
+        content += "}";
+      }
+
+      if (item[4]) {
+        content += "}";
+      }
+
+      return content;
+    }).join("");
+  }; // import a list of modules into the list
+
+
+  list.i = function i(modules, media, dedupe, supports, layer) {
+    if (typeof modules === "string") {
+      modules = [[null, modules, undefined]];
+    }
+
+    var alreadyImportedModules = {};
+
+    if (dedupe) {
+      for (var k = 0; k < this.length; k++) {
+        var id = this[k][0];
+
+        if (id != null) {
+          alreadyImportedModules[id] = true;
+        }
+      }
+    }
+
+    for (var _k = 0; _k < modules.length; _k++) {
+      var item = [].concat(modules[_k]);
+
+      if (dedupe && alreadyImportedModules[item[0]]) {
+        continue;
+      }
+
+      if (typeof layer !== "undefined") {
+        if (typeof item[5] === "undefined") {
+          item[5] = layer;
+        } else {
+          item[1] = "@layer".concat(item[5].length > 0 ? " ".concat(item[5]) : "", " {").concat(item[1], "}");
+          item[5] = layer;
+        }
+      }
+
+      if (media) {
+        if (!item[2]) {
+          item[2] = media;
+        } else {
+          item[1] = "@media ".concat(item[2], " {").concat(item[1], "}");
+          item[2] = media;
+        }
+      }
+
+      if (supports) {
+        if (!item[4]) {
+          item[4] = "".concat(supports);
+        } else {
+          item[1] = "@supports (".concat(item[4], ") {").concat(item[1], "}");
+          item[4] = supports;
+        }
+      }
+
+      list.push(item);
+    }
+  };
+
+  return list;
+};
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/sourceMaps.js":
+/*!************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/sourceMaps.js ***!
+  \************************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
+module.exports = function (item) {
+  var content = item[1];
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (typeof btoa === "function") {
+    var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(cssMapping))));
+    var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+    var sourceMapping = "/*# ".concat(data, " */");
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot || "").concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join("\n");
+  }
+
+  return [content].join("\n");
+};
+
+/***/ }),
+
 /***/ "./node_modules/fast-levenshtein/levenshtein.js":
 /*!******************************************************!*\
   !*** ./node_modules/fast-levenshtein/levenshtein.js ***!
   \******************************************************/
-/***/ ((module, exports, __webpack_require__) => {
+/***/ (function(module, exports, __webpack_require__) {
 
 /* module decorator */ module = __webpack_require__.nmd(module);
-var __WEBPACK_AMD_DEFINE_RESULT__;(function () {
+var __WEBPACK_AMD_DEFINE_RESULT__;var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
+(function () {
   'use strict';
 
   var collator;
@@ -4718,10 +4941,20 @@ var __WEBPACK_AMD_DEFINE_RESULT__;(function () {
 /*!**********************************************************************************!*\
   !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
   \**********************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
+/* module decorator */ module = __webpack_require__.nmd(module);
 
+
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 var reactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
 /**
@@ -4826,6 +5059,36 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 }
 
 module.exports = hoistNonReactStatics;
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(REACT_STATICS, "REACT_STATICS", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(KNOWN_STATICS, "KNOWN_STATICS", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(FORWARD_REF_STATICS, "FORWARD_REF_STATICS", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(MEMO_STATICS, "MEMO_STATICS", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(TYPE_STATICS, "TYPE_STATICS", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(getStatics, "getStatics", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(defineProperty, "defineProperty", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(getOwnPropertyNames, "getOwnPropertyNames", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(getOwnPropertySymbols, "getOwnPropertySymbols", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(getOwnPropertyDescriptor, "getOwnPropertyDescriptor", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(getPrototypeOf, "getPrototypeOf", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(objectPrototype, "objectPrototype", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+  reactHotLoader.register(hoistNonReactStatics, "hoistNonReactStatics", "F:\\Projects\\react\\react-config\\node_modules\\hoist-non-react-statics\\dist\\hoist-non-react-statics.cjs.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
 
 /***/ }),
 
@@ -4833,10 +5096,20 @@ module.exports = hoistNonReactStatics;
 /*!*************************************************!*\
   !*** ./node_modules/html-entities/lib/index.js ***!
   \*************************************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* module decorator */ module = __webpack_require__.nmd(module);
 
+
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 var __assign = this && this.__assign || function () {
   __assign = Object.assign || function (t) {
@@ -5062,6 +5335,38 @@ function decode(text, _a) {
 }
 
 exports.decode = decode;
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(__assign, "__assign", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(allNamedReferences, "allNamedReferences", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(encodeRegExps, "encodeRegExps", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(defaultEncodeOptions, "defaultEncodeOptions", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(encode, "encode", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(defaultDecodeOptions, "defaultDecodeOptions", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(strict, "strict", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(attribute, "attribute", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(baseDecodeRegExps, "baseDecodeRegExps", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(decodeRegExps, "decodeRegExps", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(fromCharCode, "fromCharCode", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(outOfBoundsChar, "outOfBoundsChar", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(defaultDecodeEntityOptions, "defaultDecodeEntityOptions", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(decodeEntity, "decodeEntity", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+  reactHotLoader.register(decode, "decode", "F:\\Projects\\react\\react-config\\node_modules\\html-entities\\lib\\index.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
 
 /***/ }),
 
@@ -5069,10 +5374,14 @@ exports.decode = decode;
 /*!************************************************************!*\
   !*** ./node_modules/html-entities/lib/named-references.js ***!
   \************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 Object.defineProperty(exports, "__esModule", ({
   value: true
@@ -9467,10 +9776,14 @@ exports.namedReferences = {
 /*!***************************************************************!*\
   !*** ./node_modules/html-entities/lib/numeric-unicode-map.js ***!
   \***************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 Object.defineProperty(exports, "__esModule", ({
   value: true
@@ -9512,10 +9825,14 @@ exports.numericUnicodeMap = {
 /*!***********************************************************!*\
   !*** ./node_modules/html-entities/lib/surrogate-pairs.js ***!
   \***********************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 Object.defineProperty(exports, "__esModule", ({
   value: true
@@ -9539,9 +9856,10 @@ exports.highSurrogateTo = 56319;
 /*!*********************************************!*\
   !*** ./node_modules/object-assign/index.js ***!
   \*********************************************/
-/***/ ((module) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
+/* module decorator */ module = __webpack_require__.nmd(module);
 /*
 object-assign
 (c) Sindre Sorhus
@@ -9549,6 +9867,15 @@ object-assign
 */
 
 /* eslint-disable no-unused-vars */
+
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 var getOwnPropertySymbols = Object.getOwnPropertySymbols;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -9637,6 +9964,28 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
   return to;
 };
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(getOwnPropertySymbols, "getOwnPropertySymbols", "F:\\Projects\\react\\react-config\\node_modules\\object-assign\\index.js");
+  reactHotLoader.register(hasOwnProperty, "hasOwnProperty", "F:\\Projects\\react\\react-config\\node_modules\\object-assign\\index.js");
+  reactHotLoader.register(propIsEnumerable, "propIsEnumerable", "F:\\Projects\\react\\react-config\\node_modules\\object-assign\\index.js");
+  reactHotLoader.register(toObject, "toObject", "F:\\Projects\\react\\react-config\\node_modules\\object-assign\\index.js");
+  reactHotLoader.register(shouldUseNative, "shouldUseNative", "F:\\Projects\\react\\react-config\\node_modules\\object-assign\\index.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
 
 /***/ }),
 
@@ -9644,9 +9993,10 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 /*!***************************************************!*\
   !*** ./node_modules/prop-types/checkPropTypes.js ***!
   \***************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
+/* module decorator */ module = __webpack_require__.nmd(module);
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -9655,7 +10005,16 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
  */
 
 
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 var printWarning = function printWarning() {};
 
@@ -9747,6 +10106,26 @@ checkPropTypes.resetWarningCache = function () {
 };
 
 module.exports = checkPropTypes;
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(printWarning, "printWarning", "F:\\Projects\\react\\react-config\\node_modules\\prop-types\\checkPropTypes.js");
+  reactHotLoader.register(loggedTypeFailures, "loggedTypeFailures", "F:\\Projects\\react\\react-config\\node_modules\\prop-types\\checkPropTypes.js");
+  reactHotLoader.register(checkPropTypes, "checkPropTypes", "F:\\Projects\\react\\react-config\\node_modules\\prop-types\\checkPropTypes.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
 
 /***/ }),
 
@@ -9754,9 +10133,10 @@ module.exports = checkPropTypes;
 /*!************************************************************!*\
   !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
   \************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
+/* module decorator */ module = __webpack_require__.nmd(module);
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -9765,7 +10145,16 @@ module.exports = checkPropTypes;
  */
 
 
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
 
@@ -10422,13 +10811,43 @@ module.exports = function (isValidElement, throwOnDirectAccess) {
   return ReactPropTypes;
 };
 
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(printWarning, "printWarning", "F:\\Projects\\react\\react-config\\node_modules\\prop-types\\factoryWithTypeCheckers.js");
+  reactHotLoader.register(emptyFunctionThatReturnsNull, "emptyFunctionThatReturnsNull", "F:\\Projects\\react\\react-config\\node_modules\\prop-types\\factoryWithTypeCheckers.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
+
 /***/ }),
 
 /***/ "./node_modules/prop-types/index.js":
 /*!******************************************!*\
   !*** ./node_modules/prop-types/index.js ***!
   \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+/* module decorator */ module = __webpack_require__.nmd(module);
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
@@ -10445,15 +10864,35 @@ if (true) {
   module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
 } else {}
 
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(throwOnDirectAccess, "throwOnDirectAccess", "F:\\Projects\\react\\react-config\\node_modules\\prop-types\\index.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
+
 /***/ }),
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*************************************************************!*\
   !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
   \*************************************************************/
-/***/ ((module) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
+/* module decorator */ module = __webpack_require__.nmd(module);
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -10462,8 +10901,35 @@ if (true) {
  */
 
 
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
 var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 module.exports = ReactPropTypesSecret;
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(ReactPropTypesSecret, "ReactPropTypesSecret", "F:\\Projects\\react\\react-config\\node_modules\\prop-types\\lib\\ReactPropTypesSecret.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
 
 /***/ }),
 
@@ -10471,7 +10937,11 @@ module.exports = ReactPropTypesSecret;
 /*!********************************************!*\
   !*** ./node_modules/prop-types/lib/has.js ***!
   \********************************************/
-/***/ ((module) => {
+/***/ (function(module) {
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
 
@@ -10481,9 +10951,10 @@ module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
 /*!********************************************!*\
   !*** ./node_modules/querystring/decode.js ***!
   \********************************************/
-/***/ ((module) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
+/* module decorator */ module = __webpack_require__.nmd(module);
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -10507,6 +10978,15 @@ module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
  // If obj.hasOwnProperty has been overridden, then calling
 // obj.hasOwnProperty(prop) will break.
 // See: https://github.com/joyent/node/issues/1707
+
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 function hasOwnProperty(obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
@@ -10566,15 +11046,35 @@ module.exports = function (qs, sep, eq, options) {
   return obj;
 };
 
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(hasOwnProperty, "hasOwnProperty", "F:\\Projects\\react\\react-config\\node_modules\\querystring\\decode.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
+
 /***/ }),
 
 /***/ "./node_modules/querystring/encode.js":
 /*!********************************************!*\
   !*** ./node_modules/querystring/encode.js ***!
   \********************************************/
-/***/ ((module) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
+/* module decorator */ module = __webpack_require__.nmd(module);
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -10597,7 +11097,16 @@ module.exports = function (qs, sep, eq, options) {
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 var stringifyPrimitive = function stringifyPrimitive(v) {
   switch (_typeof(v)) {
@@ -10641,16 +11150,39 @@ module.exports = function (obj, sep, eq, name) {
   return encodeURIComponent(stringifyPrimitive(name)) + eq + encodeURIComponent(stringifyPrimitive(obj));
 };
 
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(stringifyPrimitive, "stringifyPrimitive", "F:\\Projects\\react\\react-config\\node_modules\\querystring\\encode.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
+
 /***/ }),
 
 /***/ "./node_modules/querystring/index.js":
 /*!*******************************************!*\
   !*** ./node_modules/querystring/index.js ***!
   \*******************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring/decode.js");
 exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring/encode.js");
@@ -10661,12 +11193,16 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 /*!****************************************************************************!*\
   !*** ./node_modules/react-hot-loader/dist/react-hot-loader.development.js ***!
   \****************************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
 
 
 function _typeof2(obj) { "@babel/helpers - typeof"; return _typeof2 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof2(obj); }
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 Object.defineProperty(exports, "__esModule", ({
   value: true
@@ -11639,9 +12175,9 @@ function createClassProxy(InitialComponent, proxyKey) {
   update(InitialComponent);
 
   var dereference = function dereference() {
-    proxies["delete"](InitialComponent);
-    proxies["delete"](_ProxyFacade);
-    proxies["delete"](CurrentComponent);
+    proxies.delete(InitialComponent);
+    proxies.delete(_ProxyFacade);
+    proxies.delete(CurrentComponent);
   };
 
   proxy = {
@@ -13172,20 +13708,20 @@ var patchLazyConstructor = function patchLazyConstructor(target) {
     var ctor = getLazyConstructor(target);
     setLazyConstructor(target, function () {
       return ctor().then(function (m) {
-        var C = resolveType(m["default"]); // chunks has been updated - new hot loader process is taking a place
+        var C = resolveType(m.default); // chunks has been updated - new hot loader process is taking a place
 
         enterHotUpdate();
 
         if (!React__default.forwardRef) {
           return {
-            "default": patched(function (props) {
+            default: patched(function (props) {
               return React__default.createElement(AppContainer, null, React__default.createElement(C, props));
             })
           };
         }
 
         return {
-          "default": patched( // eslint-disable-next-line prefer-arrow-callback
+          default: patched( // eslint-disable-next-line prefer-arrow-callback
           React__default.forwardRef(function HotLoaderLazyWrapper(props, ref) {
             return React__default.createElement(AppContainer, null, React__default.createElement(C, _extends({}, props, {
               ref: ref
@@ -13964,15 +14500,19 @@ exports.setConfig = setConfig;
 /*!*******************************************************************************!*\
   !*** ./node_modules/react-hot-loader/dist/react-hot-loader.production.min.js ***!
   \*******************************************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
 
 
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
 function _interopDefault(e) {
-  return e && "object" == _typeof(e) && "default" in e ? e["default"] : e;
+  return e && "object" == _typeof(e) && "default" in e ? e.default : e;
 }
 
 Object.defineProperty(exports, "__esModule", ({
@@ -14016,10 +14556,14 @@ exports.AppContainer = AppContainer, exports.hot = hot, exports.areComponentsEqu
 /*!************************************************!*\
   !*** ./node_modules/react-hot-loader/index.js ***!
   \************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 if (false) {} else if (false) {} else if (typeof window === 'undefined') {
   // this is just server environment
@@ -14054,10 +14598,14 @@ if (false) {} else if (false) {} else if (typeof window === 'undefined') {
 /*!************************************************!*\
   !*** ./node_modules/react-hot-loader/patch.js ***!
   \************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 if (false) {} else {
   module.exports = __webpack_require__(/*! ./dist/react-hot-loader.development.js */ "./node_modules/react-hot-loader/dist/react-hot-loader.development.js");
@@ -14069,9 +14617,13 @@ if (false) {} else {
 /*!***********************************************!*\
   !*** ./node_modules/react-hot-loader/root.js ***!
   \***********************************************/
-/***/ ((module, exports, __webpack_require__) => {
+/***/ (function(module, exports, __webpack_require__) {
 
 /* module decorator */ module = __webpack_require__.nmd(module);
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
 if (true) {
   var hot = (__webpack_require__(/*! ./index */ "./node_modules/react-hot-loader/index.js").hot);
 
@@ -14108,7 +14660,7 @@ function fallbackHot() {
 /*!***********************************************************!*\
   !*** ./node_modules/react-is/cjs/react-is.development.js ***!
   \***********************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
 /** @license React v16.13.1
@@ -14123,32 +14675,36 @@ function fallbackHot() {
 
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
 if (true) {
   (function () {
     'use strict'; // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
     // nor polyfill, then a plain number is used for performance.
 
-    var hasSymbol = typeof Symbol === 'function' && Symbol["for"];
-    var REACT_ELEMENT_TYPE = hasSymbol ? Symbol["for"]('react.element') : 0xeac7;
-    var REACT_PORTAL_TYPE = hasSymbol ? Symbol["for"]('react.portal') : 0xeaca;
-    var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol["for"]('react.fragment') : 0xeacb;
-    var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol["for"]('react.strict_mode') : 0xeacc;
-    var REACT_PROFILER_TYPE = hasSymbol ? Symbol["for"]('react.profiler') : 0xead2;
-    var REACT_PROVIDER_TYPE = hasSymbol ? Symbol["for"]('react.provider') : 0xeacd;
-    var REACT_CONTEXT_TYPE = hasSymbol ? Symbol["for"]('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+    var hasSymbol = typeof Symbol === 'function' && Symbol.for;
+    var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
+    var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
+    var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
+    var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
+    var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
+    var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
+    var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
     // (unstable) APIs that have been removed. Can we remove the symbols?
 
-    var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol["for"]('react.async_mode') : 0xeacf;
-    var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol["for"]('react.concurrent_mode') : 0xeacf;
-    var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol["for"]('react.forward_ref') : 0xead0;
-    var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol["for"]('react.suspense') : 0xead1;
-    var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol["for"]('react.suspense_list') : 0xead8;
-    var REACT_MEMO_TYPE = hasSymbol ? Symbol["for"]('react.memo') : 0xead3;
-    var REACT_LAZY_TYPE = hasSymbol ? Symbol["for"]('react.lazy') : 0xead4;
-    var REACT_BLOCK_TYPE = hasSymbol ? Symbol["for"]('react.block') : 0xead9;
-    var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol["for"]('react.fundamental') : 0xead5;
-    var REACT_RESPONDER_TYPE = hasSymbol ? Symbol["for"]('react.responder') : 0xead6;
-    var REACT_SCOPE_TYPE = hasSymbol ? Symbol["for"]('react.scope') : 0xead7;
+    var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
+    var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
+    var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
+    var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
+    var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
+    var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
+    var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
+    var REACT_BLOCK_TYPE = hasSymbol ? Symbol.for('react.block') : 0xead9;
+    var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
+    var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
+    var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
 
     function isValidElementType(type) {
       return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
@@ -14309,10 +14865,14 @@ if (true) {
 /*!****************************************!*\
   !*** ./node_modules/react-is/index.js ***!
   \****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
@@ -14324,13 +14884,23 @@ if (false) {} else {
 /*!****************************************************************************!*\
   !*** ./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js ***!
   \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "polyfill": () => (/* binding */ polyfill)
+/* harmony export */   "polyfill": function() { return /* binding */ polyfill; }
 /* harmony export */ });
+/* module decorator */ module = __webpack_require__.hmd(module);
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -14457,6 +15027,27 @@ function polyfill(Component) {
 }
 
 
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(componentWillMount, "componentWillMount", "F:\\Projects\\react\\react-config\\node_modules\\react-lifecycles-compat\\react-lifecycles-compat.es.js");
+  reactHotLoader.register(componentWillReceiveProps, "componentWillReceiveProps", "F:\\Projects\\react\\react-config\\node_modules\\react-lifecycles-compat\\react-lifecycles-compat.es.js");
+  reactHotLoader.register(componentWillUpdate, "componentWillUpdate", "F:\\Projects\\react\\react-config\\node_modules\\react-lifecycles-compat\\react-lifecycles-compat.es.js");
+  reactHotLoader.register(polyfill, "polyfill", "F:\\Projects\\react\\react-config\\node_modules\\react-lifecycles-compat\\react-lifecycles-compat.es.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
 
 /***/ }),
 
@@ -14464,7 +15055,7 @@ function polyfill(Component) {
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
   \*****************************************************/
-/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
 /** @license React v17.0.2
@@ -14478,6 +15069,10 @@ function polyfill(Component) {
 
 
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 if (true) {
   (function () {
@@ -14513,8 +15108,8 @@ if (true) {
     var REACT_OFFSCREEN_TYPE = 0xeae2;
     var REACT_LEGACY_HIDDEN_TYPE = 0xeae3;
 
-    if (typeof Symbol === 'function' && Symbol["for"]) {
-      var symbolFor = Symbol["for"];
+    if (typeof Symbol === 'function' && Symbol.for) {
+      var symbolFor = Symbol.for;
       REACT_ELEMENT_TYPE = symbolFor('react.element');
       REACT_PORTAL_TYPE = symbolFor('react.portal');
       exports.Fragment = symbolFor('react.fragment');
@@ -15725,7 +16320,7 @@ if (true) {
         pending._result = thenable;
         thenable.then(function (moduleObject) {
           if (payload._status === Pending) {
-            var defaultExport = moduleObject["default"];
+            var defaultExport = moduleObject.default;
             {
               if (defaultExport === undefined) {
                 error('lazy: Expected the result of a dynamic import() call. ' + 'Instead received: %s\n\nYour code should look like: \n  ' + // Break up imports to avoid accidentally parsing them as dependencies.
@@ -15935,45 +16530,65 @@ if (true) {
       return dispatcher.useContext(Context, unstable_observedBits);
     }
 
+    __signature__(useContext, "useContext{}");
+
     function useState(initialState) {
       var dispatcher = resolveDispatcher();
       return dispatcher.useState(initialState);
     }
+
+    __signature__(useState, "useState{(initialState)}");
 
     function useReducer(reducer, initialArg, init) {
       var dispatcher = resolveDispatcher();
       return dispatcher.useReducer(reducer, initialArg, init);
     }
 
+    __signature__(useReducer, "useReducer{(initialArg)}");
+
     function useRef(initialValue) {
       var dispatcher = resolveDispatcher();
       return dispatcher.useRef(initialValue);
     }
+
+    __signature__(useRef, "useRef{}");
 
     function useEffect(create, deps) {
       var dispatcher = resolveDispatcher();
       return dispatcher.useEffect(create, deps);
     }
 
+    __signature__(useEffect, "useEffect{}");
+
     function useLayoutEffect(create, deps) {
       var dispatcher = resolveDispatcher();
       return dispatcher.useLayoutEffect(create, deps);
     }
+
+    __signature__(useLayoutEffect, "useLayoutEffect{}");
 
     function useCallback(callback, deps) {
       var dispatcher = resolveDispatcher();
       return dispatcher.useCallback(callback, deps);
     }
 
+    __signature__(useCallback, "useCallback{}");
+
     function useMemo(create, deps) {
       var dispatcher = resolveDispatcher();
       return dispatcher.useMemo(create, deps);
     }
 
+    __signature__(useMemo, "useMemo{}");
+
     function useImperativeHandle(ref, create, deps) {
       var dispatcher = resolveDispatcher();
       return dispatcher.useImperativeHandle(ref, create, deps);
     }
+
+    __signature__(useImperativeHandle, "useImperativeHandle{}", function () {
+      return [dispatcher.useImperativeHandle];
+    });
 
     function useDebugValue(value, formatterFn) {
       {
@@ -15985,6 +16600,8 @@ if (true) {
     // lazily which won't cover if the log function was extracted eagerly.
     // We could also eagerly patch the method.
 
+
+    __signature__(useDebugValue, "useDebugValue{}");
 
     var disabledDepth = 0;
     var prevLog;
@@ -16759,10 +17376,14 @@ if (true) {
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
   \*************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/react.development.js */ "./node_modules/react/cjs/react.development.js");
@@ -16774,7 +17395,7 @@ if (false) {} else {
 /*!*********************************************************************!*\
   !*** ./node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
   \*********************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
 /** @license React v0.20.2
@@ -16786,6 +17407,10 @@ if (false) {} else {
  * LICENSE file in the root directory of this source tree.
  */
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 if (true) {
   (function () {
@@ -16993,7 +17618,7 @@ if (true) {
 
     function unstable_unsubscribe(subscriber) {
       {
-        subscribers["delete"](subscriber);
+        subscribers.delete(subscriber);
 
         if (subscribers.size === 0) {
           exports.__subscriberRef.current = null;
@@ -17131,7 +17756,7 @@ if (true) {
 /*!*************************************************************!*\
   !*** ./node_modules/scheduler/cjs/scheduler.development.js ***!
   \*************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ (function(__unused_webpack_module, exports) {
 
 "use strict";
 /** @license React v0.20.2
@@ -17145,6 +17770,10 @@ if (true) {
 
 
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 if (true) {
   (function () {
@@ -17784,10 +18413,14 @@ if (true) {
 /*!*****************************************!*\
   !*** ./node_modules/scheduler/index.js ***!
   \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler.development.js */ "./node_modules/scheduler/cjs/scheduler.development.js");
@@ -17799,10 +18432,14 @@ if (false) {} else {
 /*!*******************************************!*\
   !*** ./node_modules/scheduler/tracing.js ***!
   \*******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 if (false) {} else {
   module.exports = __webpack_require__(/*! ./cjs/scheduler-tracing.development.js */ "./node_modules/scheduler/cjs/scheduler-tracing.development.js");
@@ -17814,9 +18451,13 @@ if (false) {} else {
 /*!********************************************!*\
   !*** ./node_modules/shallowequal/index.js ***!
   \********************************************/
-/***/ ((module) => {
+/***/ (function(module) {
 
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 //
 module.exports = function shallowEqual(objA, objB, compare, compareContext) {
@@ -17868,10 +18509,14 @@ module.exports = function shallowEqual(objA, objB, compare, compareContext) {
 /*!******************************************!*\
   !*** ./node_modules/strip-ansi/index.js ***!
   \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
 
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 var ansiRegex = __webpack_require__(/*! ansi-regex */ "./node_modules/ansi-regex/index.js");
 
@@ -17885,7 +18530,17 @@ module.exports = function (string) {
 /*!***************************************************************!*\
   !*** ./node_modules/webpack-hot-middleware/client-overlay.js ***!
   \***************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+/* module decorator */ module = __webpack_require__.nmd(module);
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 /*eslint-env browser*/
 var clientOverlay = document.createElement('div');
@@ -17981,6 +18636,29 @@ module.exports = function (options) {
 
 module.exports.clear = clear;
 module.exports.showProblems = showProblems;
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(clientOverlay, "clientOverlay", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client-overlay.js");
+  reactHotLoader.register(styles, "styles", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client-overlay.js");
+  reactHotLoader.register(colors, "colors", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client-overlay.js");
+  reactHotLoader.register(showProblems, "showProblems", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client-overlay.js");
+  reactHotLoader.register(clear, "clear", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client-overlay.js");
+  reactHotLoader.register(problemType, "problemType", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client-overlay.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
 
 /***/ }),
 
@@ -17988,10 +18666,19 @@ module.exports.showProblems = showProblems;
 /*!*******************************************************************************************************!*\
   !*** ./node_modules/webpack-hot-middleware/client.js?path=http://localhost:3001/static/__webpack_hmr ***!
   \*******************************************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 var __resourceQuery = "?path=http://localhost:3001/static/__webpack_hmr";
 /* module decorator */ module = __webpack_require__.nmd(module);
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
 /*eslint-env browser*/
 
 /*global __resourceQuery __webpack_public_path__*/
@@ -18296,12 +18983,43 @@ if (module) {
     subscribe: function subscribe(handler) {
       customHandler = handler;
     },
-    useCustomOverlay: function useCustomOverlay(customOverlay) {
+    useCustomOverlay: __signature__(function useCustomOverlay(customOverlay) {
       if (reporter) reporter.useCustomOverlay(customOverlay);
-    },
+    }, "useCustomOverlay{}"),
     setOptionsAndConnect: setOptionsAndConnect
   };
 }
+
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(options, "options", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(overrides, "overrides", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(setOptionsAndConnect, "setOptionsAndConnect", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(setOverrides, "setOverrides", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(EventSourceWrapper, "EventSourceWrapper", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(getEventSourceWrapper, "getEventSourceWrapper", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(connect, "connect", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(singletonKey, "singletonKey", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(reporter, "reporter", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(createReporter, "createReporter", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(customHandler, "customHandler", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(subscribeAllHandler, "subscribeAllHandler", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+  reactHotLoader.register(processMessage, "processMessage", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\client.js");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
 
 /***/ }),
 
@@ -18309,7 +19027,17 @@ if (module) {
 /*!***************************************************************!*\
   !*** ./node_modules/webpack-hot-middleware/process-update.js ***!
   \***************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+/* module decorator */ module = __webpack_require__.nmd(module);
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
 
 /**
  * Based heavily on https://github.com/webpack/webpack/blob/
@@ -18383,7 +19111,7 @@ module.exports = function (hash, moduleMap, options) {
         applyResult.then(function (outdatedModules) {
           applyCallback(null, outdatedModules);
         });
-        applyResult["catch"](applyCallback);
+        applyResult.catch(applyCallback);
       }
     };
 
@@ -18393,7 +19121,7 @@ module.exports = function (hash, moduleMap, options) {
       result.then(function (updatedModules) {
         cb(null, updatedModules);
       });
-      result["catch"](cb);
+      result.catch(cb);
     }
   }
 
@@ -18454,67 +19182,6 @@ module.exports = function (hash, moduleMap, options) {
   }
 };
 
-/***/ }),
-
-/***/ "./src/client/index.jsx":
-/*!******************************!*\
-  !*** ./src/client/index.jsx ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/@hot-loader/react-dom/index.js");
-/* harmony import */ var _shared_App_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../shared/App.jsx */ "./src/shared/App.jsx");
-var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal["default"].signature : function (a) {
-  return a;
-};
-
-
-
- // Для SSR
-
-window.addEventListener('load', function () {
-  react_dom__WEBPACK_IMPORTED_MODULE_1__.hydrate( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_shared_App_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('app'));
-});
-
-/***/ }),
-
-/***/ "./src/shared/App.jsx":
-/*!****************************!*\
-  !*** ./src/shared/App.jsx ***!
-  \****************************/
-/***/ ((module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-hot-loader/root */ "./node_modules/react-hot-loader/root.js");
-/* harmony import */ var react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* module decorator */ module = __webpack_require__.hmd(module);
-(function () {
-  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
-  enterModule && enterModule(module);
-})();
-
-var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal["default"].signature : function (a) {
-  return a;
-};
-
-
-
-
-var App = function App() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, "Hello qegqeqegwqwqg");
-};
-
-var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_default);
 ;
 
 (function () {
@@ -18524,8 +19191,11 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
     return;
   }
 
-  reactHotLoader.register(App, "App", "F:\\Projects\\react\\react-config\\src\\shared\\App.jsx");
-  reactHotLoader.register(_default, "default", "F:\\Projects\\react\\react-config\\src\\shared\\App.jsx");
+  reactHotLoader.register(hmrDocsUrl, "hmrDocsUrl", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\process-update.js");
+  reactHotLoader.register(lastHash, "lastHash", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\process-update.js");
+  reactHotLoader.register(failureStatuses, "failureStatuses", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\process-update.js");
+  reactHotLoader.register(applyOptions, "applyOptions", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\process-update.js");
+  reactHotLoader.register(upToDate, "upToDate", "F:\\Projects\\react\\react-config\\node_modules\\webpack-hot-middleware\\process-update.js");
 })();
 
 ;
@@ -18534,6 +19204,535 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
   var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
   leaveModule && leaveModule(module);
 })();
+
+/***/ }),
+
+/***/ "./src/client/index.tsx":
+/*!******************************!*\
+  !*** ./src/client/index.tsx ***!
+  \******************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/@hot-loader/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _shared_App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/shared/App */ "./src/shared/App.tsx");
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
+
+
+ // Для SSR
+
+window.addEventListener('load', function () {
+  react_dom__WEBPACK_IMPORTED_MODULE_1___default().hydrate( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_shared_App__WEBPACK_IMPORTED_MODULE_2__["default"], null), document.getElementById('app'));
+});
+
+/***/ }),
+
+/***/ "./src/shared/App.tsx":
+/*!****************************!*\
+  !*** ./src/shared/App.tsx ***!
+  \****************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_hot_loader_root__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-hot-loader/root */ "./node_modules/react-hot-loader/root.js");
+/* harmony import */ var react_hot_loader_root__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_hot_loader_root__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _App_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./App.scss */ "./src/shared/App.scss");
+/* module decorator */ module = __webpack_require__.hmd(module);
+(function () {
+  var enterModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.enterModule : undefined;
+  enterModule && enterModule(module);
+})();
+
+var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default.signature : function (a) {
+  return a;
+};
+
+
+
+
+
+var App = function App() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "colored"
+  }, "Hello wqg");
+};
+
+var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_2__.hot)(App);
+
+/* harmony default export */ __webpack_exports__["default"] = (_default);
+;
+
+(function () {
+  var reactHotLoader = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.default : undefined;
+
+  if (!reactHotLoader) {
+    return;
+  }
+
+  reactHotLoader.register(App, "App", "F:\\Projects\\react\\react-config\\src\\shared\\App.tsx");
+  reactHotLoader.register(_default, "default", "F:\\Projects\\react\\react-config\\src\\shared\\App.tsx");
+})();
+
+;
+
+(function () {
+  var leaveModule = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal.leaveModule : undefined;
+  leaveModule && leaveModule(module);
+})();
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/shared/App.scss":
+/*!********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/shared/App.scss ***!
+  \********************************************************************************************************************************************************************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".colored {\n  background-color: red;\n}", "",{"version":3,"sources":["webpack://./src/shared/App.scss"],"names":[],"mappings":"AAAA;EACE,qBAAA;AACF","sourcesContent":[".colored {\r\n  background-color: red;\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/shared/App.scss":
+/*!*****************************!*\
+  !*** ./src/shared/App.scss ***!
+  \*****************************/
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!../../node_modules/sass-loader/dist/cjs.js!./App.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/shared/App.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+if (true) {
+  if (!_node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === "default") {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === "default") {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var isNamedExport = !_node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
+    var oldLocals = isNamedExport ? _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__ : _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
+
+    module.hot.accept(
+      /*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!../../node_modules/sass-loader/dist/cjs.js!./App.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/shared/App.scss",
+      function(__WEBPACK_OUTDATED_DEPENDENCIES__) { /* harmony import */ _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!../../node_modules/sass-loader/dist/cjs.js!./App.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js!./src/shared/App.scss");
+(function () {
+        if (!isEqualLocals(oldLocals, isNamedExport ? _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__ : _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals, isNamedExport)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = isNamedExport ? _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__ : _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals;
+
+              update(_node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__["default"]);
+      })(__WEBPACK_OUTDATED_DEPENDENCIES__); }.bind(this)
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+
+
+       /* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_2_use_2_node_modules_sass_loader_dist_cjs_js_App_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+
+var stylesInDOM = [];
+
+function getIndexByIdentifier(identifier) {
+  var result = -1;
+
+  for (var i = 0; i < stylesInDOM.length; i++) {
+    if (stylesInDOM[i].identifier === identifier) {
+      result = i;
+      break;
+    }
+  }
+
+  return result;
+}
+
+function modulesToDom(list, options) {
+  var idCountMap = {};
+  var identifiers = [];
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var count = idCountMap[id] || 0;
+    var identifier = "".concat(id, " ").concat(count);
+    idCountMap[id] = count + 1;
+    var indexByIdentifier = getIndexByIdentifier(identifier);
+    var obj = {
+      css: item[1],
+      media: item[2],
+      sourceMap: item[3],
+      supports: item[4],
+      layer: item[5]
+    };
+
+    if (indexByIdentifier !== -1) {
+      stylesInDOM[indexByIdentifier].references++;
+      stylesInDOM[indexByIdentifier].updater(obj);
+    } else {
+      var updater = addElementStyle(obj, options);
+      options.byIndex = i;
+      stylesInDOM.splice(i, 0, {
+        identifier: identifier,
+        updater: updater,
+        references: 1
+      });
+    }
+
+    identifiers.push(identifier);
+  }
+
+  return identifiers;
+}
+
+function addElementStyle(obj, options) {
+  var api = options.domAPI(options);
+  api.update(obj);
+
+  var updater = function updater(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap && newObj.supports === obj.supports && newObj.layer === obj.layer) {
+        return;
+      }
+
+      api.update(obj = newObj);
+    } else {
+      api.remove();
+    }
+  };
+
+  return updater;
+}
+
+module.exports = function (list, options) {
+  options = options || {};
+  list = list || [];
+  var lastIdentifiers = modulesToDom(list, options);
+  return function update(newList) {
+    newList = newList || [];
+
+    for (var i = 0; i < lastIdentifiers.length; i++) {
+      var identifier = lastIdentifiers[i];
+      var index = getIndexByIdentifier(identifier);
+      stylesInDOM[index].references--;
+    }
+
+    var newLastIdentifiers = modulesToDom(newList, options);
+
+    for (var _i = 0; _i < lastIdentifiers.length; _i++) {
+      var _identifier = lastIdentifiers[_i];
+
+      var _index = getIndexByIdentifier(_identifier);
+
+      if (stylesInDOM[_index].references === 0) {
+        stylesInDOM[_index].updater();
+
+        stylesInDOM.splice(_index, 1);
+      }
+    }
+
+    lastIdentifiers = newLastIdentifiers;
+  };
+};
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertBySelector.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \********************************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+
+var memo = {};
+/* istanbul ignore next  */
+
+function getTarget(target) {
+  if (typeof memo[target] === "undefined") {
+    var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+    if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+      try {
+        // This will throw an exception if access to iframe is blocked
+        // due to cross-origin restrictions
+        styleTarget = styleTarget.contentDocument.head;
+      } catch (e) {
+        // istanbul ignore next
+        styleTarget = null;
+      }
+    }
+
+    memo[target] = styleTarget;
+  }
+
+  return memo[target];
+}
+/* istanbul ignore next  */
+
+
+function insertBySelector(insert, style) {
+  var target = getTarget(insert);
+
+  if (!target) {
+    throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+  }
+
+  target.appendChild(style);
+}
+
+module.exports = insertBySelector;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/insertStyleElement.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \**********************************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function insertStyleElement(options) {
+  var element = document.createElement("style");
+  options.setAttributes(element, options.attributes);
+  options.insert(element, options.options);
+  return element;
+}
+
+module.exports = insertStyleElement;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js":
+/*!**********************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \**********************************************************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function setAttributesWithoutAttributes(styleElement) {
+  var nonce =  true ? __webpack_require__.nc : 0;
+
+  if (nonce) {
+    styleElement.setAttribute("nonce", nonce);
+  }
+}
+
+module.exports = setAttributesWithoutAttributes;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleDomAPI.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \***************************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function apply(styleElement, options, obj) {
+  var css = "";
+
+  if (obj.supports) {
+    css += "@supports (".concat(obj.supports, ") {");
+  }
+
+  if (obj.media) {
+    css += "@media ".concat(obj.media, " {");
+  }
+
+  var needLayer = typeof obj.layer !== "undefined";
+
+  if (needLayer) {
+    css += "@layer".concat(obj.layer.length > 0 ? " ".concat(obj.layer) : "", " {");
+  }
+
+  css += obj.css;
+
+  if (needLayer) {
+    css += "}";
+  }
+
+  if (obj.media) {
+    css += "}";
+  }
+
+  if (obj.supports) {
+    css += "}";
+  }
+
+  var sourceMap = obj.sourceMap;
+
+  if (sourceMap && typeof btoa !== "undefined") {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  options.styleTagTransform(css, styleElement, options.options);
+}
+
+function removeStyleElement(styleElement) {
+  // istanbul ignore if
+  if (styleElement.parentNode === null) {
+    return false;
+  }
+
+  styleElement.parentNode.removeChild(styleElement);
+}
+/* istanbul ignore next  */
+
+
+function domAPI(options) {
+  var styleElement = options.insertStyleElement(options);
+  return {
+    update: function update(obj) {
+      apply(styleElement, options, obj);
+    },
+    remove: function remove() {
+      removeStyleElement(styleElement);
+    }
+  };
+}
+
+module.exports = domAPI;
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/runtime/styleTagTransform.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \*********************************************************************/
+/***/ (function(module) {
+
+"use strict";
+
+
+/* istanbul ignore next  */
+function styleTagTransform(css, styleElement) {
+  if (styleElement.styleSheet) {
+    styleElement.styleSheet.cssText = css;
+  } else {
+    while (styleElement.firstChild) {
+      styleElement.removeChild(styleElement.firstChild);
+    }
+
+    styleElement.appendChild(document.createTextNode(css));
+  }
+}
+
+module.exports = styleTagTransform;
 
 /***/ })
 
@@ -18586,86 +19785,86 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/amd define */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		__webpack_require__.amdD = function () {
 /******/ 			throw new Error('define cannot be used indirect');
 /******/ 		};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/amd options */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		__webpack_require__.amdO = {};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/compat get default export */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
-/******/ 		__webpack_require__.n = (module) => {
+/******/ 		__webpack_require__.n = function(module) {
 /******/ 			var getter = module && module.__esModule ?
-/******/ 				() => (module['default']) :
-/******/ 				() => (module);
+/******/ 				function() { return module['default']; } :
+/******/ 				function() { return module; };
 /******/ 			__webpack_require__.d(getter, { a: getter });
 /******/ 			return getter;
 /******/ 		};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 		__webpack_require__.d = function(exports, definition) {
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
 /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
 /******/ 				}
 /******/ 			}
 /******/ 		};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/get javascript update chunk filename */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		// This function allow to reference all chunks
-/******/ 		__webpack_require__.hu = (chunkId) => {
+/******/ 		__webpack_require__.hu = function(chunkId) {
 /******/ 			// return url for filenames based on template
 /******/ 			return "" + chunkId + "." + __webpack_require__.h() + ".hot-update.js";
 /******/ 		};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/get update manifest filename */
-/******/ 	(() => {
-/******/ 		__webpack_require__.hmrF = () => ("main." + __webpack_require__.h() + ".hot-update.json");
-/******/ 	})();
+/******/ 	!function() {
+/******/ 		__webpack_require__.hmrF = function() { return "main." + __webpack_require__.h() + ".hot-update.json"; };
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
-/******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("34358e0f2a718a40bdd5")
-/******/ 	})();
+/******/ 	!function() {
+/******/ 		__webpack_require__.h = function() { return "2f36b730bd2e143161a1"; }
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/harmony module decorator */
-/******/ 	(() => {
-/******/ 		__webpack_require__.hmd = (module) => {
+/******/ 	!function() {
+/******/ 		__webpack_require__.hmd = function(module) {
 /******/ 			module = Object.create(module);
 /******/ 			if (!module.children) module.children = [];
 /******/ 			Object.defineProperty(module, 'exports', {
 /******/ 				enumerable: true,
-/******/ 				set: () => {
+/******/ 				set: function() {
 /******/ 					throw new Error('ES Modules may not assign module.exports or exports.*, Use ESM export syntax, instead: ' + module.id);
 /******/ 				}
 /******/ 			});
 /******/ 			return module;
 /******/ 		};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
+/******/ 	!function() {
+/******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/load script */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		var inProgress = {};
 /******/ 		var dataWebpackPrefix = "react-config:";
 /******/ 		// loadScript function to load a script via script tag
-/******/ 		__webpack_require__.l = (url, done, key, chunkId) => {
+/******/ 		__webpack_require__.l = function(url, done, key, chunkId) {
 /******/ 			if(inProgress[url]) { inProgress[url].push(done); return; }
 /******/ 			var script, needAttach;
 /******/ 			if(key !== undefined) {
@@ -18688,14 +19887,14 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
 /******/ 				script.src = url;
 /******/ 			}
 /******/ 			inProgress[url] = [done];
-/******/ 			var onScriptComplete = (prev, event) => {
+/******/ 			var onScriptComplete = function(prev, event) {
 /******/ 				// avoid mem leaks in IE.
 /******/ 				script.onerror = script.onload = null;
 /******/ 				clearTimeout(timeout);
 /******/ 				var doneFns = inProgress[url];
 /******/ 				delete inProgress[url];
 /******/ 				script.parentNode && script.parentNode.removeChild(script);
-/******/ 				doneFns && doneFns.forEach((fn) => (fn(event)));
+/******/ 				doneFns && doneFns.forEach(function(fn) { return fn(event); });
 /******/ 				if(prev) return prev(event);
 /******/ 			}
 /******/ 			;
@@ -18704,30 +19903,30 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
 /******/ 			script.onload = onScriptComplete.bind(null, script.onload);
 /******/ 			needAttach && document.head.appendChild(script);
 /******/ 		};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
+/******/ 		__webpack_require__.r = function(exports) {
 /******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
 /******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/node module decorator */
-/******/ 	(() => {
-/******/ 		__webpack_require__.nmd = (module) => {
+/******/ 	!function() {
+/******/ 		__webpack_require__.nmd = function(module) {
 /******/ 			module.paths = [];
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/hot module replacement */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		var currentModuleData = {};
 /******/ 		var installedModules = __webpack_require__.c;
 /******/ 		
@@ -19103,15 +20302,15 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
 /******/ 				return true;
 /******/ 			}
 /******/ 		}
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		__webpack_require__.p = "/static/";
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
+/******/ 	!function() {
 /******/ 		// no baseURI
 /******/ 		
 /******/ 		// object to store loaded and loading chunks
@@ -19130,13 +20329,13 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
 /******/ 		var currentUpdatedModulesList;
 /******/ 		var waitingUpdateResolves = {};
 /******/ 		function loadUpdateChunk(chunkId) {
-/******/ 			return new Promise((resolve, reject) => {
+/******/ 			return new Promise(function(resolve, reject) {
 /******/ 				waitingUpdateResolves[chunkId] = resolve;
 /******/ 				// start update chunk loading
 /******/ 				var url = __webpack_require__.p + __webpack_require__.hu(chunkId);
 /******/ 				// create error before stack unwound to get useful stacktrace later
 /******/ 				var error = new Error();
-/******/ 				var loadingEnded = (event) => {
+/******/ 				var loadingEnded = function(event) {
 /******/ 					if(waitingUpdateResolves[chunkId]) {
 /******/ 						waitingUpdateResolves[chunkId] = undefined
 /******/ 						var errorType = event && (event.type === 'load' ? 'missing' : event.type);
@@ -19152,7 +20351,7 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
 /******/ 			});
 /******/ 		}
 /******/ 		
-/******/ 		self["webpackHotUpdatereact_config"] = (chunkId, moreModules, runtime) => {
+/******/ 		self["webpackHotUpdatereact_config"] = function(chunkId, moreModules, runtime) {
 /******/ 			for(var moduleId in moreModules) {
 /******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
 /******/ 					currentUpdate[moduleId] = moreModules[moduleId];
@@ -19609,9 +20808,9 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
 /******/ 			}
 /******/ 		};
 /******/ 		
-/******/ 		__webpack_require__.hmrM = () => {
+/******/ 		__webpack_require__.hmrM = function() {
 /******/ 			if (typeof fetch === "undefined") throw new Error("No browser support: need fetch API");
-/******/ 			return fetch(__webpack_require__.p + __webpack_require__.hmrF()).then((response) => {
+/******/ 			return fetch(__webpack_require__.p + __webpack_require__.hmrF()).then(function(response) {
 /******/ 				if(response.status === 404) return; // no update available
 /******/ 				if(!response.ok) throw new Error("Failed to fetch update manifest " + response.statusText);
 /******/ 				return response.json();
@@ -19621,7 +20820,7 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
 /******/ 		// no on chunks loaded
 /******/ 		
 /******/ 		// no jsonp function
-/******/ 	})();
+/******/ 	}();
 /******/ 	
 /************************************************************************/
 /******/ 	
@@ -19629,7 +20828,7 @@ var _default = (0,react_hot_loader_root__WEBPACK_IMPORTED_MODULE_1__.hot)(App);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	__webpack_require__("./node_modules/react-hot-loader/patch.js");
-/******/ 	__webpack_require__("./src/client/index.jsx");
+/******/ 	__webpack_require__("./src/client/index.tsx");
 /******/ 	var __webpack_exports__ = __webpack_require__("./node_modules/webpack-hot-middleware/client.js?path=http://localhost:3001/static/__webpack_hmr");
 /******/ 	
 /******/ })()

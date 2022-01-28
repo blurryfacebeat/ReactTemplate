@@ -25,7 +25,53 @@ const serverConfig = {
             presets: ['@babel/preset-env', '@babel/preset-react'],
           },
         },
-      }
+      },
+      {
+        test: /\.module\.s[ac]ss$/,
+        use: [
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                mode: 'local',
+                localIdentName: '[name]__[local]--[hash:base64:5]',
+                exportOnlyLocals: true,
+              },
+            },
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                plugins: ['postcss-preset-env'],
+              },
+            },
+          },
+          {
+            loader: 'sass-loader',
+          },
+        ],
+      },
+      {
+        test: /\.s[ac]ss$/,
+        exclude: /\.module.(s[ac]ss)$/,
+        use: [
+          {
+            loader: 'css-loader',
+          },
+          {
+            loader: 'postcss-loader',
+            options: {
+              postcssOptions: {
+                plugins: ['postcss-preset-env'],
+              },
+            },
+          },
+          {
+            loader: 'sass-loader',
+          },
+        ],
+      },
     ],
   },
   optimization: {
